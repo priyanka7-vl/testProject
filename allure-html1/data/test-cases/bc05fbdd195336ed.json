@@ -1,0 +1,58 @@
+{
+  "uid" : "bc05fbdd195336ed",
+  "name" : "User wants to redirect to Google Sign In page",
+  "fullName" : "Change Password Module.User wants to redirect to Google Sign In page",
+  "historyId" : "ccccaf80eda74b7843526d9e85ec7966",
+  "time" : {
+    "start" : 1577428609002,
+    "stop" : 1577428647919,
+    "duration" : 38917
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "User wants to redirect to Google Sign In page"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc05fbdd195336ed.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "'' == 'Dashboard'",
+      "children" : [ {
+        "name" : "should  allow to login with valid input and verify home screen banner",
+        "uid" : "e247db1932a5cf45",
+        "parentUid" : "1efc8783146141d0687f8a479b0f66df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1576511310982,
+          "stop" : 1576511332556,
+          "duration" : 21574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "1efc8783146141d0687f8a479b0f66df"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

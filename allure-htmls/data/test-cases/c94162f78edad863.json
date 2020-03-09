@@ -1,0 +1,56 @@
+{
+  "uid" : "c94162f78edad863",
+  "name" : "should  allow to login with valid input and verify home screen banner",
+  "fullName" : "Login Module.should  allow to login with valid input and verify home screen banner",
+  "historyId" : "a0613799ed5f2e48bbbd6e947d494e03",
+  "time" : {
+    "start" : 1576501174322,
+    "stop" : 1576501191834,
+    "duration" : 17512
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should  allow to login with valid input and verify home screen banner"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c94162f78edad863.json",
+  "parameterValues" : [ "chrome" ]
+}

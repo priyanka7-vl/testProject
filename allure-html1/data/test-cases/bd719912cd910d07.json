@@ -1,0 +1,64 @@
+{
+  "uid" : "bd719912cd910d07",
+  "name" : "C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time",
+  "fullName" : "Notification Preference Module.C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time",
+  "historyId" : "31cfc25a23d2edbb661a18e941f03e1d",
+  "time" : {
+    "start" : 1577428753499,
+    "stop" : 1577428771530,
+    "duration" : 18031
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call $ on element with selector \"#assignCompanyEmail\" because element wasn't found",
+  "statusTrace" : "Error: Can't call $ on element with selector \"#assignCompanyEmail\" because element wasn't found\n                    at Function.toggleOFF (/Volumes/DATA/TestMyProject/testSM/test/specs/basic.js:33:37)\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/notificationPref.js:94:15)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time"
+  }, {
+    "name" : "package",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bd719912cd910d07.json",
+  "parameterValues" : [ "chrome" ]
+}

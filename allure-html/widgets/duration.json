@@ -1,0 +1,51 @@
+[ {
+  "uid" : "22525bc61c29736a",
+  "name" : "should not allow to login with invalid email address",
+  "time" : {
+    "start" : 1574487606159,
+    "stop" : 1574487606164,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ad67d2a5d6afd03f",
+  "name" : "should not allow me to login with blank input",
+  "time" : {
+    "start" : 1574487606124,
+    "stop" : 1574487606144,
+    "duration" : 20
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "117fce6f0ab97b30",
+  "name" : "should not allow to login with only email address",
+  "time" : {
+    "start" : 1574487606153,
+    "stop" : 1574487606157,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fd396928bdc89997",
+  "name" : "should not allow to login with invalid credentials",
+  "time" : {
+    "start" : 1574487606167,
+    "stop" : 1574487606174,
+    "duration" : 7
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fbb663a6137bf106",
+  "name" : "should  allow to login with valid input and verify home screen banner",
+  "time" : {
+    "start" : 1574487606178,
+    "stop" : 1574487606185,
+    "duration" : 7
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

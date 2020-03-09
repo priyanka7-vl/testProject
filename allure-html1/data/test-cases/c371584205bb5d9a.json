@@ -1,0 +1,67 @@
+{
+  "uid" : "c371584205bb5d9a",
+  "name" : "C150 - Verify Email validation",
+  "fullName" : "My Account Module.C150 - Verify Email validation",
+  "historyId" : "466d1ede860d54bdc7f2739da51d775",
+  "time" : {
+    "start" : 1577428512953,
+    "stop" : 1577428520958,
+    "duration" : 8005
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C150 - Verify Email validation"
+  }, {
+    "name" : "package",
+    "value" : "My Account Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6f90e76eb39ccd76",
+      "status" : "broken",
+      "statusDetails" : "invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.88)",
+      "time" : {
+        "start" : 1577427816391,
+        "stop" : 1577427817350,
+        "duration" : 959
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c371584205bb5d9a.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,704 @@
+{
+  "d40082974eb9bef2fe874c6c0f720c7c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc63e9ea1f7c00b8",
+      "status" : "broken",
+      "statusDetails" : "invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.88)",
+      "time" : {
+        "start" : 1577428511899,
+        "stop" : 1577428512952,
+        "duration" : 1053
+      }
+    } ]
+  },
+  "896addebf90a8c86df7e4d7c3be8db33" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1937e7f9f1d479e",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"/html[1]/body[1]/div[1]/app[1]/div[1]/div[1]/div[1]/div[2]/div[1]/my-account[1]/div[1]/div[2]/sm-general-settings[1]/section[1]/div[1]/div[1]/div[1]/form[1]/div[1]/sm-select-box[1]/sm-element[1]/div[1]/span[1]/span[1]/span[1]/span[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1577428531586,
+        "stop" : 1577428541724,
+        "duration" : 10138
+      }
+    } ]
+  },
+  "2521b11e5fd589d502ff54a5c7da43b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2e598e2ff191d8f",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"[class=\"thumb-sm avatar avatar-8\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1577428687294,
+        "stop" : 1577428699334,
+        "duration" : 12040
+      }
+    } ]
+  },
+  "19c26d8dd078eb3779562513858bba60" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe580b8119a66cd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428805321,
+        "stop" : 1577428814435,
+        "duration" : 9114
+      }
+    } ]
+  },
+  "b9b54bdd50c98c01c51d8f9efed0f26b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2548822b803c7c19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428484353,
+        "stop" : 1577428492543,
+        "duration" : 8190
+      }
+    } ]
+  },
+  "c8ff4bcb975a2f7a381973baf79b8191" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7fb04dd2b75acefb",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"[class=\"dark-circle-color\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1577428823446,
+        "stop" : 1577428836504,
+        "duration" : 13058
+      }
+    } ]
+  },
+  "16a295ac69938080b8a128fe00de5e73" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "746b295afc4156ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428492544,
+        "stop" : 1577428505189,
+        "duration" : 12645
+      }
+    } ]
+  },
+  "9e811e6ece5d4f8a8a534958ee36eeca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a3f997da0bdc4fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428602570,
+        "stop" : 1577428609002,
+        "duration" : 6432
+      }
+    } ]
+  },
+  "5b070c7bedaa53a4f0bed6f5310e57d1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "742b21c6b74062e8",
+      "status" : "broken",
+      "statusDetails" : "Can't call addValue on element with selector \"#email\" because element wasn't found",
+      "time" : {
+        "start" : 1577428653314,
+        "stop" : 1577428665366,
+        "duration" : 12052
+      }
+    } ]
+  },
+  "fdba2761f5ee9cf45a47e9ea44e252d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e6a6c0b9a9798c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428442346,
+        "stop" : 1577428445913,
+        "duration" : 3567
+      }
+    } ]
+  },
+  "31cfc25a23d2edbb661a18e941f03e1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd719912cd910d07",
+      "status" : "broken",
+      "statusDetails" : "Can't call $ on element with selector \"#assignCompanyEmail\" because element wasn't found",
+      "time" : {
+        "start" : 1577428753499,
+        "stop" : 1577428771530,
+        "duration" : 18031
+      }
+    } ]
+  },
+  "a6907e610d67205133f6c23fc8c45379" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1629b5f40df1b218",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428771530,
+        "stop" : 1577428781983,
+        "duration" : 10453
+      }
+    } ]
+  },
+  "f926e2e55e2558d97bf6404593f57c4a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffb9546d6c954d91",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"[class=\"thumb-sm avatar avatar-8\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1577428665367,
+        "stop" : 1577428675409,
+        "duration" : 10042
+      }
+    } ]
+  },
+  "8855f31681aed39a6073830ba33c75f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "600709d158c34745",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428593102,
+        "stop" : 1577428602569,
+        "duration" : 9467
+      }
+    } ]
+  },
+  "2d87aa028220f5db3badec09b8f8a7e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb0aa3560201cb23",
+      "status" : "broken",
+      "statusDetails" : "Can't call $ on element with selector \"#assignContactEmail\" because element wasn't found",
+      "time" : {
+        "start" : 1577428737468,
+        "stop" : 1577428753498,
+        "duration" : 16030
+      }
+    } ]
+  },
+  "bbc8431d1bff7a991b615453ab6fafec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13c68c88b8a81b9c",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"[class=\"noty_text\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1577428565802,
+        "stop" : 1577428579552,
+        "duration" : 13750
+      }
+    } ]
+  },
+  "78e8c026476a585047bd910e8d1068dd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d54157035fa4d624",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428438779,
+        "stop" : 1577428442344,
+        "duration" : 3565
+      }
+    } ]
+  },
+  "94ea9dbbd5ae7fdb50e2e1a111be7b72" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d66424627f5f6636",
+      "status" : "broken",
+      "statusDetails" : "Can't call $ on element with selector \"#assignContactEmail\" because element wasn't found",
+      "time" : {
+        "start" : 1577428719438,
+        "stop" : 1577428737468,
+        "duration" : 18030
+      }
+    } ]
+  },
+  "a0613799ed5f2e48bbbd6e947d494e03" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "50f7342e13744399",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428455172,
+        "stop" : 1577428472943,
+        "duration" : 17771
+      }
+    } ]
+  },
+  "e047ae1b7e23e5e352b41b6106a3eb49" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8c9efab53fd0309",
+      "status" : "failed",
+      "statusDetails" : "'General Settings' == 'Change Password'",
+      "time" : {
+        "start" : 1577428552249,
+        "stop" : 1577428557685,
+        "duration" : 5436
+      }
+    } ]
+  },
+  "46b457103f9fd0fa988bbac9b708af90" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d538682a53321632",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428520958,
+        "stop" : 1577428531586,
+        "duration" : 10628
+      }
+    } ]
+  },
+  "bee2bded454896e6b6844a091c219f02" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f58b3c7a1477ceb",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"[class=\"noty_text\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1577428579552,
+        "stop" : 1577428593101,
+        "duration" : 13549
+      }
+    } ]
+  },
+  "5038e42471ac5e5ba81bba7ccaa28902" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "edc72842d4d75450",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428449491,
+        "stop" : 1577428455171,
+        "duration" : 5680
+      }
+    } ]
+  },
+  "ba0b2410e6e52a65e79f8d6a5525e096" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84c2efda6afdea05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428793077,
+        "stop" : 1577428799222,
+        "duration" : 6145
+      }
+    } ]
+  },
+  "302722f88f46d865978ad327252c7e21" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "365e0124574ef2d7",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"[class=\"sub-title pull-left\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1577428699335,
+        "stop" : 1577428709399,
+        "duration" : 10064
+      }
+    } ]
+  },
+  "a3caf37c018804783d6a35a9a4485a4d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc8f803c527a174c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428505190,
+        "stop" : 1577428511898,
+        "duration" : 6708
+      }
+    } ]
+  },
+  "494f75d3792d65d520176ccb082af69e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e04c0e617688e94",
+      "status" : "broken",
+      "statusDetails" : "invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.88)",
+      "time" : {
+        "start" : 1577428557686,
+        "stop" : 1577428565802,
+        "duration" : 8116
+      }
+    } ]
+  },
+  "466d1ede860d54bdc7f2739da51d775" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c371584205bb5d9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428512953,
+        "stop" : 1577428520958,
+        "duration" : 8005
+      }
+    } ]
+  },
+  "ccccaf80eda74b7843526d9e85ec7966" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc05fbdd195336ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428609002,
+        "stop" : 1577428647919,
+        "duration" : 38917
+      }
+    } ]
+  },
+  "7c23b2369e516ab15b838a3e8f2db50d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "685da1517b6ba7c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428799223,
+        "stop" : 1577428805321,
+        "duration" : 6098
+      }
+    } ]
+  },
+  "41e7d545fd2e81886cc2d5ef6c53b0e9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3858d00a8d0b574b",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <span class=\"thumb-sm avatar avatar-4\" title=\"salesmate gmail\">...</span> is not clickable at point (992, 24). Other element would receive the click: <iframe allowfullscreen=\"\" class=\"intercom-1fonhp6 e1u5aocb0\" name=\"intercom-modal-frame\" title=\"Intercom Live Chat\" data-intercom-frame=\"true\"></iframe>\n                  (Session info: chrome=79.0.3945.88)",
+      "time" : {
+        "start" : 1577428647920,
+        "stop" : 1577428653313,
+        "duration" : 5393
+      }
+    } ]
+  },
+  "f8d66107fce7eb8a8f6f0f15a789048b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "166175aae052b420",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428814436,
+        "stop" : 1577428823445,
+        "duration" : 9009
+      }
+    } ]
+  },
+  "46996dc90a7a77e97c92b8ad9881d7c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f09ac5771fb6f2fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428445914,
+        "stop" : 1577428449490,
+        "duration" : 3576
+      }
+    } ]
+  },
+  "56155fe1180ebfe821aaea5919b87c07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b15ff03a3dacc32",
+      "status" : "broken",
+      "statusDetails" : "<!DOCTYPE html>\n                <html lang=\"en\">\n                <head>\n                  <meta charset=\"UTF-8\">\n                  <link rel=\"stylesheet\" type=\"text/css\" href=\"/assets/displayhelpservlet.css\" media=\"all\"/>\n                  <link href=\"/assets/favicon.ico\" rel=\"icon\" type=\"image/x-icon\" />\n                  <script src=\"/assets/jquery-3.1.1.min.js\" type=\"text/javascript\"></script>\n                  <script src=\"/assets/displayhelpservlet.js\" type=\"text/javascript\"></script>\n                  <script type=\"text/javascript\">\n                    var json = Object.freeze('{\"consoleLink\": \"\\u002fwd\\u002fhub\",\"type\": \"Standalone\",\"class\": \"org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig\",\"version\": \"3.141.5\"}');\n                  </script>\n                </head>\n                <body>\n                \n                <div id=\"content\">\n                  <div id=\"help-heading\">\n                    <h1><span id=\"logo\"></span></h1>\n                    <h2>Selenium <span class=\"se-type\"></span>&nbsp;v.<span class=\"se-version\"></span></h2>\n                  </div>\n                \n                  <div id=\"content-body\">\n                    <p>\n                      Whoops! The URL specified routes to this help page.\n                    </p>\n                    <p>\n                      For more information about Selenium <span class=\"se-type\"></span> please see the\n                      <a class=\"se-docs\">docs</a> and/or visit the <a class=\"se-wiki\">wiki</a>.\n                      <span id=\"console-item\">\n                        Or perhaps you are looking for the Selenium <span class=\"se-type\"></span> <a class=\"se-console\">console</a>.\n                      </span>\n                    </p>\n                    <p>\n                      Happy Testing!\n                    </p>\n                  </div>\n                \n                  <div>\n                    <footer id=\"help-footer\">\n                      Selenium is made possible through the efforts of our open source community, contributions from\n                      these <a href=\"https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS\">people</a>, and our\n                      <a href=\"http://www.seleniumhq.org/sponsors/\">sponsors</a>.\n                   </footer>\n                  </div>\n                 </div>\n                \n                </body>\n                </html>",
+      "time" : {
+        "start" : 1577428363990,
+        "stop" : 1577428363992,
+        "duration" : 2
+      }
+    } ]
+  },
+  "60da2bec10b34a12978af7f0b13ff659" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a4f157b01eebb8a",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"[class=\"sub-title pull-left\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1577428709400,
+        "stop" : 1577428719437,
+        "duration" : 10037
+      }
+    } ]
+  },
+  "7049ae168aa6a4998887f1bd2a1eafdf" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "792483db214470f3",
+      "status" : "failed",
+      "statusDetails" : "'#17274d' == '#324061'",
+      "time" : {
+        "start" : 1577428836504,
+        "stop" : 1577428846960,
+        "duration" : 10456
+      }
+    } ]
+  }
+}

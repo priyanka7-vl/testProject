@@ -1,0 +1,58 @@
+{
+  "uid" : "dfb980b261cd3c0a",
+  "name" : "C147 - Verify First Name field with more than 100 chars validation",
+  "fullName" : "My Account Module.C147 - Verify First Name field with more than 100 chars validation",
+  "historyId" : "a3caf37c018804783d6a35a9a4485a4d",
+  "time" : {
+    "start" : 1577427807710,
+    "stop" : 1577427809159,
+    "duration" : 1449
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.88)",
+  "statusTrace" : "invalid argument: invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.88)\n                    at getErrorFromResponseBody (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/utils.js:215:10)\n                    at Request._callback (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/request.js:103:64)\n                    at Request.self.callback (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:185:22)\n                    at Request.<anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1161:10)\n                    at IncomingMessage.<anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1083:12)\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/general.js:39:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C147 - Verify First Name field with more than 100 chars validation"
+  }, {
+    "name" : "package",
+    "value" : "My Account Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfb980b261cd3c0a.json",
+  "parameterValues" : [ "chrome" ]
+}

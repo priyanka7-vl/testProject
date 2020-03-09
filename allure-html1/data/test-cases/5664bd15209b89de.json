@@ -1,0 +1,58 @@
+{
+  "uid" : "5664bd15209b89de",
+  "name" : "should  allow to login with valid input and verify home screen banner",
+  "fullName" : "Login Module.should  allow to login with valid input and verify home screen banner",
+  "historyId" : "a0613799ed5f2e48bbbd6e947d494e03",
+  "time" : {
+    "start" : 1576512772137,
+    "stop" : 1576512772138,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "allureReporter is not defined",
+  "statusTrace" : "ReferenceError: allureReporter is not defined\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:44:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should  allow to login with valid input and verify home screen banner"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5664bd15209b89de.json",
+  "parameterValues" : [ "chrome" ]
+}

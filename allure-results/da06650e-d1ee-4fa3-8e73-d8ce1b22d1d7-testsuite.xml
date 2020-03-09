@@ -1,0 +1,198 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577428541738' stop='1577428675410'>
+    <name>Change Password Module</name>
+    <title>Change Password Module</title>
+    <test-cases>
+        <test-case start='1577428552249' status='failed' stop='1577428557685'>
+            <name>C4874-Verify Change Password page is available under My Account</name>
+            <title>C4874-Verify Change Password page is available under My Account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>'General Settings' == 'Change Password'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'General Settings' == 'Change Password'
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/changepassword.js:21:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428557686' status='broken' stop='1577428565802'>
+            <name>C153-Verify mandatoy fields on Change Password tab</name>
+            <title>C153-Verify mandatoy fields on Change Password tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid argument
+                from invalid argument: 'element' is missing
+                  (Session info: chrome=79.0.3945.88)</message>
+                <stack-trace>invalid argument: invalid argument
+                from invalid argument: 'element' is missing
+                  (Session info: chrome=79.0.3945.88)
+                    at getErrorFromResponseBody (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/utils.js:215:10)
+                    at Request._callback (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/request.js:103:64)
+                    at Request.self.callback (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:185:22)
+                    at Request.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1083:12)
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/changepassword.js:26:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428565802' status='broken' stop='1577428579552'>
+            <name>C154-Verify wrong Old Password validation</name>
+            <title>C154-Verify wrong Old Password validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "[class="noty_text"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "[class="noty_text"]" because element wasn't found
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/changepassword.js:59:46)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428579552' status='broken' stop='1577428593101'>
+            <name>C155-Verify wrong Re-type Password validation</name>
+            <title>C155-Verify wrong Re-type Password validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "[class="noty_text"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "[class="noty_text"]" because element wasn't found
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/changepassword.js:75:46)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428593102' status='passed' stop='1577428602569'>
+            <name>C156(A)-user wants to change password</name>
+            <title>C156(A)-user wants to change password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577428602570' status='passed' stop='1577428609002'>
+            <name>C156(B)-user wants to logout after change password</name>
+            <title>C156(B)-user wants to logout after change password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577428609002' status='passed' stop='1577428647919'>
+            <name>User wants to redirect to Google Sign In page</name>
+            <title>User wants to redirect to Google Sign In page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577428647920' status='broken' stop='1577428653313'>
+            <name>User wants to logout after Google Sign In</name>
+            <title>User wants to logout after Google Sign In</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;span class="thumb-sm avatar avatar-4" title="salesmate gmail">...&lt;/span> is not clickable at point (992, 24). Other element would receive the click: &lt;iframe allowfullscreen="" class="intercom-1fonhp6 e1u5aocb0" name="intercom-modal-frame" title="Intercom Live Chat" data-intercom-frame="true">&lt;/iframe>
+                  (Session info: chrome=79.0.3945.88)</message>
+                <stack-trace>element click intercepted: element click intercepted: Element &lt;span class="thumb-sm avatar avatar-4" title="salesmate gmail">...&lt;/span> is not clickable at point (992, 24). Other element would receive the click: &lt;iframe allowfullscreen="" class="intercom-1fonhp6 e1u5aocb0" name="intercom-modal-frame" title="Intercom Live Chat" data-intercom-frame="true">&lt;/iframe>
+                  (Session info: chrome=79.0.3945.88)
+                    at getErrorFromResponseBody (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/utils.js:215:10)
+                    at Request._callback (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/request.js:103:64)
+                    at Request.self.callback (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:185:22)
+                    at Request.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1083:12)
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/changepassword.js:149:47)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428653314' status='broken' stop='1577428665366'>
+            <name>C156(C)-user verify login after change password</name>
+            <title>C156(C)-user verify login after change password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call addValue on element with selector "#email" because element wasn't found</message>
+                <stack-trace>Error: Can't call addValue on element with selector "#email" because element wasn't found
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/changepassword.js:158:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428665367' status='broken' stop='1577428675409'>
+            <name>C156(C)-user wants to change password again</name>
+            <title>C156(C)-user wants to change password again</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "[class="thumb-sm avatar avatar-8"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "[class="thumb-sm avatar avatar-8"]" because element wasn't found
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/changepassword.js:166:45)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

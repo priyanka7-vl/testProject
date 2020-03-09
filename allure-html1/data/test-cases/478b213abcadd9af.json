@@ -1,0 +1,56 @@
+{
+  "uid" : "478b213abcadd9af",
+  "name" : "should not allow to login with invalid email address",
+  "fullName" : "Login Module.should not allow to login with invalid email address",
+  "historyId" : "46996dc90a7a77e97c92b8ad9881d7c7",
+  "time" : {
+    "start" : 1575879730780,
+    "stop" : 1575879734131,
+    "duration" : 3351
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow to login with invalid email address"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "478b213abcadd9af.json",
+  "parameterValues" : [ "chrome" ]
+}

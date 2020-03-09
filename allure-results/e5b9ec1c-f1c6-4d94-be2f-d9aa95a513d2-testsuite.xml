@@ -1,0 +1,138 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577428675448' stop='1577428781984'>
+    <name>Notification Preference Module</name>
+    <title>Notification Preference Module</title>
+    <test-cases>
+        <test-case start='1577428687294' status='broken' stop='1577428699334'>
+            <name>User wants to reach notification Preference Page</name>
+            <title>User wants to reach notification Preference Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "[class="thumb-sm avatar avatar-8"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "[class="thumb-sm avatar avatar-8"]" because element wasn't found
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/notificationPref.js:19:45)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428699335' status='broken' stop='1577428709399'>
+            <name>C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page</name>
+            <title>C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "[class="sub-title pull-left"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "[class="sub-title pull-left"]" because element wasn't found
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/notificationPref.js:26:53)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428709400' status='broken' stop='1577428719437'>
+            <name>C3564 - Verify General Notifications are displayed on My Account>Notification Preferences page</name>
+            <title>C3564 - Verify General Notifications are displayed on My Account>Notification Preferences page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "[class="sub-title pull-left"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "[class="sub-title pull-left"]" because element wasn't found
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/notificationPref.js:33:57)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428719438' status='broken' stop='1577428737468'>
+            <name>C3572 - Verify User is able to disable all/some channels of 'Contact Assigned' notification at a time</name>
+            <title>C3572 - Verify User is able to disable all/some channels of 'Contact Assigned' notification at a time</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call $ on element with selector "#assignContactEmail" because element wasn't found</message>
+                <stack-trace>Error: Can't call $ on element with selector "#assignContactEmail" because element wasn't found
+                    at Function.toggleOFF (/Volumes/DATA/TestMyProject/testSM/test/specs/basic.js:33:37)
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/notificationPref.js:41:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428737468' status='broken' stop='1577428753498'>
+            <name>C3573 - Verify User is able to enable all/some channels of 'Contact Assigned' notification at a time</name>
+            <title>C3573 - Verify User is able to enable all/some channels of 'Contact Assigned' notification at a time</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call $ on element with selector "#assignContactEmail" because element wasn't found</message>
+                <stack-trace>Error: Can't call $ on element with selector "#assignContactEmail" because element wasn't found
+                    at Function.toggleON (/Volumes/DATA/TestMyProject/testSM/test/specs/basic.js:44:37)
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/notificationPref.js:68:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428753499' status='broken' stop='1577428771530'>
+            <name>C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time</name>
+            <title>C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call $ on element with selector "#assignCompanyEmail" because element wasn't found</message>
+                <stack-trace>Error: Can't call $ on element with selector "#assignCompanyEmail" because element wasn't found
+                    at Function.toggleOFF (/Volumes/DATA/TestMyProject/testSM/test/specs/basic.js:33:37)
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/notificationPref.js:94:15)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428771530' status='passed' stop='1577428781983'>
+            <name>User want to scroll down and up the page</name>
+            <title>User want to scroll down and up the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

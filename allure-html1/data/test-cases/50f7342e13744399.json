@@ -1,0 +1,219 @@
+{
+  "uid" : "50f7342e13744399",
+  "name" : "should  allow to login with valid input and verify home screen banner",
+  "fullName" : "Login Module.should  allow to login with valid input and verify home screen banner",
+  "historyId" : "a0613799ed5f2e48bbbd6e947d494e03",
+  "time" : {
+    "start" : 1577428455172,
+    "stop" : 1577428472943,
+    "duration" : 17771
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should  allow to login with valid input and verify home screen banner"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d5d86a4367ee71ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427769945,
+        "stop" : 1577427787413,
+        "duration" : 17468
+      }
+    }, {
+      "uid" : "bd70aec57efda11a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576512913566,
+        "stop" : 1576512931059,
+        "duration" : 17493
+      }
+    }, {
+      "uid" : "5664bd15209b89de",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1576512772137,
+        "stop" : 1576512772138,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "83b48ff4fe85a9b0",
+      "status" : "failed",
+      "statusDetails" : "'' == 'Dashboard'",
+      "time" : {
+        "start" : 1576511310982,
+        "stop" : 1576511332556,
+        "duration" : 21574
+      }
+    }, {
+      "uid" : "a4864168169b4d02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501468416,
+        "stop" : 1576501485890,
+        "duration" : 17474
+      }
+    }, {
+      "uid" : "4eedd8dd898a8e5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501387392,
+        "stop" : 1576501404819,
+        "duration" : 17427
+      }
+    }, {
+      "uid" : "355e7c7e7d9b1ffa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501223093,
+        "stop" : 1576501240617,
+        "duration" : 17524
+      }
+    }, {
+      "uid" : "1aab0e7a45c4fad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501174322,
+        "stop" : 1576501191834,
+        "duration" : 17512
+      }
+    }, {
+      "uid" : "dd84bd52cb98dcfc",
+      "status" : "broken",
+      "statusDetails" : "no such window: window was already closed\n                  (Session info: chrome=78.0.3904.108)",
+      "time" : {
+        "start" : 1576397831475,
+        "stop" : 1576397832513,
+        "duration" : 1038
+      }
+    }, {
+      "uid" : "e987dcbbee644086",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575893142519,
+        "stop" : 1575893159979,
+        "duration" : 17460
+      }
+    }, {
+      "uid" : "3a04b8c22b99650a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575892524228,
+        "stop" : 1575892541693,
+        "duration" : 17465
+      }
+    }, {
+      "uid" : "ddd34e6f06f64af0",
+      "status" : "broken",
+      "statusDetails" : "no such window: window was already closed\n                  (Session info: chrome=78.0.3904.108)",
+      "time" : {
+        "start" : 1575890865881,
+        "stop" : 1575890866917,
+        "duration" : 1036
+      }
+    }, {
+      "uid" : "d1bebb609ee76e4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879818015,
+        "stop" : 1575879835427,
+        "duration" : 17412
+      }
+    }, {
+      "uid" : "1bcbeccd829ef2a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879739613,
+        "stop" : 1575879757012,
+        "duration" : 17399
+      }
+    }, {
+      "uid" : "d020c286168ad0e0",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"h2=Dashboard\" because element wasn't found",
+      "time" : {
+        "start" : 1575878720337,
+        "stop" : 1575878759571,
+        "duration" : 39234
+      }
+    }, {
+      "uid" : "2dfdcbd18fea5924",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1575878576925,
+        "stop" : 1575878576927,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "f3e2f9ca32f41065",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1575878442711,
+        "stop" : 1575878442785,
+        "duration" : 74
+      }
+    }, {
+      "uid" : "d3767c9b7bdb769d",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1574487606178,
+        "stop" : 1574487606185,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "489fee5bbd0c5d0",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"h2=Dashboard\" because element wasn't found",
+      "time" : {
+        "start" : 1574487017924,
+        "stop" : 1574487051119,
+        "duration" : 33195
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50f7342e13744399.json",
+  "parameterValues" : [ "chrome" ]
+}

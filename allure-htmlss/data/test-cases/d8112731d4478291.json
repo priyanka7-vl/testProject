@@ -1,0 +1,56 @@
+{
+  "uid" : "d8112731d4478291",
+  "name" : "should not allow to login with invalid credentials",
+  "fullName" : "Login Module.should not allow to login with invalid credentials",
+  "historyId" : "5038e42471ac5e5ba81bba7ccaa28902",
+  "time" : {
+    "start" : 1576511305655,
+    "stop" : 1576511310982,
+    "duration" : 5327
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow to login with invalid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8112731d4478291.json",
+  "parameterValues" : [ "chrome" ]
+}

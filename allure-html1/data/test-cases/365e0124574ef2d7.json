@@ -1,0 +1,64 @@
+{
+  "uid" : "365e0124574ef2d7",
+  "name" : "C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page",
+  "fullName" : "Notification Preference Module.C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page",
+  "historyId" : "302722f88f46d865978ad327252c7e21",
+  "time" : {
+    "start" : 1577428699335,
+    "stop" : 1577428709399,
+    "duration" : 10064
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"[class=\"sub-title pull-left\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"[class=\"sub-title pull-left\"]\" because element wasn't found\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/notificationPref.js:26:53)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page"
+  }, {
+    "name" : "package",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "365e0124574ef2d7.json",
+  "parameterValues" : [ "chrome" ]
+}

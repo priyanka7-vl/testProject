@@ -1,0 +1,64 @@
+{
+  "uid" : "792483db214470f3",
+  "name" : "As a User I want to change Theme option to Dark color",
+  "fullName" : "Interface Preference Module.As a User I want to change Theme option to Dark color",
+  "historyId" : "7049ae168aa6a4998887f1bd2a1eafdf",
+  "time" : {
+    "start" : 1577428836504,
+    "stop" : 1577428846960,
+    "duration" : 10456
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "'#17274d' == '#324061'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: '#17274d' == '#324061'\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/interfacePref.js:247:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a User I want to change Theme option to Dark color"
+  }, {
+    "name" : "package",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "792483db214470f3.json",
+  "parameterValues" : [ "chrome" ]
+}

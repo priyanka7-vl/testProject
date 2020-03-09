@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1574486972196' stop='1574487051123'>
+    <name>Login Module</name>
+    <title>Login Module</title>
+    <test-cases>
+        <test-case start='1574486972220' status='passed' stop='1574486993938'>
+            <name>should not allow me to login with blank input</name>
+            <title>should not allow me to login with blank input</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1574486993939' status='passed' stop='1574486998803'>
+            <name>should not allow to login with only email address</name>
+            <title>should not allow to login with only email address</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1574486998804' status='passed' stop='1574487007352'>
+            <name>should not allow to login with invalid email address</name>
+            <title>should not allow to login with invalid email address</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1574487007352' status='passed' stop='1574487017924'>
+            <name>should not allow to login with invalid credentials</name>
+            <title>should not allow to login with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1574487017924' status='broken' stop='1574487051119'>
+            <name>should  allow to login with valid input and verify home screen banner</name>
+            <title>should  allow to login with valid input and verify home screen banner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "h2=Dashboard" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "h2=Dashboard" because element wasn't found
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:43:37)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

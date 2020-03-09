@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sat Nov 23 11:10:06 IST 2019","Sat Nov 23 11:10:06 IST 2019","5","","Login Module","","Login Module","should not allow to login with invalid email address","should not allow to login with invalid email address",""
+"broken","Sat Nov 23 11:10:06 IST 2019","Sat Nov 23 11:10:06 IST 2019","20","","Login Module","","Login Module","should not allow me to login with blank input","should not allow me to login with blank input",""
+"broken","Sat Nov 23 11:10:06 IST 2019","Sat Nov 23 11:10:06 IST 2019","4","","Login Module","","Login Module","should not allow to login with only email address","should not allow to login with only email address",""
+"broken","Sat Nov 23 11:10:06 IST 2019","Sat Nov 23 11:10:06 IST 2019","7","","Login Module","","Login Module","should not allow to login with invalid credentials","should not allow to login with invalid credentials",""
+"broken","Sat Nov 23 11:10:06 IST 2019","Sat Nov 23 11:10:06 IST 2019","7","","Login Module","","Login Module","should  allow to login with valid input and verify home screen banner","should  allow to login with valid input and verify home screen banner",""

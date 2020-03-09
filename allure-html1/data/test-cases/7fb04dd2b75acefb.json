@@ -1,0 +1,64 @@
+{
+  "uid" : "7fb04dd2b75acefb",
+  "name" : "As a User I want to change Theme option to Light color",
+  "fullName" : "Interface Preference Module.As a User I want to change Theme option to Light color",
+  "historyId" : "c8ff4bcb975a2f7a381973baf79b8191",
+  "time" : {
+    "start" : 1577428823446,
+    "stop" : 1577428836504,
+    "duration" : 13058
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"[class=\"dark-circle-color\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"[class=\"dark-circle-color\"]\" because element wasn't found\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/interfacePref.js:130:50)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a User I want to change Theme option to Light color"
+  }, {
+    "name" : "package",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7fb04dd2b75acefb.json",
+  "parameterValues" : [ "chrome" ]
+}

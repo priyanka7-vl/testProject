@@ -1,0 +1,78 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "allureReporter is not defined",
+      "children" : [ {
+        "name" : "should not allow me to login with blank input",
+        "uid" : "ad67d2a5d6afd03f",
+        "parentUid" : "f971d806f790fceec3dce6de4fad23ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574487606124,
+          "stop" : 1574487606144,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should not allow to login with only email address",
+        "uid" : "117fce6f0ab97b30",
+        "parentUid" : "f971d806f790fceec3dce6de4fad23ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574487606153,
+          "stop" : 1574487606157,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should not allow to login with invalid email address",
+        "uid" : "22525bc61c29736a",
+        "parentUid" : "f971d806f790fceec3dce6de4fad23ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574487606159,
+          "stop" : 1574487606164,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should not allow to login with invalid credentials",
+        "uid" : "fd396928bdc89997",
+        "parentUid" : "f971d806f790fceec3dce6de4fad23ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574487606167,
+          "stop" : 1574487606174,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should  allow to login with valid input and verify home screen banner",
+        "uid" : "fbb663a6137bf106",
+        "parentUid" : "f971d806f790fceec3dce6de4fad23ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574487606178,
+          "stop" : 1574487606185,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "f971d806f790fceec3dce6de4fad23ba"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

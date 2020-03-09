@@ -1,0 +1,180 @@
+{
+  "uid" : "965fe731b98fcf94",
+  "name" : "should not allow me to login with blank input",
+  "fullName" : "Login Module.should not allow me to login with blank input",
+  "historyId" : "78e8c026476a585047bd910e8d1068dd",
+  "time" : {
+    "start" : 1576511288965,
+    "stop" : 1576511299094,
+    "duration" : 10129
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow me to login with blank input"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "11f71ebad6d774a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501447699,
+        "stop" : 1576501456424,
+        "duration" : 8725
+      }
+    }, {
+      "uid" : "51630d377c322da9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501361284,
+        "stop" : 1576501375384,
+        "duration" : 14100
+      }
+    }, {
+      "uid" : "249b937b92270230",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501201993,
+        "stop" : 1576501210993,
+        "duration" : 9000
+      }
+    }, {
+      "uid" : "7b45cac232fe9096",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501151837,
+        "stop" : 1576501162200,
+        "duration" : 10363
+      }
+    }, {
+      "uid" : "1dd98dba33af2b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576397794598,
+        "stop" : 1576397823871,
+        "duration" : 29273
+      }
+    }, {
+      "uid" : "62a79d6a7f00bb90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575893117989,
+        "stop" : 1575893130498,
+        "duration" : 12509
+      }
+    }, {
+      "uid" : "6286ed0b2f6c738f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575892501439,
+        "stop" : 1575892512161,
+        "duration" : 10722
+      }
+    }, {
+      "uid" : "2a4102d8cd66907f",
+      "status" : "broken",
+      "statusDetails" : "no such window: window was already closed\n                  (Session info: chrome=78.0.3904.108)",
+      "time" : {
+        "start" : 1575890851577,
+        "stop" : 1575890862742,
+        "duration" : 11165
+      }
+    }, {
+      "uid" : "60344f0e40966902",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879797414,
+        "stop" : 1575879805964,
+        "duration" : 8550
+      }
+    }, {
+      "uid" : "e42c56be5618f2c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879718936,
+        "stop" : 1575879727370,
+        "duration" : 8434
+      }
+    }, {
+      "uid" : "885ced58b69aec9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878688579,
+        "stop" : 1575878709252,
+        "duration" : 20673
+      }
+    }, {
+      "uid" : "50c1f2f3656fc443",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878545704,
+        "stop" : 1575878573366,
+        "duration" : 27662
+      }
+    }, {
+      "uid" : "d4086727e8e70974",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878382691,
+        "stop" : 1575878437738,
+        "duration" : 55047
+      }
+    }, {
+      "uid" : "bd68a66133a8f046",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1574487606124,
+        "stop" : 1574487606144,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "4457850a5715be7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574486972220,
+        "stop" : 1574486993938,
+        "duration" : 21718
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "965fe731b98fcf94.json",
+  "parameterValues" : [ "chrome" ]
+}

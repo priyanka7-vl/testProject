@@ -1,0 +1,102 @@
+{
+  "5038e42471ac5e5ba81bba7ccaa28902" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd396928bdc89997",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1574487606167,
+        "stop" : 1574487606174,
+        "duration" : 7
+      }
+    } ]
+  },
+  "78e8c026476a585047bd910e8d1068dd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad67d2a5d6afd03f",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1574487606124,
+        "stop" : 1574487606144,
+        "duration" : 20
+      }
+    } ]
+  },
+  "46996dc90a7a77e97c92b8ad9881d7c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22525bc61c29736a",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1574487606159,
+        "stop" : 1574487606164,
+        "duration" : 5
+      }
+    } ]
+  },
+  "a0613799ed5f2e48bbbd6e947d494e03" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fbb663a6137bf106",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1574487606178,
+        "stop" : 1574487606185,
+        "duration" : 7
+      }
+    } ]
+  },
+  "fdba2761f5ee9cf45a47e9ea44e252d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "117fce6f0ab97b30",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1574487606153,
+        "stop" : 1574487606157,
+        "duration" : 4
+      }
+    } ]
+  }
+}

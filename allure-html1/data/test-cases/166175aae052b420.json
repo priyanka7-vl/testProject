@@ -1,0 +1,58 @@
+{
+  "uid" : "166175aae052b420",
+  "name" : "C4561-Verify user is able to disable all/some preferences at a time",
+  "fullName" : "Interface Preference Module.C4561-Verify user is able to disable all/some preferences at a time",
+  "historyId" : "f8d66107fce7eb8a8f6f0f15a789048b",
+  "time" : {
+    "start" : 1577428814436,
+    "stop" : 1577428823445,
+    "duration" : 9009
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C4561-Verify user is able to disable all/some preferences at a time"
+  }, {
+    "name" : "package",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "166175aae052b420.json",
+  "parameterValues" : [ "chrome" ]
+}

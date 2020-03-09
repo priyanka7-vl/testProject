@@ -1,0 +1,64 @@
+{
+  "uid" : "3858d00a8d0b574b",
+  "name" : "User wants to logout after Google Sign In",
+  "fullName" : "Change Password Module.User wants to logout after Google Sign In",
+  "historyId" : "41e7d545fd2e81886cc2d5ef6c53b0e9",
+  "time" : {
+    "start" : 1577428647920,
+    "stop" : 1577428653313,
+    "duration" : 5393
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <span class=\"thumb-sm avatar avatar-4\" title=\"salesmate gmail\">...</span> is not clickable at point (992, 24). Other element would receive the click: <iframe allowfullscreen=\"\" class=\"intercom-1fonhp6 e1u5aocb0\" name=\"intercom-modal-frame\" title=\"Intercom Live Chat\" data-intercom-frame=\"true\"></iframe>\n                  (Session info: chrome=79.0.3945.88)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <span class=\"thumb-sm avatar avatar-4\" title=\"salesmate gmail\">...</span> is not clickable at point (992, 24). Other element would receive the click: <iframe allowfullscreen=\"\" class=\"intercom-1fonhp6 e1u5aocb0\" name=\"intercom-modal-frame\" title=\"Intercom Live Chat\" data-intercom-frame=\"true\"></iframe>\n                  (Session info: chrome=79.0.3945.88)\n                    at getErrorFromResponseBody (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/utils.js:215:10)\n                    at Request._callback (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/request.js:103:64)\n                    at Request.self.callback (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:185:22)\n                    at Request.<anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1161:10)\n                    at IncomingMessage.<anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1083:12)\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/changepassword.js:149:47)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "User wants to logout after Google Sign In"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3858d00a8d0b574b.json",
+  "parameterValues" : [ "chrome" ]
+}

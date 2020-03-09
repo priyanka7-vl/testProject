@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1576512772079' stop='1576512772139'>
+    <name>Login Module</name>
+    <title>Login Module</title>
+    <test-cases>
+        <test-case start='1576512772101' status='broken' stop='1576512772118'>
+            <name>should not allow me to login with blank input</name>
+            <title>should not allow me to login with blank input</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>allureReporter is not defined</message>
+                <stack-trace>ReferenceError: allureReporter is not defined
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:19:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1576512772120' status='broken' stop='1576512772134'>
+            <name>should not allow to login with only email address</name>
+            <title>should not allow to login with only email address</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>allureReporter is not defined</message>
+                <stack-trace>ReferenceError: allureReporter is not defined
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:25:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1576512772134' status='broken' stop='1576512772135'>
+            <name>should not allow to login with invalid email address</name>
+            <title>should not allow to login with invalid email address</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>allureReporter is not defined</message>
+                <stack-trace>ReferenceError: allureReporter is not defined
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:31:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1576512772136' status='broken' stop='1576512772136'>
+            <name>should not allow to login with invalid credentials</name>
+            <title>should not allow to login with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>allureReporter is not defined</message>
+                <stack-trace>ReferenceError: allureReporter is not defined
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:37:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1576512772137' status='broken' stop='1576512772138'>
+            <name>should  allow to login with valid input and verify home screen banner</name>
+            <title>should  allow to login with valid input and verify home screen banner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>allureReporter is not defined</message>
+                <stack-trace>ReferenceError: allureReporter is not defined
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:44:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

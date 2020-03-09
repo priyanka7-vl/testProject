@@ -1,0 +1,64 @@
+{
+  "uid" : "a2e598e2ff191d8f",
+  "name" : "User wants to reach notification Preference Page",
+  "fullName" : "Notification Preference Module.User wants to reach notification Preference Page",
+  "historyId" : "2521b11e5fd589d502ff54a5c7da43b1",
+  "time" : {
+    "start" : 1577428687294,
+    "stop" : 1577428699334,
+    "duration" : 12040
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"[class=\"thumb-sm avatar avatar-8\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"[class=\"thumb-sm avatar avatar-8\"]\" because element wasn't found\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/notificationPref.js:19:45)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "User wants to reach notification Preference Page"
+  }, {
+    "name" : "package",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a2e598e2ff191d8f.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577428781999' stop='1577428846961'>
+    <name>Interface Preference Module</name>
+    <title>Interface Preference Module</title>
+    <test-cases>
+        <test-case start='1577428793077' status='passed' stop='1577428799222'>
+            <name>C4940- Verify Interface Preferences page is displayed under My Account</name>
+            <title>C4940- Verify Interface Preferences page is displayed under My Account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577428799223' status='passed' stop='1577428805321'>
+            <name>C4941-Verify by default all options of Interface Preferences are disabled</name>
+            <title>C4941-Verify by default all options of Interface Preferences are disabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577428805321' status='passed' stop='1577428814435'>
+            <name>C4560-Verify user is able to enable all/some preferences at a time</name>
+            <title>C4560-Verify user is able to enable all/some preferences at a time</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577428814436' status='passed' stop='1577428823445'>
+            <name>C4561-Verify user is able to disable all/some preferences at a time</name>
+            <title>C4561-Verify user is able to disable all/some preferences at a time</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577428823446' status='broken' stop='1577428836504'>
+            <name>As a User I want to change Theme option to Light color</name>
+            <title>As a User I want to change Theme option to Light color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "[class="dark-circle-color"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "[class="dark-circle-color"]" because element wasn't found
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/interfacePref.js:130:50)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428836504' status='failed' stop='1577428846960'>
+            <name>As a User I want to change Theme option to Dark color</name>
+            <title>As a User I want to change Theme option to Dark color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>'#17274d' == '#324061'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: '#17274d' == '#324061'
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/interfacePref.js:247:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

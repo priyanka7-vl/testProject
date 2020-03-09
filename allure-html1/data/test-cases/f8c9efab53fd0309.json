@@ -1,0 +1,64 @@
+{
+  "uid" : "f8c9efab53fd0309",
+  "name" : "C4874-Verify Change Password page is available under My Account",
+  "fullName" : "Change Password Module.C4874-Verify Change Password page is available under My Account",
+  "historyId" : "e047ae1b7e23e5e352b41b6106a3eb49",
+  "time" : {
+    "start" : 1577428552249,
+    "stop" : 1577428557685,
+    "duration" : 5436
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "'General Settings' == 'Change Password'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: 'General Settings' == 'Change Password'\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/changepassword.js:21:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C4874-Verify Change Password page is available under My Account"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f8c9efab53fd0309.json",
+  "parameterValues" : [ "chrome" ]
+}

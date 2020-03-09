@@ -1,0 +1,58 @@
+{
+  "uid" : "84c2efda6afdea05",
+  "name" : "C4940- Verify Interface Preferences page is displayed under My Account",
+  "fullName" : "Interface Preference Module.C4940- Verify Interface Preferences page is displayed under My Account",
+  "historyId" : "ba0b2410e6e52a65e79f8d6a5525e096",
+  "time" : {
+    "start" : 1577428793077,
+    "stop" : 1577428799222,
+    "duration" : 6145
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C4940- Verify Interface Preferences page is displayed under My Account"
+  }, {
+    "name" : "package",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "84c2efda6afdea05.json",
+  "parameterValues" : [ "chrome" ]
+}

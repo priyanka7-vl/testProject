@@ -1,0 +1,64 @@
+{
+  "uid" : "9f58b3c7a1477ceb",
+  "name" : "C155-Verify wrong Re-type Password validation",
+  "fullName" : "Change Password Module.C155-Verify wrong Re-type Password validation",
+  "historyId" : "bee2bded454896e6b6844a091c219f02",
+  "time" : {
+    "start" : 1577428579552,
+    "stop" : 1577428593101,
+    "duration" : 13549
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"[class=\"noty_text\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"[class=\"noty_text\"]\" because element wasn't found\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/changepassword.js:75:46)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C155-Verify wrong Re-type Password validation"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9f58b3c7a1477ceb.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,64 @@
+{
+  "uid" : "9e04c0e617688e94",
+  "name" : "C153-Verify mandatoy fields on Change Password tab",
+  "fullName" : "Change Password Module.C153-Verify mandatoy fields on Change Password tab",
+  "historyId" : "494f75d3792d65d520176ccb082af69e",
+  "time" : {
+    "start" : 1577428557686,
+    "stop" : 1577428565802,
+    "duration" : 8116
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.88)",
+  "statusTrace" : "invalid argument: invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.88)\n                    at getErrorFromResponseBody (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/utils.js:215:10)\n                    at Request._callback (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/request.js:103:64)\n                    at Request.self.callback (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:185:22)\n                    at Request.<anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1161:10)\n                    at IncomingMessage.<anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1083:12)\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/changepassword.js:26:28)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C153-Verify mandatoy fields on Change Password tab"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9e04c0e617688e94.json",
+  "parameterValues" : [ "chrome" ]
+}
