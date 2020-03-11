@@ -17,14 +17,14 @@
     "allure-commandline": "^2.13.0",
     "assert": "^2.0.0",
     "chai": "^4.2.0",
-    "chromedriver": "^76.0.1",
+    "chromedriver": "^79.0.3",
     "list": "^2.0.18",
     "mocha": "^6.2.0",
     "mocha-allure-reporter": "^1.4.0",
     "wd": "^1.11.4",
     "wdio": "^3.0.3",
     "wdio-chromedriver-service": "^5.0.2",
-    "webdriverio": "^5.11.12"
+    "webdriverio": "^5.18.7"
   },
   "scripts": {
     "test": "mocha"

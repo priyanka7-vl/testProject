@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583748617195' stop='1583748680803'>
+    <name>Interface Preference Module</name>
+    <title>Interface Preference Module</title>
+    <test-cases>
+        <test-case start='1583748627814' status='passed' stop='1583748633936'>
+            <name>C4940- Verify Interface Preferences page is displayed under My Account</name>
+            <title>C4940- Verify Interface Preferences page is displayed under My Account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583748633937' status='passed' stop='1583748640009'>
+            <name>C4941-Verify by default all options of Interface Preferences are disabled</name>
+            <title>C4941-Verify by default all options of Interface Preferences are disabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583748640010' status='passed' stop='1583748648913'>
+            <name>C4560-Verify user is able to enable all/some preferences at a time</name>
+            <title>C4560-Verify user is able to enable all/some preferences at a time</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583748648913' status='passed' stop='1583748658745'>
+            <name>C4561-Verify user is able to disable all/some preferences at a time</name>
+            <title>C4561-Verify user is able to disable all/some preferences at a time</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583748658746' status='failed' stop='1583748670069'>
+            <name>As a User I want to change Theme option to Light color</name>
+            <title>As a User I want to change Theme option to Light color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>'#17274d' == '#324061'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: '#17274d' == '#324061'
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/interfacePref.js:158:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583748670070' status='failed' stop='1583748680803'>
+            <name>As a User I want to change Theme option to Dark color</name>
+            <title>As a User I want to change Theme option to Dark color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>'#17274d' == '#324061'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: '#17274d' == '#324061'
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/interfacePref.js:247:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

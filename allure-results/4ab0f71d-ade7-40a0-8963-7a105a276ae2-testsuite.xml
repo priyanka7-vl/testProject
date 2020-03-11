@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583754036152' stop='1583754063001'>
+    <name>Login Module</name>
+    <title>Login Module</title>
+    <test-cases>
+        <test-case start='1583754056002' status='broken' stop='1583754063000'>
+            <name>should open with google sign-in</name>
+            <title>should open with google sign-in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;div class="ZFr60d CeoRYc">&lt;/div> is not clickable at point (532, 476). Other element would receive the click: &lt;span class="RveJvd snByac">...&lt;/span>
+                  (Session info: chrome=79.0.3945.130)</message>
+                <stack-trace>element click intercepted: element click intercepted: Element &lt;div class="ZFr60d CeoRYc">&lt;/div> is not clickable at point (532, 476). Other element would receive the click: &lt;span class="RveJvd snByac">...&lt;/span>
+                  (Session info: chrome=79.0.3945.130)
+                    at getErrorFromResponseBody (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/utils.js:124:10)
+                    at Request._callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/request.js:111:64)
+                    at Request.self.callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:185:22)
+                    at Request.&lt;anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1083:12)
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/login/login.js:38:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

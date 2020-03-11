@@ -20,45 +20,69 @@ describe('Login Module', function()
     console.log('Execute Before All Tests');
 });
 
-   it ('should not allow me to login with blank input', () =>{
-    //allureReporter.addFeature('Feature1')
-       userLogin.Login('', '');
-       const alrt1 = $('#err_message').getText();
-       assert.equal(alrt1, 'Please enter an email address');
-   });
-   it ('should not allow to login with only email address', () => {
-    //allureReporter.addFeature('Feature2')
-      userLogin.Login('kalp', '');
-       let alrt1 =  $('#err_message').getText();
-       assert.equal(alrt1, 'Please enter password');
-   });
-   it ('should not allow to login with invalid email address', () => {
-    //allureReporter.addFeature('Feature3')
-      userLogin.Login('kalp', '6544576');
-       let alrt1 =  $('#err_message').getText();
-       assert.equal(alrt1, 'Please enter valid email address');
-   });
-   it('should not allow to login with invalid credentials', () => {
-   // allureReporter.addFeature('Feature4')
-      userLogin.Login('kalp@gmail.com', '6544576');
-       browser.pause(2000);
-       let alrt1 = $('#err_message').getText();
-       assert.equal(alrt1, 'Email or Password is invalid');
-   });
-   it ('should  allow to login with valid input and verify home screen banner', () => {
-    //allureReporter.addFeature('Feature5')
-       userLogin.Login('kalp.shah@rapidops.com', '123456');
-      browser.pause(14000);
-        let header = $("h2").getText();
-        let header1 = $('h2=Dashboard').getText();
-        console.log("=====H2 get Text=====");
-        console.log(header);
-        console.log(header1);
-        console.log("=====H2 get Text=====");
-        assert.equal(header, 'Dashboard');
-       // let header1 = $('#app > app > div > div > div > header > div > h2').getText();
-      // assert.equal(header, 'Dashboard');
-   });
+    it('should open with google sign-in',async () => {
+      await browser.url('https://kalp.salesmate.io/login.html');
+      const googleSignin = await browser.$(".glabel");
+      const handler1 = await browser.getWindowHandles();
+      console.log('Handler1 is:'+handler1);
+      await googleSignin.click();
+      const handler = await browser.getWindowHandles();
+      console.log('Handler is:'+handler);
+      //await browser.switchWindow(handler);
+      const handlerLast = handler[handler.length-1];
+      console.log('Last Handler is:'+handlerLast);
+      await browser.switchToWindow(handlerLast);
+      const email = await browser.$("//input[@id='identifierId']");
+      await email.setValue('rapidopsqa@gmail.com');
+      const nextButton = await browser.$("//span[@class='RveJvd snByac']");
+      await nextButton.click();
+      await browser.pause(4000);
+      const password = await browser.$("//input[@name='password']");
+      await password.setValue("Kalp@123456");
+      const nextButton2 = await browser.$("//span[@class='RveJvd snByac']");
+      await nextButton2.click();
+      await browser.pause(18000);
+    })
+
+  //  it ('should not allow me to login with blank input', () =>{
+  //   //allureReporter.addFeature('Feature1')
+  //      userLogin.Login('', '');
+  //      const alrt1 = $('#err_message').getText();
+  //      assert.equal(alrt1, 'Please enter an email address');
+  //  });
+  //  it ('should not allow to login with only email address', () => {
+  //   //allureReporter.addFeature('Feature2')
+  //     userLogin.Login('kalp', '');
+  //      let alrt1 =  $('#err_message').getText();
+  //      assert.equal(alrt1, 'Please enter password');
+  //  });
+  //  it ('should not allow to login with invalid email address', () => {
+  //   //allureReporter.addFeature('Feature3')
+  //     userLogin.Login('kalp', '6544576');
+  //      let alrt1 =  $('#err_message').getText();
+  //      assert.equal(alrt1, 'Please enter valid email address');
+  //  });
+  //  it('should not allow to login with invalid credentials', () => {
+  //  // allureReporter.addFeature('Feature4')
+  //     userLogin.Login('kalp@gmail.com', '6544576');
+  //      browser.pause(2000);
+  //      let alrt1 = $('#err_message').getText();
+  //      assert.equal(alrt1, 'Email or password is invalid.');
+  //  });
+  //  it ('should  allow to login with valid input and verify home screen banner', () => {
+  //   //allureReporter.addFeature('Feature5')
+  //      userLogin.Login('kalp.shah@rapidops.com', '123456');
+  //     browser.pause(14000);
+  //       let header = $("h2").getText();
+  //       let header1 = $('h2=Dashboard').getText();
+  //       console.log("=====H2 get Text=====");
+  //       console.log(header);
+  //       console.log(header1);
+  //       console.log("=====H2 get Text=====");
+  //       assert.equal(header, 'Dashboard');
+  //      // let header1 = $('#app > app > div > div > div > header > div > h2').getText();
+  //     // assert.equal(header, 'Dashboard');
+  //  });
    
 }); 
 

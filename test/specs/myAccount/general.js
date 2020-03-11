@@ -81,7 +81,7 @@ describe('My Account Module', () =>
   
   //$('#email').doubleClick();
       let Emails = $('#email');
-      browser.keys(['Tab', 'Tab', 'Delete']);
+      //browser.keys(['Tab', 'Tab', 'Delete']);
       //browser.keys(['Delete', 'Delete', 'Delete']);
       browser.pause(4000);
       Emails.clearValue();

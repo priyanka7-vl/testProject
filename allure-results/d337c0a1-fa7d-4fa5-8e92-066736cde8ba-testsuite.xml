@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583750202089' stop='1583750283742'>
+    <name>Notification Preference Module</name>
+    <title>Notification Preference Module</title>
+    <test-cases>
+        <test-case start='1583750212817' status='passed' stop='1583750217259'>
+            <name>User wants to reach notification Preference Page</name>
+            <title>User wants to reach notification Preference Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583750217259' status='passed' stop='1583750219296'>
+            <name>C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page</name>
+            <title>C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583750219297' status='passed' stop='1583750221323'>
+            <name>C3564 - Verify General Notifications are displayed on My Account>Notification Preferences page</name>
+            <title>C3564 - Verify General Notifications are displayed on My Account>Notification Preferences page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583750221323' status='passed' stop='1583750244935'>
+            <name>C3572 - Verify User is able to disable all/some channels of 'Contact Assigned' notification at a time</name>
+            <title>C3572 - Verify User is able to disable all/some channels of 'Contact Assigned' notification at a time</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583750244936' status='passed' stop='1583750262425'>
+            <name>C3573 - Verify User is able to enable all/some channels of 'Contact Assigned' notification at a time</name>
+            <title>C3573 - Verify User is able to enable all/some channels of 'Contact Assigned' notification at a time</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583750262426' status='failed' stop='1583750273609'>
+            <name>C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time</name>
+            <title>C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>'false' == 'true'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'false' == 'true'
+                    at Function.toggleOFF (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/basic.js:38:15)
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/notificationPref.js:94:15)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583750273610' status='passed' stop='1583750283741'>
+            <name>User want to scroll down and up the page</name>
+            <title>User want to scroll down and up the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

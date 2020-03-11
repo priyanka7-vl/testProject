@@ -1,3 +1,3 @@
 require('./login');
-require('./myAccount');
+//require('./myAccount');
 //require('./contact');
