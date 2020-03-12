@@ -1,0 +1,82 @@
+{
+  "uid" : "ba8a7262ec9d176d",
+  "name" : "As a User I want to change Theme option to Dark color",
+  "fullName" : "Interface Preference Module.As a User I want to change Theme option to Dark color",
+  "historyId" : "7049ae168aa6a4998887f1bd2a1eafdf",
+  "time" : {
+    "start" : 1583750335280,
+    "stop" : 1583750345587,
+    "duration" : 10307
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "'#17274d' == '#324061'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: '#17274d' == '#324061'\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/interfacePref.js:247:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a User I want to change Theme option to Dark color"
+  }, {
+    "name" : "package",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5a37dcccdf89b99e",
+      "status" : "failed",
+      "statusDetails" : "'#17274d' == '#324061'",
+      "time" : {
+        "start" : 1583748670070,
+        "stop" : 1583748680803,
+        "duration" : 10733
+      }
+    }, {
+      "uid" : "5a3ffc58c15c7eac",
+      "status" : "failed",
+      "statusDetails" : "'#17274d' == '#324061'",
+      "time" : {
+        "start" : 1577428836504,
+        "stop" : 1577428846960,
+        "duration" : 10456
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ba8a7262ec9d176d.json",
+  "parameterValues" : [ "chrome" ]
+}

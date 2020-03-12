@@ -1,5 +1,3493 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "168edb990d1138c7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583752283199,
+        "stop" : 1583752284227,
+        "duration" : 1028
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "d9cadda945e69f8f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1575878713780,
+        "stop" : 1575878713791,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User wants to change time format and verify it",
+      "uid" : "67a093d7bfcec1e4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583748411570,
+        "stop" : 1583748421668,
+        "duration" : 10098
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4941-Verify by default all options of Interface Preferences are disabled",
+      "uid" : "2fe03037b333dce3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750300494,
+        "stop" : 1583750306564,
+        "duration" : 6070
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C147 - Verify First Name field with more than 100 chars validation",
+      "uid" : "b417cfc9bf8ced72",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750059433,
+        "stop" : 1583750063289,
+        "duration" : 3856
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "18469ba24c61a3ec",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879812596,
+        "stop" : 1575879818015,
+        "duration" : 5419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C155-Verify wrong Re-type Password validation",
+      "uid" : "aebecb7dd0ca3d18",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583750132433,
+        "stop" : 1583750142452,
+        "duration" : 10019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "f059564f8822328c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1576512772120,
+        "stop" : 1576512772134,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "6a91d43346903102",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1576512772136,
+        "stop" : 1576512772136,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "91d3ab493ea7ec54",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501387392,
+        "stop" : 1576501404819,
+        "duration" : 17427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C144 - Verify General Settings page is available under My Account",
+      "uid" : "703e35974376cd2f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428484353,
+        "stop" : 1577428492543,
+        "duration" : 8190
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C156(A)-user wants to change password",
+      "uid" : "2f4573525c806d55",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583750142453,
+        "stop" : 1583750154475,
+        "duration" : 12022
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User wants to redirect to Google Sign In page",
+      "uid" : "e0edfd52e6581580",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428609002,
+        "stop" : 1577428647919,
+        "duration" : 38917
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "8fc460d2de391b5e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751142303,
+        "stop" : 1583751147560,
+        "duration" : 5257
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C156(B)-user wants to logout after change password",
+      "uid" : "f5fcbd6059f832e4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750154476,
+        "stop" : 1583750158665,
+        "duration" : 4189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "595dd9c7e8f9fd2c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575892524228,
+        "stop" : 1575892541693,
+        "duration" : 17465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "ea752991d6ee9e13",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575893137126,
+        "stop" : 1575893142519,
+        "duration" : 5393
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "4a74f9698c9dee8d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576512904886,
+        "stop" : 1576512908195,
+        "duration" : 3309
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User want to scroll down and up the page",
+      "uid" : "8c73e8bf27bb007",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428771530,
+        "stop" : 1577428781983,
+        "duration" : 10453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C160 - Verify Nick Name field with more than 100 chars validation",
+      "uid" : "16ed955e0fc80312",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427817351,
+        "stop" : 1577427828353,
+        "duration" : 11002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "c550ffce469f51cb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583758251135,
+        "stop" : 1583758276701,
+        "duration" : 25566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C149 - Verify Last Name field with more than 100 chars validation",
+      "uid" : "7db1ba31b46aea5f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750063289,
+        "stop" : 1583750069039,
+        "duration" : 5750
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "7874fde9c7de9ab9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427769945,
+        "stop" : 1577427787413,
+        "duration" : 17468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C150 - Verify Email validation",
+      "uid" : "6513798d80b4cfb0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428512953,
+        "stop" : 1577428520958,
+        "duration" : 8005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "35401d34f366939f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1583750928771,
+        "stop" : 1583750934023,
+        "duration" : 5252
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "e68e7eeb75bb9041",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879805965,
+        "stop" : 1575879809265,
+        "duration" : 3300
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "4f437b65d418ca2d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583757841878,
+        "stop" : 1583757853010,
+        "duration" : 11132
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "560fbafd4b5d8795",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751054534,
+        "stop" : 1583751057789,
+        "duration" : 3255
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C156(B)-user wants to logout after change password",
+      "uid" : "76f6a5af83d3914d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748486502,
+        "stop" : 1583748490681,
+        "duration" : 4179
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "d38973242c95ed0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583752279999,
+        "stop" : 1583752283199,
+        "duration" : 3200
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "ff99dbeeee943293",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501210993,
+        "stop" : 1576501214311,
+        "duration" : 3318
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4940- Verify Interface Preferences page is displayed under My Account",
+      "uid" : "cb46889f54b1d2b3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748627814,
+        "stop" : 1583748633936,
+        "duration" : 6122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "ce59ac87447ee046",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583758024774,
+        "stop" : 1583758049933,
+        "duration" : 25159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3573 - Verify User is able to enable all/some channels of 'Contact Assigned' notification at a time",
+      "uid" : "2d964a0348bdead8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750244936,
+        "stop" : 1583750262425,
+        "duration" : 17489
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4941-Verify by default all options of Interface Preferences are disabled",
+      "uid" : "733902bd64598edc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748633937,
+        "stop" : 1583748640009,
+        "duration" : 6072
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "6730aa865785db93",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576397823872,
+        "stop" : 1576397827182,
+        "duration" : 3310
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "bbdb9744fd639f5a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583749996963,
+        "stop" : 1583750000224,
+        "duration" : 3261
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C153-Verify mandatoy fields on Change Password tab",
+      "uid" : "e1ab3d0c9dcc5b86",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428557686,
+        "stop" : 1577428565802,
+        "duration" : 8116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "edc91200ccdaebea",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1574487606167,
+        "stop" : 1574487606174,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "1cb9863f53f08550",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1583750006683,
+        "stop" : 1583750011919,
+        "duration" : 5236
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "afae5fbaab4dfbd8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1574487606124,
+        "stop" : 1574487606144,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "41c1ba5925c0e7ad",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501468416,
+        "stop" : 1576501485890,
+        "duration" : 17474
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "ff8baeaca843c7f9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583753650974,
+        "stop" : 1583753663765,
+        "duration" : 12791
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C147 - Verify First Name field with more than 100 chars validation",
+      "uid" : "acf00bb1f8fb8e9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428505190,
+        "stop" : 1577428511898,
+        "duration" : 6708
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4941-Verify by default all options of Interface Preferences are disabled",
+      "uid" : "85df47c82c21153e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428799223,
+        "stop" : 1577428805321,
+        "duration" : 6098
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "af25644c8bba00e3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1575878576921,
+        "stop" : 1575878576924,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "8714619507956e39",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879797414,
+        "stop" : 1575879805964,
+        "duration" : 8550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "b6938904608c0d79",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574486972220,
+        "stop" : 1574486993938,
+        "duration" : 21718
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "7049619d31fba3fb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583753518152,
+        "stop" : 1583753523415,
+        "duration" : 5263
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C156(C)-user verify login after change password",
+      "uid" : "cc82bdda147b5a72",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428653314,
+        "stop" : 1577428665366,
+        "duration" : 12052
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "6db4a2a56529aeaa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1574487606178,
+        "stop" : 1574487606185,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "f7202d366b2599c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1583748335653,
+        "stop" : 1583748340940,
+        "duration" : 5287
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "b8a466249c09ce6c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501214311,
+        "stop" : 1576501217651,
+        "duration" : 3340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "1ef0efa92fe839ca",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750925522,
+        "stop" : 1583750928770,
+        "duration" : 3248
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "cb287d43db5627f4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751655703,
+        "stop" : 1583751673024,
+        "duration" : 17321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "9bfec9a265f4f10b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575892501439,
+        "stop" : 1575892512161,
+        "duration" : 10722
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "c685ed2ba04c7300",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1576397831475,
+        "stop" : 1576397832513,
+        "duration" : 1038
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "cf04ddd52603d6e7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428455172,
+        "stop" : 1577428472943,
+        "duration" : 17771
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "c5f6ba281e2951c0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576511299095,
+        "stop" : 1576511302378,
+        "duration" : 3283
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4561-Verify user is able to disable all/some preferences at a time",
+      "uid" : "cf34f3539b3b7b6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748648913,
+        "stop" : 1583748658745,
+        "duration" : 9832
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "1cd5138540527d39",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583754056002,
+        "stop" : 1583754063000,
+        "duration" : 6998
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "As a User I want to change Theme option to Light color",
+      "uid" : "2bae6b13c3cad280",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428823446,
+        "stop" : 1577428836504,
+        "duration" : 13058
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "e0af8765a2220b8f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583757359480,
+        "stop" : 1583757371066,
+        "duration" : 11586
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "8208c175a99664b5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428438779,
+        "stop" : 1577428442344,
+        "duration" : 3565
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C160 - Verify Nick Name field with more than 100 chars validation",
+      "uid" : "3109588f1190f9dc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750069609,
+        "stop" : 1583750079485,
+        "duration" : 9876
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C153-Verify mandatoy fields on Change Password tab",
+      "uid" : "a302217b6b74f53d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583750112389,
+        "stop" : 1583750122412,
+        "duration" : 10023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "As a User I want to change Theme option to Dark color",
+      "uid" : "ba8a7262ec9d176d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1583750335280,
+        "stop" : 1583750345587,
+        "duration" : 10307
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "e7e2f99aa87a997b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878713794,
+        "stop" : 1575878720336,
+        "duration" : 6542
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "9051bd7eee0e5d22",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574486993939,
+        "stop" : 1574486998803,
+        "duration" : 4864
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "d86c98415a482ba0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501456424,
+        "stop" : 1576501459713,
+        "duration" : 3289
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C154-Verify wrong Old Password validation",
+      "uid" : "6144a48348865202",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428565802,
+        "stop" : 1577428579552,
+        "duration" : 13750
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "6189cc89efb495f0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501361284,
+        "stop" : 1576501375384,
+        "duration" : 14100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "8bf37f22a2eb14bf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751135837,
+        "stop" : 1583751139058,
+        "duration" : 3221
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "6b269c74909765d5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751132571,
+        "stop" : 1583751135836,
+        "duration" : 3265
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page",
+      "uid" : "ac4c4318a72e0665",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750217259,
+        "stop" : 1583750219296,
+        "duration" : 2037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "f572b92829c77c94",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583752277692,
+        "stop" : 1583752279999,
+        "duration" : 2307
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4561-Verify user is able to disable all/some preferences at a time",
+      "uid" : "d550e60b1c38f3e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428814436,
+        "stop" : 1577428823445,
+        "duration" : 9009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "140af8b6acba2714",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748332398,
+        "stop" : 1583748335653,
+        "duration" : 3255
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "753020bd7406fadd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576512886845,
+        "stop" : 1576512901603,
+        "duration" : 14758
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "As a User I want to change Theme option to Dark color",
+      "uid" : "5a3ffc58c15c7eac",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1577428836504,
+        "stop" : 1577428846960,
+        "duration" : 10456
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User wants to reach notification Preference Page",
+      "uid" : "c3cf9158670ad0d1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748540065,
+        "stop" : 1583748544516,
+        "duration" : 4451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C147 - Verify First Name field with more than 100 chars validation",
+      "uid" : "daa64efe9d433964",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748389546,
+        "stop" : 1583748393533,
+        "duration" : 3987
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "9d9d1cd938dfea20",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501168896,
+        "stop" : 1576501174322,
+        "duration" : 5426
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "47002a3530bbcfe8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583753673785,
+        "stop" : 1583753684808,
+        "duration" : 11023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "be13d4423031dcec",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501447699,
+        "stop" : 1576501456424,
+        "duration" : 8725
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "77576f1e2cd8dc8e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1576512772137,
+        "stop" : 1576512772138,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "df24e4ea2a8d9aa9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583757918868,
+        "stop" : 1583757929902,
+        "duration" : 11034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User wants to logout after Google Sign In",
+      "uid" : "4a1b8fad9c8d50e8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583750170692,
+        "stop" : 1583750185742,
+        "duration" : 15050
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "a505bfa4de0a3ffb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750922303,
+        "stop" : 1583750925521,
+        "duration" : 3218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3572 - Verify User is able to disable all/some channels of 'Contact Assigned' notification at a time",
+      "uid" : "c851f413cc560cb6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428719438,
+        "stop" : 1577428737468,
+        "duration" : 18030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "f969ccfa34bfbc53",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574486998804,
+        "stop" : 1574487007352,
+        "duration" : 8548
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "81f4bc4a6aaa1d86",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583753509347,
+        "stop" : 1583753511657,
+        "duration" : 2310
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "360e2681fe8c82cd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878688579,
+        "stop" : 1575878709252,
+        "duration" : 20673
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "63123b2b02e4678a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583758160994,
+        "stop" : 1583758186490,
+        "duration" : 25496
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "ee11edda7b296732",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583752285247,
+        "stop" : 1583752286270,
+        "duration" : 1023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3572 - Verify User is able to disable all/some channels of 'Contact Assigned' notification at a time",
+      "uid" : "c4d39f8529537a45",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748548576,
+        "stop" : 1583748572165,
+        "duration" : 23589
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "d5ad9eb686150e5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1574487606153,
+        "stop" : 1574487606157,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C145 - Verify mandatory fields on General Settings page",
+      "uid" : "e320a339cdbf9fba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748377185,
+        "stop" : 1583748389546,
+        "duration" : 12361
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C155-Verify wrong Re-type Password validation",
+      "uid" : "5aba95d926e7ef39",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428579552,
+        "stop" : 1577428593101,
+        "duration" : 13549
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "2981ebaef83550ff",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1575890864846,
+        "stop" : 1575890865881,
+        "duration" : 1035
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C156(C)-user verify login after change password",
+      "uid" : "c65b499c0b7e6f7d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583750185742,
+        "stop" : 1583750197766,
+        "duration" : 12024
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time",
+      "uid" : "b96f3f9df93f31f5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1583750262426,
+        "stop" : 1583750273609,
+        "duration" : 11183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time",
+      "uid" : "7cb8a0e36d03d35a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428753499,
+        "stop" : 1577428771530,
+        "duration" : 18031
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "986bf546508771f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583755146602,
+        "stop" : 1583755173926,
+        "duration" : 27324
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "e3f3f84d8f39d31e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750919034,
+        "stop" : 1583750922303,
+        "duration" : 3269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "eee9d46e0e7f6092",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583752266367,
+        "stop" : 1583752277691,
+        "duration" : 11324
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "fc4efd32e40bacd3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1575878576925,
+        "stop" : 1575878576927,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C154-Verify wrong Old Password validation",
+      "uid" : "e35d979601854c7d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583750122413,
+        "stop" : 1583750132432,
+        "duration" : 10019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "7e38c268a79f3d72",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583754390351,
+        "stop" : 1583754393264,
+        "duration" : 2913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C149 - Verify Last Name field with more than 100 chars validation",
+      "uid" : "2439505164f9541e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748393533,
+        "stop" : 1583748399529,
+        "duration" : 5996
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C149 - Verify Last Name field with more than 100 chars validation",
+      "uid" : "4b1dc077215d3474",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428511899,
+        "stop" : 1577428512952,
+        "duration" : 1053
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C144 - Verify General Settings page is available under My Account",
+      "uid" : "faaa9ac08b5ba7aa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748368853,
+        "stop" : 1583748377184,
+        "duration" : 8331
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "f28dd79e5525a5a6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583913462067,
+        "stop" : 1583913487345,
+        "duration" : 25278
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User wants to logout after Google Sign In",
+      "uid" : "791846289b5aed38",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583748502710,
+        "stop" : 1583748517285,
+        "duration" : 14575
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "9490b17ea7b0c3ef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751640699,
+        "stop" : 1583751643964,
+        "duration" : 3265
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "2b348c680b613140",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878545704,
+        "stop" : 1575878573366,
+        "duration" : 27662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C156(A)-user wants to change password",
+      "uid" : "365e327b0c1a3f91",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583748474482,
+        "stop" : 1583748486501,
+        "duration" : 12019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "df22e23246668553",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1575878442684,
+        "stop" : 1575878442709,
+        "duration" : 25
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C156(C)-user wants to change password again",
+      "uid" : "976c74d5cbf5a90f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583750197767,
+        "stop" : 1583750202078,
+        "duration" : 4311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "84f30016ba294074",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1575878442636,
+        "stop" : 1575878442661,
+        "duration" : 25
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "5b297d0f731b34c7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751057790,
+        "stop" : 1583751061002,
+        "duration" : 3212
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User wants to change time format and verify it",
+      "uid" : "60fe24a08fc950b7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583750079486,
+        "stop" : 1583750089586,
+        "duration" : 10100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "b46b991aa24449a8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583752747772,
+        "stop" : 1583752751000,
+        "duration" : 3228
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "7300075655018ee1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575893117989,
+        "stop" : 1575893130498,
+        "duration" : 12509
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "4e4f56dc184dfdd1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583757883764,
+        "stop" : 1583757895241,
+        "duration" : 11477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "3fd02488512e5f88",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427746779,
+        "stop" : 1577427757859,
+        "duration" : 11080
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "f1365ffe2ba74770",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501151837,
+        "stop" : 1576501162200,
+        "duration" : 10363
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page",
+      "uid" : "fc6ee16ad6604b8b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748544517,
+        "stop" : 1583748546549,
+        "duration" : 2032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "58033ded63b96bad",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1576512772101,
+        "stop" : 1576512772118,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3573 - Verify User is able to enable all/some channels of 'Contact Assigned' notification at a time",
+      "uid" : "5cdde01b8411918c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748572166,
+        "stop" : 1583748589683,
+        "duration" : 17517
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "d6abb95568a9cea0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501459713,
+        "stop" : 1576501463043,
+        "duration" : 3330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C144 - Verify General Settings page is available under My Account",
+      "uid" : "dd9f5b09a6e9fcbd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427787431,
+        "stop" : 1577427795055,
+        "duration" : 7624
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "9411e07d4b2b5e8a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1575878442711,
+        "stop" : 1575878442785,
+        "duration" : 74
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "ba5b5e0fa8ad553b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583757978595,
+        "stop" : 1583757993654,
+        "duration" : 15059
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "7938ebeb467f4145",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427764534,
+        "stop" : 1577427769945,
+        "duration" : 5411
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "50d9895426cfc4e5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583754136285,
+        "stop" : 1583754143349,
+        "duration" : 7064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "f08c4410bf639956",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576511302379,
+        "stop" : 1576511305654,
+        "duration" : 3275
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "d88e09765863d112",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750011920,
+        "stop" : 1583750029229,
+        "duration" : 17309
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "b801ad30c217547",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575893130499,
+        "stop" : 1575893133801,
+        "duration" : 3302
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C160 - Verify Nick Name field with more than 100 chars validation",
+      "uid" : "54bca0daa64d86dd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428520958,
+        "stop" : 1577428531586,
+        "duration" : 10628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User wants to logout after Google Sign In",
+      "uid" : "dfa1fd992c4b5100",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428647920,
+        "stop" : 1577428653313,
+        "duration" : 5393
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C145 - Verify mandatory fields on General Settings page",
+      "uid" : "7d0e5e6120b442a6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427795056,
+        "stop" : 1577427807709,
+        "duration" : 12653
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "b4d5562862a13b38",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751069517,
+        "stop" : 1583751086843,
+        "duration" : 17326
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C150 - Verify Email validation",
+      "uid" : "31dc27d89d3674ed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583750069040,
+        "stop" : 1583750069609,
+        "duration" : 569
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4560-Verify user is able to enable all/some preferences at a time",
+      "uid" : "a40ab8fb82001b1a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748640010,
+        "stop" : 1583748648913,
+        "duration" : 8903
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "28061e9394d7a116",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576512908196,
+        "stop" : 1576512913565,
+        "duration" : 5369
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C153-Verify mandatoy fields on Change Password tab",
+      "uid" : "7d6b2d9055a6a054",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583748444426,
+        "stop" : 1583748454443,
+        "duration" : 10017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "638f875b4b3934c5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583753684809,
+        "stop" : 1583753695827,
+        "duration" : 11018
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "5f63bf9f2207ddcf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574487007352,
+        "stop" : 1574487017924,
+        "duration" : 10572
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C156(C)-user wants to change password again",
+      "uid" : "de89c410a7fac414",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583748529312,
+        "stop" : 1583748529434,
+        "duration" : 122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "f992d50f83d97a9c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576512913566,
+        "stop" : 1576512931059,
+        "duration" : 17493
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C154-Verify wrong Old Password validation",
+      "uid" : "33f0dbe43922ca37",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583748454443,
+        "stop" : 1583748464462,
+        "duration" : 10019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4940- Verify Interface Preferences page is displayed under My Account",
+      "uid" : "569ef2db5c6e3675",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428793077,
+        "stop" : 1577428799222,
+        "duration" : 6145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "29d62ddc0a82d1f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879734131,
+        "stop" : 1575879739613,
+        "duration" : 5482
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "4f3e6bb0fa0bd2c7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428445914,
+        "stop" : 1577428449490,
+        "duration" : 3576
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "bc1e08e9efe6fad5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501381989,
+        "stop" : 1576501387391,
+        "duration" : 5402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C156(C)-user wants to change password again",
+      "uid" : "e9b3f6cb7e2f6a7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428665367,
+        "stop" : 1577428675409,
+        "duration" : 10042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "e1cc695f1326fc71",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1576397827183,
+        "stop" : 1576397830434,
+        "duration" : 3251
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User wants to redirect to Google Sign In page",
+      "uid" : "c06636066a028e97",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583748490681,
+        "stop" : 1583748502709,
+        "duration" : 12028
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "646b661ffb3f292a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501217652,
+        "stop" : 1576501223093,
+        "duration" : 5441
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "fdd65c2d3a122eb0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583753695828,
+        "stop" : 1583753706849,
+        "duration" : 11021
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "1c1427662a656c0d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751061003,
+        "stop" : 1583751064240,
+        "duration" : 3237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "bff6e78dd6922bbf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583753514914,
+        "stop" : 1583753518152,
+        "duration" : 3238
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "d996f7e5ef8eb563",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576511288965,
+        "stop" : 1576511299094,
+        "duration" : 10129
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "f9fc51c77a286d95",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501223093,
+        "stop" : 1576501240617,
+        "duration" : 17524
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C147 - Verify First Name field with more than 100 chars validation",
+      "uid" : "4d467035d4a6dcf6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577427807710,
+        "stop" : 1577427809159,
+        "duration" : 1449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "d5c9699ae1c7ce4d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1575890851577,
+        "stop" : 1575890862742,
+        "duration" : 11165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4874-Verify Change Password page is available under My Account",
+      "uid" : "78838f05da7aeb55",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583750100325,
+        "stop" : 1583750112389,
+        "duration" : 12064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C150 - Verify Email validation",
+      "uid" : "6393562862e53ad4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577427816391,
+        "stop" : 1577427817350,
+        "duration" : 959
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "793eaed736262525",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583753663765,
+        "stop" : 1583753673785,
+        "duration" : 10020
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "4aef7e041ebb685a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879809265,
+        "stop" : 1575879812596,
+        "duration" : 3331
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "163aa8f49795618d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427757860,
+        "stop" : 1577427761190,
+        "duration" : 3330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "ee52ee3e1eae83e2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878437741,
+        "stop" : 1575878442634,
+        "duration" : 4893
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "efd125e33a636339",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583755212845,
+        "stop" : 1583755224030,
+        "duration" : 11185
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "272ab79832283d6e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583752754145,
+        "stop" : 1583752755164,
+        "duration" : 1019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4940- Verify Interface Preferences page is displayed under My Account",
+      "uid" : "2d2110d810d2c0fe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750294373,
+        "stop" : 1583750300493,
+        "duration" : 6120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "As a User I want to change Theme option to Light color",
+      "uid" : "f212091c85605401",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1583750324310,
+        "stop" : 1583750335280,
+        "duration" : 10970
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "86b9e7369efc364a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583753523415,
+        "stop" : 1583753540726,
+        "duration" : 17311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "8542065450360857",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1575878720337,
+        "stop" : 1575878759571,
+        "duration" : 39234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C145 - Verify mandatory fields on General Settings page",
+      "uid" : "265fe1cd9103a1e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750047102,
+        "stop" : 1583750059433,
+        "duration" : 12331
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C149 - Verify Last Name field with more than 100 chars validation",
+      "uid" : "ca857f5caa8ff2ff",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427809160,
+        "stop" : 1577427816390,
+        "duration" : 7230
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C160 - Verify Nick Name field with more than 100 chars validation",
+      "uid" : "9c45d31481e3cbdf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748401301,
+        "stop" : 1583748411569,
+        "duration" : 10268
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3573 - Verify User is able to enable all/some channels of 'Contact Assigned' notification at a time",
+      "uid" : "89b8e3afa3ddc085",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428737468,
+        "stop" : 1577428753498,
+        "duration" : 16030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4560-Verify user is able to enable all/some preferences at a time",
+      "uid" : "a33d6afb881b9fcc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428805321,
+        "stop" : 1577428814435,
+        "duration" : 9114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3572 - Verify User is able to disable all/some channels of 'Contact Assigned' notification at a time",
+      "uid" : "39e940104d150299",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750221323,
+        "stop" : 1583750244935,
+        "duration" : 23612
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "b81fc782bdad2633",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1583751064241,
+        "stop" : 1583751069517,
+        "duration" : 5276
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C156(B)-user wants to logout after change password",
+      "uid" : "79a3c99cbd622b21",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428602570,
+        "stop" : 1577428609002,
+        "duration" : 6432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "346d942ae6bbdec4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879718936,
+        "stop" : 1575879727370,
+        "duration" : 8434
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C155-Verify wrong Re-type Password validation",
+      "uid" : "9dad8ed0bd94b806",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583748464462,
+        "stop" : 1583748474482,
+        "duration" : 10020
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "c98b2494c3fee5e6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501174322,
+        "stop" : 1576501191834,
+        "duration" : 17512
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "cddb205faf55723e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583752751000,
+        "stop" : 1583752754144,
+        "duration" : 3144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4561-Verify user is able to disable all/some preferences at a time",
+      "uid" : "74fb6a1bdad252d3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750315485,
+        "stop" : 1583750324309,
+        "duration" : 8824
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User want to scroll down and up the page",
+      "uid" : "81ae0b7d83d229db",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748607058,
+        "stop" : 1583748617185,
+        "duration" : 10127
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "a7f62d3bd1155ff5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501375385,
+        "stop" : 1576501378676,
+        "duration" : 3291
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "776d9fe7f873fd11",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751139058,
+        "stop" : 1583751142302,
+        "duration" : 3244
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "8e384f4fa747e23f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501165548,
+        "stop" : 1576501168895,
+        "duration" : 3347
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4874-Verify Change Password page is available under My Account",
+      "uid" : "3bde4e0ecf8aaae0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1577428552249,
+        "stop" : 1577428557685,
+        "duration" : 5436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C145 - Verify mandatory fields on General Settings page",
+      "uid" : "c8892a022ec7831d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428492544,
+        "stop" : 1577428505189,
+        "duration" : 12645
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "c951b3291b7b05d6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428449491,
+        "stop" : 1577428455171,
+        "duration" : 5680
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "5e4e85edf164826a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501378676,
+        "stop" : 1576501381988,
+        "duration" : 3312
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "e68890eb65ce284",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575892518818,
+        "stop" : 1575892524227,
+        "duration" : 5409
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4560-Verify user is able to enable all/some preferences at a time",
+      "uid" : "961597027b16e418",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750306565,
+        "stop" : 1583750315484,
+        "duration" : 8919
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "9730b5bb184086f3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575893133802,
+        "stop" : 1575893137125,
+        "duration" : 3323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "aa0d22903bd548ad",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501463044,
+        "stop" : 1576501468415,
+        "duration" : 5371
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "9b24d3d3b742dc57",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1576512772134,
+        "stop" : 1576512772135,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "f5a5ce2e0a719c34",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1574487606159,
+        "stop" : 1574487606164,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "75ed38f1a5f88cac",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751647185,
+        "stop" : 1583751650432,
+        "duration" : 3247
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User wants to reach notification Preference Page",
+      "uid" : "88c0040ebd08421e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428687294,
+        "stop" : 1577428699334,
+        "duration" : 12040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "a35f4d916be74045",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583754453011,
+        "stop" : 1583754460173,
+        "duration" : 7162
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "As a User I want to change Theme option to Dark color",
+      "uid" : "5a37dcccdf89b99e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1583748670070,
+        "stop" : 1583748680803,
+        "duration" : 10733
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "9d2fe261bc6e3d08",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583753508089,
+        "stop" : 1583753509346,
+        "duration" : 1257
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "27c7590cc909a405",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1576511310982,
+        "stop" : 1576511332556,
+        "duration" : 21574
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "e785b3df6aa75e32",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576512901604,
+        "stop" : 1576512904885,
+        "duration" : 3281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C156(A)-user wants to change password",
+      "uid" : "7adb58c70b2e9706",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428593102,
+        "stop" : 1577428602569,
+        "duration" : 9467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User wants to change time format and verify it",
+      "uid" : "9c9c891fa6bf8f3f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428531586,
+        "stop" : 1577428541724,
+        "duration" : 10138
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "24ae610e5e4b4352",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1576397830436,
+        "stop" : 1576397831475,
+        "duration" : 1039
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "7972bdd8fb6fe8f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576397794598,
+        "stop" : 1576397823871,
+        "duration" : 29273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "3cd786d7e913a242",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576511305655,
+        "stop" : 1576511310982,
+        "duration" : 5327
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "ab91a079b18a3013",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583752284227,
+        "stop" : 1583752285247,
+        "duration" : 1020
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "d12a2a9499f26b26",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878382691,
+        "stop" : 1575878437738,
+        "duration" : 55047
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User want to scroll down and up the page",
+      "uid" : "709fa83b90ca186c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750273610,
+        "stop" : 1583750283741,
+        "duration" : 10131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "dc2b235d8de2c113",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751147561,
+        "stop" : 1583751164869,
+        "duration" : 17308
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "5f42c33cd4cf4893",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748340940,
+        "stop" : 1583748358260,
+        "duration" : 17320
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "As a User I want to change Theme option to Light color",
+      "uid" : "1a5bb23dfb091433",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1583748658746,
+        "stop" : 1583748670069,
+        "duration" : 11323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "ecaba3d426495a74",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748329171,
+        "stop" : 1583748332398,
+        "duration" : 3227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C144 - Verify General Settings page is available under My Account",
+      "uid" : "f7504c9d75f95c1f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750039813,
+        "stop" : 1583750047101,
+        "duration" : 7288
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "3074c5efd3ccf8b7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1574487017924,
+        "stop" : 1574487051119,
+        "duration" : 33195
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "4628a9f1141a8240",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583752741220,
+        "stop" : 1583752744509,
+        "duration" : 3289
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "873a5d41adabd3b5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878573367,
+        "stop" : 1575878576910,
+        "duration" : 3543
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C150 - Verify Email validation",
+      "uid" : "4e6a82907b43f97f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583748399529,
+        "stop" : 1583748401300,
+        "duration" : 1771
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page",
+      "uid" : "b5002f9219226be6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428699335,
+        "stop" : 1577428709399,
+        "duration" : 10064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "c56ec603ece67381",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1575878576911,
+        "stop" : 1575878576918,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "f774afd37f06929b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751650432,
+        "stop" : 1583751655703,
+        "duration" : 5271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User wants to change time format and verify it",
+      "uid" : "f998007128db3580",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577427828354,
+        "stop" : 1577427838508,
+        "duration" : 10154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "2421c3ad62837ead",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879818015,
+        "stop" : 1575879835427,
+        "duration" : 17412
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "dac92fd2337a5b78",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1575890862744,
+        "stop" : 1575890863792,
+        "duration" : 1048
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "dfb1ccc38777ea6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748325915,
+        "stop" : 1583748329170,
+        "duration" : 3255
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "f0dcf73d534eb86b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583752744509,
+        "stop" : 1583752747772,
+        "duration" : 3263
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "12361ad490c9a1d4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575892515463,
+        "stop" : 1575892518816,
+        "duration" : 3353
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "77da73919b993c0b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879727371,
+        "stop" : 1575879730779,
+        "duration" : 3408
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "dfea05bed58e3637",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427761190,
+        "stop" : 1577427764533,
+        "duration" : 3343
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "cae59fa851a1e2ec",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583753511657,
+        "stop" : 1583753514914,
+        "duration" : 3257
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "866b48cbfc904ca0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878709254,
+        "stop" : 1575878713778,
+        "duration" : 4524
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3564 - Verify General Notifications are displayed on My Account>Notification Preferences page",
+      "uid" : "d6d5a1463c6832aa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750219297,
+        "stop" : 1583750221323,
+        "duration" : 2026
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C156(C)-user verify login after change password",
+      "uid" : "16e36b30637fe02",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583748517285,
+        "stop" : 1583748529311,
+        "duration" : 12026
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "19c1540ca8b7aad7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583754938919,
+        "stop" : 1583754966113,
+        "duration" : 27194
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "749e3f2adb3e1474",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575892512161,
+        "stop" : 1575892515463,
+        "duration" : 3302
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "498c74cdc4e31bb8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501201993,
+        "stop" : 1576501210993,
+        "duration" : 9000
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "c148852769572f6f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750934023,
+        "stop" : 1583750951324,
+        "duration" : 17301
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "cf6df29b31fa1ef8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1575890865881,
+        "stop" : 1575890866917,
+        "duration" : 1036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "93a56457d05327c5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879730780,
+        "stop" : 1575879734131,
+        "duration" : 3351
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "3d5a758780c646a2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1575890863792,
+        "stop" : 1575890864845,
+        "duration" : 1053
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "af74902755442adf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879739613,
+        "stop" : 1575879757012,
+        "duration" : 17399
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "801cae84efe6cd2c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575893142519,
+        "stop" : 1575893159979,
+        "duration" : 17460
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "fc0393ed7f2aba55",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750003440,
+        "stop" : 1583750006683,
+        "duration" : 3243
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should open with google sign-in",
+      "uid" : "2185a0b6dd4bf71f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583752739943,
+        "stop" : 1583752741219,
+        "duration" : 1276
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "bc24d38a2a7a3f4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501162202,
+        "stop" : 1576501165547,
+        "duration" : 3345
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "a0b4c7147903022d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751643965,
+        "stop" : 1583751647185,
+        "duration" : 3220
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User wants to redirect to Google Sign In page",
+      "uid" : "d3310d82134429e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583750158665,
+        "stop" : 1583750170691,
+        "duration" : 12026
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "7fe2199ee916be9c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583753706849,
+        "stop" : 1583753717872,
+        "duration" : 11023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "\"before all\" hook",
+      "uid" : "99615b25d4dd4fe7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428363990,
+        "stop" : 1577428363992,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3564 - Verify General Notifications are displayed on My Account>Notification Preferences page",
+      "uid" : "5c57873507202d02",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748546549,
+        "stop" : 1583748548575,
+        "duration" : 2026
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3564 - Verify General Notifications are displayed on My Account>Notification Preferences page",
+      "uid" : "90c640f192b307d5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577428709400,
+        "stop" : 1577428719437,
+        "duration" : 10037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "7e244929d36ef6ea",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750000225,
+        "stop" : 1583750003439,
+        "duration" : 3214
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User wants to reach notification Preference Page",
+      "uid" : "41e2ca0baa3e973d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750212817,
+        "stop" : 1583750217259,
+        "duration" : 4442
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "c6d9c1e02d1f5b09",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428442346,
+        "stop" : 1577428445913,
+        "duration" : 3567
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C4874-Verify Change Password page is available under My Account",
+      "uid" : "77c0c583916bb47b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583748432365,
+        "stop" : 1583748444426,
+        "duration" : 12061
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time",
+      "uid" : "160ae5a88c7e233c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1583748589684,
+        "stop" : 1583748607057,
+        "duration" : 17373
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ]
 }

@@ -1,0 +1,58 @@
+{
+  "uid" : "2185a0b6dd4bf71f",
+  "name" : "should open with google sign-in",
+  "fullName" : "Login Module.should open with google sign-in",
+  "historyId" : "7fbb51e35e76b4c98e6e85194b44d523",
+  "time" : {
+    "start" : 1583752739943,
+    "stop" : 1583752741219,
+    "duration" : 1276
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Unsupported parameter for switchWindow, required is \"string\" or an RegExp",
+  "statusTrace" : "Error: Unsupported parameter for switchWindow, required is \"string\" or an RegExp\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/login/login.js:31:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open with google sign-in"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2185a0b6dd4bf71f.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,307 @@
+{
+  "uid" : "7fe2199ee916be9c",
+  "name" : "should  allow to login with valid input and verify home screen banner",
+  "fullName" : "Login Module.should  allow to login with valid input and verify home screen banner",
+  "historyId" : "a0613799ed5f2e48bbbd6e947d494e03",
+  "time" : {
+    "start" : 1583753706849,
+    "stop" : 1583753717872,
+    "duration" : 11023
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call addValue on element with selector \"#email\" because element wasn't found",
+  "statusTrace" : "Error: Can't call addValue on element with selector \"#email\" because element wasn't found\n                    at Function.Login (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/basic.js:19:14)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/login/login.js:68:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should  allow to login with valid input and verify home screen banner"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "86b9e7369efc364a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583753523415,
+        "stop" : 1583753540726,
+        "duration" : 17311
+      }
+    }, {
+      "uid" : "272ab79832283d6e",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=79.0.3945.130)",
+      "time" : {
+        "start" : 1583752754145,
+        "stop" : 1583752755164,
+        "duration" : 1019
+      }
+    }, {
+      "uid" : "ee11edda7b296732",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=79.0.3945.130)",
+      "time" : {
+        "start" : 1583752285247,
+        "stop" : 1583752286270,
+        "duration" : 1023
+      }
+    }, {
+      "uid" : "cb287d43db5627f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751655703,
+        "stop" : 1583751673024,
+        "duration" : 17321
+      }
+    }, {
+      "uid" : "dc2b235d8de2c113",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751147561,
+        "stop" : 1583751164869,
+        "duration" : 17308
+      }
+    }, {
+      "uid" : "b4d5562862a13b38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751069517,
+        "stop" : 1583751086843,
+        "duration" : 17326
+      }
+    }, {
+      "uid" : "c148852769572f6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750934023,
+        "stop" : 1583750951324,
+        "duration" : 17301
+      }
+    }, {
+      "uid" : "d88e09765863d112",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750011920,
+        "stop" : 1583750029229,
+        "duration" : 17309
+      }
+    }, {
+      "uid" : "5f42c33cd4cf4893",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748340940,
+        "stop" : 1583748358260,
+        "duration" : 17320
+      }
+    }, {
+      "uid" : "cf04ddd52603d6e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428455172,
+        "stop" : 1577428472943,
+        "duration" : 17771
+      }
+    }, {
+      "uid" : "7874fde9c7de9ab9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427769945,
+        "stop" : 1577427787413,
+        "duration" : 17468
+      }
+    }, {
+      "uid" : "f992d50f83d97a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576512913566,
+        "stop" : 1576512931059,
+        "duration" : 17493
+      }
+    }, {
+      "uid" : "77576f1e2cd8dc8e",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1576512772137,
+        "stop" : 1576512772138,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "27c7590cc909a405",
+      "status" : "failed",
+      "statusDetails" : "'' == 'Dashboard'",
+      "time" : {
+        "start" : 1576511310982,
+        "stop" : 1576511332556,
+        "duration" : 21574
+      }
+    }, {
+      "uid" : "41c1ba5925c0e7ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501468416,
+        "stop" : 1576501485890,
+        "duration" : 17474
+      }
+    }, {
+      "uid" : "91d3ab493ea7ec54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501387392,
+        "stop" : 1576501404819,
+        "duration" : 17427
+      }
+    }, {
+      "uid" : "f9fc51c77a286d95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501223093,
+        "stop" : 1576501240617,
+        "duration" : 17524
+      }
+    }, {
+      "uid" : "c98b2494c3fee5e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501174322,
+        "stop" : 1576501191834,
+        "duration" : 17512
+      }
+    }, {
+      "uid" : "c685ed2ba04c7300",
+      "status" : "broken",
+      "statusDetails" : "no such window: window was already closed\n                  (Session info: chrome=78.0.3904.108)",
+      "time" : {
+        "start" : 1576397831475,
+        "stop" : 1576397832513,
+        "duration" : 1038
+      }
+    }, {
+      "uid" : "801cae84efe6cd2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575893142519,
+        "stop" : 1575893159979,
+        "duration" : 17460
+      }
+    }, {
+      "uid" : "595dd9c7e8f9fd2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575892524228,
+        "stop" : 1575892541693,
+        "duration" : 17465
+      }
+    }, {
+      "uid" : "cf6df29b31fa1ef8",
+      "status" : "broken",
+      "statusDetails" : "no such window: window was already closed\n                  (Session info: chrome=78.0.3904.108)",
+      "time" : {
+        "start" : 1575890865881,
+        "stop" : 1575890866917,
+        "duration" : 1036
+      }
+    }, {
+      "uid" : "2421c3ad62837ead",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879818015,
+        "stop" : 1575879835427,
+        "duration" : 17412
+      }
+    }, {
+      "uid" : "af74902755442adf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879739613,
+        "stop" : 1575879757012,
+        "duration" : 17399
+      }
+    }, {
+      "uid" : "8542065450360857",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"h2=Dashboard\" because element wasn't found",
+      "time" : {
+        "start" : 1575878720337,
+        "stop" : 1575878759571,
+        "duration" : 39234
+      }
+    }, {
+      "uid" : "fc4efd32e40bacd3",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1575878576925,
+        "stop" : 1575878576927,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "9411e07d4b2b5e8a",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1575878442711,
+        "stop" : 1575878442785,
+        "duration" : 74
+      }
+    }, {
+      "uid" : "6db4a2a56529aeaa",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1574487606178,
+        "stop" : 1574487606185,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "3074c5efd3ccf8b7",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"h2=Dashboard\" because element wasn't found",
+      "time" : {
+        "start" : 1574487017924,
+        "stop" : 1574487051119,
+        "duration" : 33195
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7fe2199ee916be9c.json",
+  "parameterValues" : [ "chrome" ]
+}

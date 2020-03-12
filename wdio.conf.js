@@ -49,19 +49,13 @@ exports.config = {
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
     capabilities: [{
+    
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
         maxInstances: 5,
         //
         browserName: 'chrome',
-                            'goog:chromeOptions': {
-                               // args: ['--headless', '--disable-gpu', '--window-size=1280,800'],
-                                prefs: {
-                                   // 'profile.managed_default_content_settings.popups' : 1,
-                                   'profile.managed_default_content_settings.notifications' : 1,
-                                }
-                            }
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
@@ -78,7 +72,7 @@ exports.config = {
     //
     // Set specific log levels per logger
     // loggers:
-    //  webdriver, webdriverio
+    // - webdriver, webdriverio
     // - @wdio/applitools-service, @wdio/browserstack-service, @wdio/devtools-service, @wdio/sauce-service
     // - @wdio/mocha-framework, @wdio/jasmine-framework
     // - @wdio/local-runner, @wdio/lambda-runner
@@ -104,7 +98,7 @@ exports.config = {
     waitforTimeout: 10000,
     //
     // Default timeout in milliseconds for request
-    // if Selenium Grid doesn't send response
+    // if browser driver or grid doesn't send response
     connectionRetryTimeout: 90000,
     //
     // Default request retries count
@@ -130,13 +124,15 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: [['allure', {
-        outputDir: 'allure-results',
-        disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: true,
-        useCucumberStepReporter: false
-    }]],
-    
+    reporters: ['spec','allure'],
+    reporterOptions: {
+        allure: {
+            outputDir: 'allure-results1',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: true,
+            useCucumberStepReporter: false
+        }
+    }, 
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
@@ -167,7 +163,6 @@ exports.config = {
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
     // beforeSession: function (config, capabilities, specs) {
-        
     // },
     /**
      * Gets executed before test execution begins. At this point you can access to all global
@@ -182,9 +177,8 @@ exports.config = {
      * @param {String} commandName hook command name
      * @param {Array} args arguments that command would receive
      */
-    //   beforeCommand: function (commandName, args) {
-       
-    //  },
+    // beforeCommand: function (commandName, args) {
+    // },
     /**
      * Hook that gets executed before the suite starts
      * @param {Object} suite suite details
@@ -192,29 +186,29 @@ exports.config = {
     // beforeSuite: function (suite) {
     // },
     /**
-     * Function to be executed before a test (in Mocha/Jasmine) or a step (in Cucumber) starts.
-     * @param {Object} test test details
+     * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
-    // beforeTest: function (test) {
+    // beforeTest: function (test, context) {
     // },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)
      */
-    // beforeHook: function () {
+    // beforeHook: function (test, context) {
     // },
     /**
      * Hook that gets executed _after_ a hook within the suite starts (e.g. runs after calling
      * afterEach in Mocha)
      */
-    // afterHook: function () {
+    // afterHook: function (test, context, { error, result, duration, passed, retries }) {
     // },
     /**
-     * Function to be executed after a test (in Mocha/Jasmine) or a step (in Cucumber) starts.
-     * @param {Object} test test details
+     * Function to be executed after a test (in Mocha/Jasmine).
      */
-    // afterTest: function (test) {
+    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
     // },
+
+
     /**
      * Hook that gets executed after the suite has ended
      * @param {Object} suite suite details

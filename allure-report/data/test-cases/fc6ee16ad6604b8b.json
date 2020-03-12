@@ -1,0 +1,56 @@
+{
+  "uid" : "fc6ee16ad6604b8b",
+  "name" : "C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page",
+  "fullName" : "Notification Preference Module.C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page",
+  "historyId" : "302722f88f46d865978ad327252c7e21",
+  "time" : {
+    "start" : 1583748544517,
+    "stop" : 1583748546549,
+    "duration" : 2032
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page"
+  }, {
+    "name" : "package",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc6ee16ad6604b8b.json",
+  "parameterValues" : [ "chrome" ]
+}

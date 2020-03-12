@@ -1,0 +1,82 @@
+{
+  "uid" : "b96f3f9df93f31f5",
+  "name" : "C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time",
+  "fullName" : "Notification Preference Module.C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time",
+  "historyId" : "31cfc25a23d2edbb661a18e941f03e1d",
+  "time" : {
+    "start" : 1583750262426,
+    "stop" : 1583750273609,
+    "duration" : 11183
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "'false' == 'true'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: 'false' == 'true'\n                    at Function.toggleOFF (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/basic.js:38:15)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/notificationPref.js:94:15)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time"
+  }, {
+    "name" : "package",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "160ae5a88c7e233c",
+      "status" : "failed",
+      "statusDetails" : "'false' == 'true'",
+      "time" : {
+        "start" : 1583748589684,
+        "stop" : 1583748607057,
+        "duration" : 17373
+      }
+    }, {
+      "uid" : "7cb8a0e36d03d35a",
+      "status" : "broken",
+      "statusDetails" : "Can't call $ on element with selector \"#assignCompanyEmail\" because element wasn't found",
+      "time" : {
+        "start" : 1577428753499,
+        "stop" : 1577428771530,
+        "duration" : 18031
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b96f3f9df93f31f5.json",
+  "parameterValues" : [ "chrome" ]
+}

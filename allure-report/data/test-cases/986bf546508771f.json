@@ -1,0 +1,56 @@
+{
+  "uid" : "986bf546508771f",
+  "name" : "should open with google sign-in",
+  "fullName" : "Login Module.should open with google sign-in",
+  "historyId" : "7fbb51e35e76b4c98e6e85194b44d523",
+  "time" : {
+    "start" : 1583755146602,
+    "stop" : 1583755173926,
+    "duration" : 27324
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open with google sign-in"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "986bf546508771f.json",
+  "parameterValues" : [ "chrome" ]
+}

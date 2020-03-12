@@ -1,0 +1,58 @@
+{
+  "uid" : "33f0dbe43922ca37",
+  "name" : "C154-Verify wrong Old Password validation",
+  "fullName" : "Change Password Module.C154-Verify wrong Old Password validation",
+  "historyId" : "bbc8431d1bff7a991b615453ab6fafec",
+  "time" : {
+    "start" : 1583748454443,
+    "stop" : 1583748464462,
+    "duration" : 10019
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call addValue on element with selector \"#oldPassword\" because element wasn't found",
+  "statusTrace" : "Error: Can't call addValue on element with selector \"#oldPassword\" because element wasn't found\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:50:15)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C154-Verify wrong Old Password validation"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33f0dbe43922ca37.json",
+  "parameterValues" : [ "chrome" ]
+}

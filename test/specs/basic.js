@@ -1,21 +1,10 @@
  const assert = require('assert');
-
-// describe('webdriver.io page', () => {
-//     it('should have the right title', () => {
-//         browser.url('https://webdriver.io');
-//         const title = browser.getTitle();
-//         assert.strictEqual(title, 'WebdriverIO · Next-gen WebDriver test framework for Node.js');
-//     });
-// });
-
-
 module.exports = class basic {
 
     static Login(email,password)
     {
         browser.pause(1000);
         let mail1 = $('#email');
-       //mail1.addValue(email);
        mail1.addValue(email);
        browser.pause(1000);
        let pwd = $('#password');

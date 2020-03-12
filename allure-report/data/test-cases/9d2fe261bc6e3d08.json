@@ -1,0 +1,58 @@
+{
+  "uid" : "9d2fe261bc6e3d08",
+  "name" : "should open with google sign-in",
+  "fullName" : "Login Module.should open with google sign-in",
+  "historyId" : "7fbb51e35e76b4c98e6e85194b44d523",
+  "time" : {
+    "start" : 1583753508089,
+    "stop" : 1583753509346,
+    "duration" : 1257
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+  "statusTrace" : "Error: Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                    at Browser.protocolCommand (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/command.js:51:15)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/login/login.js:33:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open with google sign-in"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9d2fe261bc6e3d08.json",
+  "parameterValues" : [ "chrome" ]
+}

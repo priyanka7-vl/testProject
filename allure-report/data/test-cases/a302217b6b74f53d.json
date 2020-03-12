@@ -1,0 +1,82 @@
+{
+  "uid" : "a302217b6b74f53d",
+  "name" : "C153-Verify mandatoy fields on Change Password tab",
+  "fullName" : "Change Password Module.C153-Verify mandatoy fields on Change Password tab",
+  "historyId" : "494f75d3792d65d520176ccb082af69e",
+  "time" : {
+    "start" : 1583750112389,
+    "stop" : 1583750122412,
+    "duration" : 10023
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call doubleClick on element with selector \"#oldPassword\" because element wasn't found",
+  "statusTrace" : "Error: Can't call doubleClick on element with selector \"#oldPassword\" because element wasn't found\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:26:28)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C153-Verify mandatoy fields on Change Password tab"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7d6b2d9055a6a054",
+      "status" : "broken",
+      "statusDetails" : "Can't call doubleClick on element with selector \"#oldPassword\" because element wasn't found",
+      "time" : {
+        "start" : 1583748444426,
+        "stop" : 1583748454443,
+        "duration" : 10017
+      }
+    }, {
+      "uid" : "e1ab3d0c9dcc5b86",
+      "status" : "broken",
+      "statusDetails" : "invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.88)",
+      "time" : {
+        "start" : 1577428557686,
+        "stop" : 1577428565802,
+        "duration" : 8116
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a302217b6b74f53d.json",
+  "parameterValues" : [ "chrome" ]
+}

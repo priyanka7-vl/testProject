@@ -1,0 +1,82 @@
+{
+  "uid" : "e35d979601854c7d",
+  "name" : "C154-Verify wrong Old Password validation",
+  "fullName" : "Change Password Module.C154-Verify wrong Old Password validation",
+  "historyId" : "bbc8431d1bff7a991b615453ab6fafec",
+  "time" : {
+    "start" : 1583750122413,
+    "stop" : 1583750132432,
+    "duration" : 10019
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call addValue on element with selector \"#oldPassword\" because element wasn't found",
+  "statusTrace" : "Error: Can't call addValue on element with selector \"#oldPassword\" because element wasn't found\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:50:15)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C154-Verify wrong Old Password validation"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "33f0dbe43922ca37",
+      "status" : "broken",
+      "statusDetails" : "Can't call addValue on element with selector \"#oldPassword\" because element wasn't found",
+      "time" : {
+        "start" : 1583748454443,
+        "stop" : 1583748464462,
+        "duration" : 10019
+      }
+    }, {
+      "uid" : "6144a48348865202",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"[class=\"noty_text\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1577428565802,
+        "stop" : 1577428579552,
+        "duration" : 13750
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e35d979601854c7d.json",
+  "parameterValues" : [ "chrome" ]
+}

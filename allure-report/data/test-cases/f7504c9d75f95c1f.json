@@ -1,0 +1,82 @@
+{
+  "uid" : "f7504c9d75f95c1f",
+  "name" : "C144 - Verify General Settings page is available under My Account",
+  "fullName" : "My Account Module.C144 - Verify General Settings page is available under My Account",
+  "historyId" : "b9b54bdd50c98c01c51d8f9efed0f26b",
+  "time" : {
+    "start" : 1583750039813,
+    "stop" : 1583750047101,
+    "duration" : 7288
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C144 - Verify General Settings page is available under My Account"
+  }, {
+    "name" : "package",
+    "value" : "My Account Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "faaa9ac08b5ba7aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748368853,
+        "stop" : 1583748377184,
+        "duration" : 8331
+      }
+    }, {
+      "uid" : "703e35974376cd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428484353,
+        "stop" : 1577428492543,
+        "duration" : 8190
+      }
+    }, {
+      "uid" : "dd9f5b09a6e9fcbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427787431,
+        "stop" : 1577427795055,
+        "duration" : 7624
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7504c9d75f95c1f.json",
+  "parameterValues" : [ "chrome" ]
+}

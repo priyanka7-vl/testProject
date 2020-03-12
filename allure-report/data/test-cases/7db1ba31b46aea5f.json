@@ -1,0 +1,83 @@
+{
+  "uid" : "7db1ba31b46aea5f",
+  "name" : "C149 - Verify Last Name field with more than 100 chars validation",
+  "fullName" : "My Account Module.C149 - Verify Last Name field with more than 100 chars validation",
+  "historyId" : "d40082974eb9bef2fe874c6c0f720c7c",
+  "time" : {
+    "start" : 1583750063289,
+    "stop" : 1583750069039,
+    "duration" : 5750
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C149 - Verify Last Name field with more than 100 chars validation"
+  }, {
+    "name" : "package",
+    "value" : "My Account Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2439505164f9541e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748393533,
+        "stop" : 1583748399529,
+        "duration" : 5996
+      }
+    }, {
+      "uid" : "4b1dc077215d3474",
+      "status" : "broken",
+      "statusDetails" : "invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.88)",
+      "time" : {
+        "start" : 1577428511899,
+        "stop" : 1577428512952,
+        "duration" : 1053
+      }
+    }, {
+      "uid" : "ca857f5caa8ff2ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427809160,
+        "stop" : 1577427816390,
+        "duration" : 7230
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7db1ba31b46aea5f.json",
+  "parameterValues" : [ "chrome" ]
+}

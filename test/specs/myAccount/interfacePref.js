@@ -132,7 +132,7 @@ describe('Interface Preference Module', () =>
    console.log('============');
    console.log(value); 
    console.log('============');
-    if(value == 'Dark'){
+    if(value == 'Light'){
         $('[class="select2-selection__arrow"]').click();
         browser.keys('ArrowUp');
            browser.keys('Enter');
@@ -151,11 +151,11 @@ describe('Interface Preference Module', () =>
     // $('[class="selection"]').click();
     // $('[class="dark-circle-color"]').click();
     // $('#btnUpdate').click();
-        browser.refresh();
+      //  browser.refresh();
         browser.pause(3000);
         const sidebar = $('[class="cell auto medium-cell-block"]');   
     let color = sidebar.getCSSProperty('color');   
-        assert.equal(color.parsed.hex,'#324061');
+        assert.equal(color.parsed.hex,'#17274d');
         console.log('********');
         console.log(sidebar);
         console.log('********');
@@ -239,12 +239,11 @@ it('As a User I want to change Theme option to Dark color',()=>{
     // assert.equal(color.parsed.hex,'#3240611');
      // $('[class="selection"]').click();
      // $('[class="dark-circle-color"]').click();
-     // $('#btnUpdate').click();
-         browser.refresh();
+     // $('#btnUpdate').click();  browser.refresh();
          browser.pause(3000);
          const sidebar = $('[class="cell auto medium-cell-block"]');   
      let color = sidebar.getCSSProperty('color');   
-         assert.equal(color.parsed.hex,'#324061');
+         assert.equal(color.parsed.hex,'#17274d');
          console.log('********');
          console.log(sidebar);
          console.log('********');

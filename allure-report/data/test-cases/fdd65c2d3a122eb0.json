@@ -1,0 +1,308 @@
+{
+  "uid" : "fdd65c2d3a122eb0",
+  "name" : "should not allow to login with invalid credentials",
+  "fullName" : "Login Module.should not allow to login with invalid credentials",
+  "historyId" : "5038e42471ac5e5ba81bba7ccaa28902",
+  "time" : {
+    "start" : 1583753695828,
+    "stop" : 1583753706849,
+    "duration" : 11021
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call addValue on element with selector \"#email\" because element wasn't found",
+  "statusTrace" : "Error: Can't call addValue on element with selector \"#email\" because element wasn't found\n                    at Function.Login (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/basic.js:19:14)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/login/login.js:61:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow to login with invalid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7049619d31fba3fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583753518152,
+        "stop" : 1583753523415,
+        "duration" : 5263
+      }
+    }, {
+      "uid" : "cddb205faf55723e",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=79.0.3945.130)",
+      "time" : {
+        "start" : 1583752751000,
+        "stop" : 1583752754144,
+        "duration" : 3144
+      }
+    }, {
+      "uid" : "ab91a079b18a3013",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=79.0.3945.130)",
+      "time" : {
+        "start" : 1583752284227,
+        "stop" : 1583752285247,
+        "duration" : 1020
+      }
+    }, {
+      "uid" : "f774afd37f06929b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751650432,
+        "stop" : 1583751655703,
+        "duration" : 5271
+      }
+    }, {
+      "uid" : "8fc460d2de391b5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751142303,
+        "stop" : 1583751147560,
+        "duration" : 5257
+      }
+    }, {
+      "uid" : "b81fc782bdad2633",
+      "status" : "failed",
+      "statusDetails" : "'Email or password is invalid.' == 'Email or password is invalid'",
+      "time" : {
+        "start" : 1583751064241,
+        "stop" : 1583751069517,
+        "duration" : 5276
+      }
+    }, {
+      "uid" : "35401d34f366939f",
+      "status" : "failed",
+      "statusDetails" : "'Email or password is invalid.' == 'Email or Password is invalid'",
+      "time" : {
+        "start" : 1583750928771,
+        "stop" : 1583750934023,
+        "duration" : 5252
+      }
+    }, {
+      "uid" : "1cb9863f53f08550",
+      "status" : "failed",
+      "statusDetails" : "'Email or password is invalid.' == 'Email or Password is invalid'",
+      "time" : {
+        "start" : 1583750006683,
+        "stop" : 1583750011919,
+        "duration" : 5236
+      }
+    }, {
+      "uid" : "f7202d366b2599c",
+      "status" : "failed",
+      "statusDetails" : "'Email or password is invalid.' == 'Email or Password is invalid'",
+      "time" : {
+        "start" : 1583748335653,
+        "stop" : 1583748340940,
+        "duration" : 5287
+      }
+    }, {
+      "uid" : "c951b3291b7b05d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428449491,
+        "stop" : 1577428455171,
+        "duration" : 5680
+      }
+    }, {
+      "uid" : "7938ebeb467f4145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427764534,
+        "stop" : 1577427769945,
+        "duration" : 5411
+      }
+    }, {
+      "uid" : "28061e9394d7a116",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576512908196,
+        "stop" : 1576512913565,
+        "duration" : 5369
+      }
+    }, {
+      "uid" : "6a91d43346903102",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1576512772136,
+        "stop" : 1576512772136,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3cd786d7e913a242",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576511305655,
+        "stop" : 1576511310982,
+        "duration" : 5327
+      }
+    }, {
+      "uid" : "aa0d22903bd548ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501463044,
+        "stop" : 1576501468415,
+        "duration" : 5371
+      }
+    }, {
+      "uid" : "bc1e08e9efe6fad5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501381989,
+        "stop" : 1576501387391,
+        "duration" : 5402
+      }
+    }, {
+      "uid" : "646b661ffb3f292a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501217652,
+        "stop" : 1576501223093,
+        "duration" : 5441
+      }
+    }, {
+      "uid" : "9d9d1cd938dfea20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501168896,
+        "stop" : 1576501174322,
+        "duration" : 5426
+      }
+    }, {
+      "uid" : "24ae610e5e4b4352",
+      "status" : "broken",
+      "statusDetails" : "no such window: window was already closed\n                  (Session info: chrome=78.0.3904.108)",
+      "time" : {
+        "start" : 1576397830436,
+        "stop" : 1576397831475,
+        "duration" : 1039
+      }
+    }, {
+      "uid" : "ea752991d6ee9e13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575893137126,
+        "stop" : 1575893142519,
+        "duration" : 5393
+      }
+    }, {
+      "uid" : "e68890eb65ce284",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575892518818,
+        "stop" : 1575892524227,
+        "duration" : 5409
+      }
+    }, {
+      "uid" : "2981ebaef83550ff",
+      "status" : "broken",
+      "statusDetails" : "no such window: window was already closed\n                  (Session info: chrome=78.0.3904.108)",
+      "time" : {
+        "start" : 1575890864846,
+        "stop" : 1575890865881,
+        "duration" : 1035
+      }
+    }, {
+      "uid" : "18469ba24c61a3ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879812596,
+        "stop" : 1575879818015,
+        "duration" : 5419
+      }
+    }, {
+      "uid" : "29d62ddc0a82d1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879734131,
+        "stop" : 1575879739613,
+        "duration" : 5482
+      }
+    }, {
+      "uid" : "e7e2f99aa87a997b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878713794,
+        "stop" : 1575878720336,
+        "duration" : 6542
+      }
+    }, {
+      "uid" : "af25644c8bba00e3",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1575878576921,
+        "stop" : 1575878576924,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "df22e23246668553",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1575878442684,
+        "stop" : 1575878442709,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "edc91200ccdaebea",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1574487606167,
+        "stop" : 1574487606174,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "5f63bf9f2207ddcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574487007352,
+        "stop" : 1574487017924,
+        "duration" : 10572
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fdd65c2d3a122eb0.json",
+  "parameterValues" : [ "chrome" ]
+}

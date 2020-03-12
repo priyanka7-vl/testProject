@@ -1,0 +1,56 @@
+{
+  "uid" : "daa64efe9d433964",
+  "name" : "C147 - Verify First Name field with more than 100 chars validation",
+  "fullName" : "My Account Module.C147 - Verify First Name field with more than 100 chars validation",
+  "historyId" : "a3caf37c018804783d6a35a9a4485a4d",
+  "time" : {
+    "start" : 1583748389546,
+    "stop" : 1583748393533,
+    "duration" : 3987
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C147 - Verify First Name field with more than 100 chars validation"
+  }, {
+    "name" : "package",
+    "value" : "My Account Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "daa64efe9d433964.json",
+  "parameterValues" : [ "chrome" ]
+}

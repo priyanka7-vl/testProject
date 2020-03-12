@@ -1,0 +1,304 @@
+{
+  "uid" : "638f875b4b3934c5",
+  "name" : "should not allow to login with invalid email address",
+  "fullName" : "Login Module.should not allow to login with invalid email address",
+  "historyId" : "46996dc90a7a77e97c92b8ad9881d7c7",
+  "time" : {
+    "start" : 1583753684809,
+    "stop" : 1583753695827,
+    "duration" : 11018
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call addValue on element with selector \"#email\" because element wasn't found",
+  "statusTrace" : "Error: Can't call addValue on element with selector \"#email\" because element wasn't found\n                    at Function.Login (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/basic.js:19:14)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/login/login.js:55:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow to login with invalid email address"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bff6e78dd6922bbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583753514914,
+        "stop" : 1583753518152,
+        "duration" : 3238
+      }
+    }, {
+      "uid" : "b46b991aa24449a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583752747772,
+        "stop" : 1583752751000,
+        "duration" : 3228
+      }
+    }, {
+      "uid" : "168edb990d1138c7",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=79.0.3945.130)",
+      "time" : {
+        "start" : 1583752283199,
+        "stop" : 1583752284227,
+        "duration" : 1028
+      }
+    }, {
+      "uid" : "75ed38f1a5f88cac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751647185,
+        "stop" : 1583751650432,
+        "duration" : 3247
+      }
+    }, {
+      "uid" : "776d9fe7f873fd11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751139058,
+        "stop" : 1583751142302,
+        "duration" : 3244
+      }
+    }, {
+      "uid" : "1c1427662a656c0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751061003,
+        "stop" : 1583751064240,
+        "duration" : 3237
+      }
+    }, {
+      "uid" : "1ef0efa92fe839ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750925522,
+        "stop" : 1583750928770,
+        "duration" : 3248
+      }
+    }, {
+      "uid" : "fc0393ed7f2aba55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750003440,
+        "stop" : 1583750006683,
+        "duration" : 3243
+      }
+    }, {
+      "uid" : "140af8b6acba2714",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748332398,
+        "stop" : 1583748335653,
+        "duration" : 3255
+      }
+    }, {
+      "uid" : "4f3e6bb0fa0bd2c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428445914,
+        "stop" : 1577428449490,
+        "duration" : 3576
+      }
+    }, {
+      "uid" : "dfea05bed58e3637",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427761190,
+        "stop" : 1577427764533,
+        "duration" : 3343
+      }
+    }, {
+      "uid" : "4a74f9698c9dee8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576512904886,
+        "stop" : 1576512908195,
+        "duration" : 3309
+      }
+    }, {
+      "uid" : "9b24d3d3b742dc57",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1576512772134,
+        "stop" : 1576512772135,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f08c4410bf639956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576511302379,
+        "stop" : 1576511305654,
+        "duration" : 3275
+      }
+    }, {
+      "uid" : "d6abb95568a9cea0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501459713,
+        "stop" : 1576501463043,
+        "duration" : 3330
+      }
+    }, {
+      "uid" : "5e4e85edf164826a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501378676,
+        "stop" : 1576501381988,
+        "duration" : 3312
+      }
+    }, {
+      "uid" : "b8a466249c09ce6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501214311,
+        "stop" : 1576501217651,
+        "duration" : 3340
+      }
+    }, {
+      "uid" : "8e384f4fa747e23f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501165548,
+        "stop" : 1576501168895,
+        "duration" : 3347
+      }
+    }, {
+      "uid" : "e1cc695f1326fc71",
+      "status" : "broken",
+      "statusDetails" : "no such window: window was already closed\n                  (Session info: chrome=78.0.3904.108)",
+      "time" : {
+        "start" : 1576397827183,
+        "stop" : 1576397830434,
+        "duration" : 3251
+      }
+    }, {
+      "uid" : "9730b5bb184086f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575893133802,
+        "stop" : 1575893137125,
+        "duration" : 3323
+      }
+    }, {
+      "uid" : "12361ad490c9a1d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575892515463,
+        "stop" : 1575892518816,
+        "duration" : 3353
+      }
+    }, {
+      "uid" : "3d5a758780c646a2",
+      "status" : "broken",
+      "statusDetails" : "no such window: window was already closed\n                  (Session info: chrome=78.0.3904.108)",
+      "time" : {
+        "start" : 1575890863792,
+        "stop" : 1575890864845,
+        "duration" : 1053
+      }
+    }, {
+      "uid" : "4aef7e041ebb685a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879809265,
+        "stop" : 1575879812596,
+        "duration" : 3331
+      }
+    }, {
+      "uid" : "93a56457d05327c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879730780,
+        "stop" : 1575879734131,
+        "duration" : 3351
+      }
+    }, {
+      "uid" : "d9cadda945e69f8f",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1575878713780,
+        "stop" : 1575878713791,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "c56ec603ece67381",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1575878576911,
+        "stop" : 1575878576918,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "84f30016ba294074",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1575878442636,
+        "stop" : 1575878442661,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "f5a5ce2e0a719c34",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1574487606159,
+        "stop" : 1574487606164,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "f969ccfa34bfbc53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574486998804,
+        "stop" : 1574487007352,
+        "duration" : 8548
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "638f875b4b3934c5.json",
+  "parameterValues" : [ "chrome" ]
+}

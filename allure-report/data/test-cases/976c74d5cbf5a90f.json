@@ -1,0 +1,82 @@
+{
+  "uid" : "976c74d5cbf5a90f",
+  "name" : "C156(C)-user wants to change password again",
+  "fullName" : "Change Password Module.C156(C)-user wants to change password again",
+  "historyId" : "f926e2e55e2558d97bf6404593f57c4a",
+  "time" : {
+    "start" : 1583750197767,
+    "stop" : 1583750202078,
+    "duration" : 4311
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <span class=\"thumb-sm avatar avatar-8\" title=\"kalp shah\">...</span> is not clickable at point (1821, 24). Other element would receive the click: <ngb-modal-window role=\"dialog\" tabindex=\"-1\" class=\"modal fade show d-block modal-theme-default no-padding fullScreenPopup try_other_plan\" aria-modal=\"true\">...</ngb-modal-window>\n                  (Session info: chrome=79.0.3945.130)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <span class=\"thumb-sm avatar avatar-8\" title=\"kalp shah\">...</span> is not clickable at point (1821, 24). Other element would receive the click: <ngb-modal-window role=\"dialog\" tabindex=\"-1\" class=\"modal fade show d-block modal-theme-default no-padding fullScreenPopup try_other_plan\" aria-modal=\"true\">...</ngb-modal-window>\n                  (Session info: chrome=79.0.3945.130)\n                    at getErrorFromResponseBody (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/utils.js:124:10)\n                    at Request._callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/request.js:111:64)\n                    at Request.self.callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:185:22)\n                    at Request.<anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1161:10)\n                    at IncomingMessage.<anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1083:12)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:166:45)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C156(C)-user wants to change password again"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "de89c410a7fac414",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=79.0.3945.130)",
+      "time" : {
+        "start" : 1583748529312,
+        "stop" : 1583748529434,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "e9b3f6cb7e2f6a7",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"[class=\"thumb-sm avatar avatar-8\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1577428665367,
+        "stop" : 1577428675409,
+        "duration" : 10042
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "976c74d5cbf5a90f.json",
+  "parameterValues" : [ "chrome" ]
+}

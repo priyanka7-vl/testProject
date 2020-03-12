@@ -1,0 +1,82 @@
+{
+  "uid" : "c65b499c0b7e6f7d",
+  "name" : "C156(C)-user verify login after change password",
+  "fullName" : "Change Password Module.C156(C)-user verify login after change password",
+  "historyId" : "5b070c7bedaa53a4f0bed6f5310e57d1",
+  "time" : {
+    "start" : 1583750185742,
+    "stop" : 1583750197766,
+    "duration" : 12024
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call addValue on element with selector \"#email\" because element wasn't found",
+  "statusTrace" : "Error: Can't call addValue on element with selector \"#email\" because element wasn't found\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:158:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C156(C)-user verify login after change password"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "16e36b30637fe02",
+      "status" : "broken",
+      "statusDetails" : "Can't call addValue on element with selector \"#email\" because element wasn't found",
+      "time" : {
+        "start" : 1583748517285,
+        "stop" : 1583748529311,
+        "duration" : 12026
+      }
+    }, {
+      "uid" : "cc82bdda147b5a72",
+      "status" : "broken",
+      "statusDetails" : "Can't call addValue on element with selector \"#email\" because element wasn't found",
+      "time" : {
+        "start" : 1577428653314,
+        "stop" : 1577428665366,
+        "duration" : 12052
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c65b499c0b7e6f7d.json",
+  "parameterValues" : [ "chrome" ]
+}

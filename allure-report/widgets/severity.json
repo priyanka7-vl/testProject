@@ -1,1 +1,371 @@
-[ ]
+[ {
+  "uid" : "f7504c9d75f95c1f",
+  "name" : "C144 - Verify General Settings page is available under My Account",
+  "time" : {
+    "start" : 1583750039813,
+    "stop" : 1583750047101,
+    "duration" : 7288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a1b8fad9c8d50e8",
+  "name" : "User wants to logout after Google Sign In",
+  "time" : {
+    "start" : 1583750170692,
+    "stop" : 1583750185742,
+    "duration" : 15050
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2d964a0348bdead8",
+  "name" : "C3573 - Verify User is able to enable all/some channels of 'Contact Assigned' notification at a time",
+  "time" : {
+    "start" : 1583750244936,
+    "stop" : 1583750262425,
+    "duration" : 17489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a302217b6b74f53d",
+  "name" : "C153-Verify mandatoy fields on Change Password tab",
+  "time" : {
+    "start" : 1583750112389,
+    "stop" : 1583750122412,
+    "duration" : 10023
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "47002a3530bbcfe8",
+  "name" : "should not allow to login with only email address",
+  "time" : {
+    "start" : 1583753673785,
+    "stop" : 1583753684808,
+    "duration" : 11023
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c65b499c0b7e6f7d",
+  "name" : "C156(C)-user verify login after change password",
+  "time" : {
+    "start" : 1583750185742,
+    "stop" : 1583750197766,
+    "duration" : 12024
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d3310d82134429e1",
+  "name" : "User wants to redirect to Google Sign In page",
+  "time" : {
+    "start" : 1583750158665,
+    "stop" : 1583750170691,
+    "duration" : 12026
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d6d5a1463c6832aa",
+  "name" : "C3564 - Verify General Notifications are displayed on My Account>Notification Preferences page",
+  "time" : {
+    "start" : 1583750219297,
+    "stop" : 1583750221323,
+    "duration" : 2026
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d2110d810d2c0fe",
+  "name" : "C4940- Verify Interface Preferences page is displayed under My Account",
+  "time" : {
+    "start" : 1583750294373,
+    "stop" : 1583750300493,
+    "duration" : 6120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f28dd79e5525a5a6",
+  "name" : "should open with google sign-in",
+  "time" : {
+    "start" : 1583913462067,
+    "stop" : 1583913487345,
+    "duration" : 25278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f4573525c806d55",
+  "name" : "C156(A)-user wants to change password",
+  "time" : {
+    "start" : 1583750142453,
+    "stop" : 1583750154475,
+    "duration" : 12022
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fdd65c2d3a122eb0",
+  "name" : "should not allow to login with invalid credentials",
+  "time" : {
+    "start" : 1583753695828,
+    "stop" : 1583753706849,
+    "duration" : 11021
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ba8a7262ec9d176d",
+  "name" : "As a User I want to change Theme option to Dark color",
+  "time" : {
+    "start" : 1583750335280,
+    "stop" : 1583750345587,
+    "duration" : 10307
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "793eaed736262525",
+  "name" : "should not allow me to login with blank input",
+  "time" : {
+    "start" : 1583753663765,
+    "stop" : 1583753673785,
+    "duration" : 10020
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "961597027b16e418",
+  "name" : "C4560-Verify user is able to enable all/some preferences at a time",
+  "time" : {
+    "start" : 1583750306565,
+    "stop" : 1583750315484,
+    "duration" : 8919
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b417cfc9bf8ced72",
+  "name" : "C147 - Verify First Name field with more than 100 chars validation",
+  "time" : {
+    "start" : 1583750059433,
+    "stop" : 1583750063289,
+    "duration" : 3856
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5fcbd6059f832e4",
+  "name" : "C156(B)-user wants to logout after change password",
+  "time" : {
+    "start" : 1583750154476,
+    "stop" : 1583750158665,
+    "duration" : 4189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "709fa83b90ca186c",
+  "name" : "User want to scroll down and up the page",
+  "time" : {
+    "start" : 1583750273610,
+    "stop" : 1583750283741,
+    "duration" : 10131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "976c74d5cbf5a90f",
+  "name" : "C156(C)-user wants to change password again",
+  "time" : {
+    "start" : 1583750197767,
+    "stop" : 1583750202078,
+    "duration" : 4311
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3109588f1190f9dc",
+  "name" : "C160 - Verify Nick Name field with more than 100 chars validation",
+  "time" : {
+    "start" : 1583750069609,
+    "stop" : 1583750079485,
+    "duration" : 9876
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39e940104d150299",
+  "name" : "C3572 - Verify User is able to disable all/some channels of 'Contact Assigned' notification at a time",
+  "time" : {
+    "start" : 1583750221323,
+    "stop" : 1583750244935,
+    "duration" : 23612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31dc27d89d3674ed",
+  "name" : "C150 - Verify Email validation",
+  "time" : {
+    "start" : 1583750069040,
+    "stop" : 1583750069609,
+    "duration" : 569
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "aebecb7dd0ca3d18",
+  "name" : "C155-Verify wrong Re-type Password validation",
+  "time" : {
+    "start" : 1583750132433,
+    "stop" : 1583750142452,
+    "duration" : 10019
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "74fb6a1bdad252d3",
+  "name" : "C4561-Verify user is able to disable all/some preferences at a time",
+  "time" : {
+    "start" : 1583750315485,
+    "stop" : 1583750324309,
+    "duration" : 8824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41e2ca0baa3e973d",
+  "name" : "User wants to reach notification Preference Page",
+  "time" : {
+    "start" : 1583750212817,
+    "stop" : 1583750217259,
+    "duration" : 4442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60fe24a08fc950b7",
+  "name" : "User wants to change time format and verify it",
+  "time" : {
+    "start" : 1583750079486,
+    "stop" : 1583750089586,
+    "duration" : 10100
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2fe03037b333dce3",
+  "name" : "C4941-Verify by default all options of Interface Preferences are disabled",
+  "time" : {
+    "start" : 1583750300494,
+    "stop" : 1583750306564,
+    "duration" : 6070
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b96f3f9df93f31f5",
+  "name" : "C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time",
+  "time" : {
+    "start" : 1583750262426,
+    "stop" : 1583750273609,
+    "duration" : 11183
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e35d979601854c7d",
+  "name" : "C154-Verify wrong Old Password validation",
+  "time" : {
+    "start" : 1583750122413,
+    "stop" : 1583750132432,
+    "duration" : 10019
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "638f875b4b3934c5",
+  "name" : "should not allow to login with invalid email address",
+  "time" : {
+    "start" : 1583753684809,
+    "stop" : 1583753695827,
+    "duration" : 11018
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ac4c4318a72e0665",
+  "name" : "C3563 - Verify General Notifications are displayed on My Account>Notification Preferences page",
+  "time" : {
+    "start" : 1583750217259,
+    "stop" : 1583750219296,
+    "duration" : 2037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78838f05da7aeb55",
+  "name" : "C4874-Verify Change Password page is available under My Account",
+  "time" : {
+    "start" : 1583750100325,
+    "stop" : 1583750112389,
+    "duration" : 12064
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7fe2199ee916be9c",
+  "name" : "should  allow to login with valid input and verify home screen banner",
+  "time" : {
+    "start" : 1583753706849,
+    "stop" : 1583753717872,
+    "duration" : 11023
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7db1ba31b46aea5f",
+  "name" : "C149 - Verify Last Name field with more than 100 chars validation",
+  "time" : {
+    "start" : 1583750063289,
+    "stop" : 1583750069039,
+    "duration" : 5750
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f212091c85605401",
+  "name" : "As a User I want to change Theme option to Light color",
+  "time" : {
+    "start" : 1583750324310,
+    "stop" : 1583750335280,
+    "duration" : 10970
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "265fe1cd9103a1e",
+  "name" : "C145 - Verify mandatory fields on General Settings page",
+  "time" : {
+    "start" : 1583750047102,
+    "stop" : 1583750059433,
+    "duration" : 12331
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99615b25d4dd4fe7",
+  "name" : "\"before all\" hook",
+  "time" : {
+    "start" : 1577428363990,
+    "stop" : 1577428363992,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
