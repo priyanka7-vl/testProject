@@ -5,7 +5,11 @@ const path = require('path');
 describe('My Account Module', () => 
 {
   before('Execute Before All Tests', () => {
+<<<<<<< HEAD
     browser.url('https://kalp.salesmate.io/#/app/user/profile');
+=======
+    browser.url('/');
+>>>>>>> 4573c4171be53b6ccc0e8309f9052e8352036b68
     browser.pause(5000);
     let winsize1 =browser.setWindowSize(1024, 768);
     
@@ -15,8 +19,11 @@ describe('My Account Module', () =>
 });
 
     it ('C144 - Verify General Settings page is available under My Account', () => {
+<<<<<<< HEAD
         browser.url('https://kalp.salesmate.io/#/app/user/profile')
        
+=======
+>>>>>>> 4573c4171be53b6ccc0e8309f9052e8352036b68
         browser.pause(4000);
         $('[class="thumb-sm avatar avatar-8"]').click();
         $('[class="icon-user m-r-sm"]').click();
@@ -88,7 +95,11 @@ describe('My Account Module', () =>
       browser.pause(4000);
       Emails.clearValue();
      Emails.setValue(' ');
+<<<<<<< HEAD
      Emails.setValue('priyanka.com')
+=======
+     Emails.setValue('kalpshah.com')
+>>>>>>> 4573c4171be53b6ccc0e8309f9052e8352036b68
      browser.keys('Tab');
     let header5 = $('[class="error-message text-danger"]').getText();
     assert.equal(header5, 'Please provide a valid email address');

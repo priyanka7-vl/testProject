@@ -19,25 +19,38 @@ describe('Login Module', function()
    });
    it ('should not allow to login with only email address', () => {
       //allureReporter.addFeature('Feature2')
+<<<<<<< HEAD
       userLogin.Login('priya', '');
+=======
+      userLogin.Login('kalp', '');
+>>>>>>> 4573c4171be53b6ccc0e8309f9052e8352036b68
        let alrt1 =  $('#err_message').getText();
        assert.equal(alrt1, 'Please enter password');
    });
    it ('should not allow to login with invalid email address', () => {
       // allureReporter.addFeature('Feature3')
+<<<<<<< HEAD
        userLogin.Login('priya', '6544576');
+=======
+       userLogin.Login('kalp', '6544576');
+>>>>>>> 4573c4171be53b6ccc0e8309f9052e8352036b68
        let alrt1 =  $('#err_message').getText();
        assert.equal(alrt1, 'Please enter valid email address');
    });
    it('should not allow to login with invalid credentials', () => {
        //allureReporter.addFeature('Feature4')
+<<<<<<< HEAD
        userLogin.Login('priya@gmail.com', '6544576');
+=======
+       userLogin.Login('kalp@gmail.com', '6544576');
+>>>>>>> 4573c4171be53b6ccc0e8309f9052e8352036b68
        browser.pause(2000);
        let alrt1 = $('#err_message').getText();
        assert.equal(alrt1, 'Email or password is invalid.');
    });
    it ('should  allow to login with valid input and verify home screen banner', () => {
        //allureReporter.addFeature('Feature5')
+<<<<<<< HEAD
        userLogin.Login('priyanka.vlr@rapidops.com', '123456');
        browser.pause(14000);
     //    let header = $("h2").getText();
@@ -47,6 +60,17 @@ describe('Login Module', function()
     //    console.log(header1);
     //    console.log("=====H2 get Text=====");
     //    assert.equal(header, 'Dashboard');
+=======
+       userLogin.Login('kalp.shah@rapidops.com', '123456');
+       browser.pause(14000);
+       let header = $("h2").getText();
+       let header1 = $('h2=Dashboard').getText();
+       console.log("=====H2 get Text=====");
+       console.log(header);
+       console.log(header1);
+       console.log("=====H2 get Text=====");
+       assert.equal(header, 'Dashboard');
+>>>>>>> 4573c4171be53b6ccc0e8309f9052e8352036b68
       // let header2 = $('#app > app > div > div > div > header > div > h2').getText();
       // assert.equal(header2, 'Dashboard');
    });

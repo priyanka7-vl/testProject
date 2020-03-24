@@ -17,14 +17,22 @@
     "allure-commandline": "^2.13.0",
     "assert": "^2.0.0",
     "chai": "^4.2.0",
+<<<<<<< HEAD
     "chromedriver": "^80.0.1",
+=======
+    "chromedriver": "^79.0.3",
+>>>>>>> 4573c4171be53b6ccc0e8309f9052e8352036b68
     "list": "^2.0.18",
     "mocha": "^6.2.0",
     "mocha-allure-reporter": "^1.4.0",
     "wd": "^1.11.4",
     "wdio": "^3.0.3",
     "wdio-chromedriver-service": "^5.0.2",
+<<<<<<< HEAD
     "webdriverio": "^5.22.4"
+=======
+    "webdriverio": "^5.18.7"
+>>>>>>> 4573c4171be53b6ccc0e8309f9052e8352036b68
   },
   "scripts": {
     "test": "mocha"

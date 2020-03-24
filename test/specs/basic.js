@@ -10,6 +10,10 @@ module.exports = class basic {
        let pwd = $('#password');
        pwd.addValue(password);
        browser.pause(1000);
+<<<<<<< HEAD
+=======
+      // let check = $('#normal-login > form > soul > label.i-checks > i').click();
+>>>>>>> 4573c4171be53b6ccc0e8309f9052e8352036b68
        let b1 = $('#login_btn').click();
        mail1.clearValue();
        pwd.clearValue();
