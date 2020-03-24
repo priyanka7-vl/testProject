@@ -1,0 +1,58 @@
+{
+  "uid" : "fe580b8119a66cd3",
+  "name" : "C4560-Verify user is able to enable all/some preferences at a time",
+  "fullName" : "Interface Preference Module.C4560-Verify user is able to enable all/some preferences at a time",
+  "historyId" : "19c26d8dd078eb3779562513858bba60",
+  "time" : {
+    "start" : 1577428805321,
+    "stop" : 1577428814435,
+    "duration" : 9114
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C4560-Verify user is able to enable all/some preferences at a time"
+  }, {
+    "name" : "package",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe580b8119a66cd3.json",
+  "parameterValues" : [ "chrome" ]
+}

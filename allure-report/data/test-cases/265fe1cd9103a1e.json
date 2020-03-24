@@ -1,0 +1,82 @@
+{
+  "uid" : "265fe1cd9103a1e",
+  "name" : "C145 - Verify mandatory fields on General Settings page",
+  "fullName" : "My Account Module.C145 - Verify mandatory fields on General Settings page",
+  "historyId" : "16a295ac69938080b8a128fe00de5e73",
+  "time" : {
+    "start" : 1583750047102,
+    "stop" : 1583750059433,
+    "duration" : 12331
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C145 - Verify mandatory fields on General Settings page"
+  }, {
+    "name" : "package",
+    "value" : "My Account Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e320a339cdbf9fba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748377185,
+        "stop" : 1583748389546,
+        "duration" : 12361
+      }
+    }, {
+      "uid" : "c8892a022ec7831d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428492544,
+        "stop" : 1577428505189,
+        "duration" : 12645
+      }
+    }, {
+      "uid" : "7d0e5e6120b442a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427795056,
+        "stop" : 1577427807709,
+        "duration" : 12653
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "265fe1cd9103a1e.json",
+  "parameterValues" : [ "chrome" ]
+}

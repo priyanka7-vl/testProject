@@ -1,0 +1,154 @@
+{
+  "actions": [
+    {
+      "type": "pointer",
+      "id": "pointer1",
+      "parameters": {
+        "pointerType": "mouse"
+      },
+      "actions": [
+        {
+          "type": "pointerMove",
+          "origin": {
+            "sessionId": "9b07998cf76d23a57c4801b39816c170",
+            "elementId": "7d8be42e-9d61-4069-a430-6154f6338d31",
+            "element-6066-11e4-a52e-4f735466cecf": "7d8be42e-9d61-4069-a430-6154f6338d31",
+            "selector": "#nickname",
+            "parent": {
+              "sessionId": "9b07998cf76d23a57c4801b39816c170",
+              "capabilities": {
+                "acceptInsecureCerts": false,
+                "browserName": "chrome",
+                "browserVersion": "80.0.3987.149",
+                "chrome": {
+                  "chromedriverVersion": "80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185})",
+                  "userDataDir": "/tmp/.com.google.Chrome.yMZupK"
+                },
+                "goog:chromeOptions": {
+                  "debuggerAddress": "localhost:35683"
+                },
+                "networkConnectionEnabled": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "linux",
+                "proxy": {},
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify"
+              },
+              "config": {
+                "hostname": "127.0.0.1",
+                "port": 4444,
+                "protocol": "http",
+                "specs": [
+                  "./test/specs/index.js"
+                ],
+                "suites": {},
+                "exclude": [],
+                "logLevel": "info",
+                "logLevels": {},
+                "excludeDriverLogs": [],
+                "baseUrl": "https://kalp.salesmate.io/login.html",
+                "bail": 0,
+                "waitforInterval": 500,
+                "waitforTimeout": 10000,
+                "framework": "mocha",
+                "reporters": [
+                  "spec",
+                  "allure"
+                ],
+                "maxInstances": 10,
+                "maxInstancesPerCapability": 100,
+                "filesToWatch": [],
+                "connectionRetryTimeout": 90000,
+                "connectionRetryCount": 3,
+                "execArgv": [],
+                "runnerEnv": {},
+                "runner": "local",
+                "featureFlags": {},
+                "mochaOpts": {
+                  "timeout": 60000,
+                  "ui": "bdd"
+                },
+                "jasmineNodeOpts": {
+                  "defaultTimeoutInterval": 10000
+                },
+                "cucumberOpts": {
+                  "timeout": 10000
+                },
+                "onPrepare": [],
+                "before": [],
+                "beforeSession": [],
+                "beforeSuite": [],
+                "beforeHook": [],
+                "beforeTest": [],
+                "beforeCommand": [],
+                "afterCommand": [],
+                "afterTest": [],
+                "afterHook": [],
+                "afterSuite": [],
+                "afterSession": [],
+                "after": [],
+                "onComplete": [],
+                "onReload": [],
+                "beforeFeature": [],
+                "beforeScenario": [],
+                "beforeStep": [],
+                "afterStep": [],
+                "afterScenario": [],
+                "afterFeature": [],
+                "path": "/",
+                "services": [],
+                "reporterOptions": {
+                  "allure": {
+                    "outputDir": "allure-results1",
+                    "disableWebdriverStepsReporting": true,
+                    "disableWebdriverScreenshotsReporting": true,
+                    "useCucumberStepReporter": false
+                  }
+                },
+                "_": [
+                  "wdio.conf.js"
+                ],
+                "$0": "node_modules/.bin/wdio",
+                "specFileRetryAttempts": 0,
+                "capabilities": {
+                  "browserName": "chrome"
+                }
+              },
+              "_NOT_FIBER": false
+            },
+            "isReactElement": false,
+            "_NOT_FIBER": true
+          },
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        },
+        {
+          "type": "pause",
+          "duration": 10
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        }
+      ]
+    }
+  ]
+}

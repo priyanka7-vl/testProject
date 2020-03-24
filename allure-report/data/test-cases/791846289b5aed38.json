@@ -1,0 +1,58 @@
+{
+  "uid" : "791846289b5aed38",
+  "name" : "User wants to logout after Google Sign In",
+  "fullName" : "Change Password Module.User wants to logout after Google Sign In",
+  "historyId" : "41e7d545fd2e81886cc2d5ef6c53b0e9",
+  "time" : {
+    "start" : 1583748502710,
+    "stop" : 1583748517285,
+    "duration" : 14575
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"[class=\"thumb-sm avatar avatar-4\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"[class=\"thumb-sm avatar avatar-4\"]\" because element wasn't found\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:149:47)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "User wants to logout after Google Sign In"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "791846289b5aed38.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "7b45cac232fe9096",
+  "name" : "should not allow me to login with blank input",
+  "fullName" : "Login Module.should not allow me to login with blank input",
+  "historyId" : "78e8c026476a585047bd910e8d1068dd",
+  "time" : {
+    "start" : 1576501151837,
+    "stop" : 1576501162200,
+    "duration" : 10363
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow me to login with blank input"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b45cac232fe9096.json",
+  "parameterValues" : [ "chrome" ]
+}

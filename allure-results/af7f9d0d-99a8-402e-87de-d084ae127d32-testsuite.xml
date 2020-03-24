@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577428360402' stop='1577428363994'>
+    <name>Login Module</name>
+    <title>Login Module</title>
+    <test-cases>
+        <test-case start='1577428363990' status='broken' stop='1577428363992'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>&lt;!DOCTYPE html>
+                &lt;html lang="en">
+                &lt;head>
+                  &lt;meta charset="UTF-8">
+                  &lt;link rel="stylesheet" type="text/css" href="/assets/displayhelpservlet.css" media="all"/>
+                  &lt;link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
+                  &lt;script src="/assets/jquery-3.1.1.min.js" type="text/javascript">&lt;/script>
+                  &lt;script src="/assets/displayhelpservlet.js" type="text/javascript">&lt;/script>
+                  &lt;script type="text/javascript">
+                    var json = Object.freeze('{"consoleLink": "\u002fwd\u002fhub","type": "Standalone","class": "org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig","version": "3.141.5"}');
+                  &lt;/script>
+                &lt;/head>
+                &lt;body>
+                
+                &lt;div id="content">
+                  &lt;div id="help-heading">
+                    &lt;h1>&lt;span id="logo">&lt;/span>&lt;/h1>
+                    &lt;h2>Selenium &lt;span class="se-type">&lt;/span>&amp;nbsp;v.&lt;span class="se-version">&lt;/span>&lt;/h2>
+                  &lt;/div>
+                
+                  &lt;div id="content-body">
+                    &lt;p>
+                      Whoops! The URL specified routes to this help page.
+                    &lt;/p>
+                    &lt;p>
+                      For more information about Selenium &lt;span class="se-type">&lt;/span> please see the
+                      &lt;a class="se-docs">docs&lt;/a> and/or visit the &lt;a class="se-wiki">wiki&lt;/a>.
+                      &lt;span id="console-item">
+                        Or perhaps you are looking for the Selenium &lt;span class="se-type">&lt;/span> &lt;a class="se-console">console&lt;/a>.
+                      &lt;/span>
+                    &lt;/p>
+                    &lt;p>
+                      Happy Testing!
+                    &lt;/p>
+                  &lt;/div>
+                
+                  &lt;div>
+                    &lt;footer id="help-footer">
+                      Selenium is made possible through the efforts of our open source community, contributions from
+                      these &lt;a href="https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS">people&lt;/a>, and our
+                      &lt;a href="http://www.seleniumhq.org/sponsors/">sponsors&lt;/a>.
+                   &lt;/footer>
+                  &lt;/div>
+                 &lt;/div>
+                
+                &lt;/body>
+                &lt;/html></message>
+                <stack-trace>Error: &lt;!DOCTYPE html>
+                &lt;html lang="en">
+                &lt;head>
+                  &lt;meta charset="UTF-8">
+                  &lt;link rel="stylesheet" type="text/css" href="/assets/displayhelpservlet.css" media="all"/>
+                  &lt;link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
+                  &lt;script src="/assets/jquery-3.1.1.min.js" type="text/javascript">&lt;/script>
+                  &lt;script src="/assets/displayhelpservlet.js" type="text/javascript">&lt;/script>
+                  &lt;script type="text/javascript">
+                    var json = Object.freeze('{"consoleLink": "\u002fwd\u002fhub","type": "Standalone","class": "org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig","version": "3.141.5"}');
+                  &lt;/script>
+                &lt;/head>
+                &lt;body>
+                &lt;div id="content">
+                  &lt;div id="help-heading">
+                    &lt;h1>&lt;span id="logo">&lt;/span>&lt;/h1>
+                    &lt;h2>Selenium &lt;span class="se-type">&lt;/span>&amp;nbsp;v.&lt;span class="se-version">&lt;/span>&lt;/h2>
+                  &lt;/div>
+                  &lt;div id="content-body">
+                    &lt;p>
+                      Whoops! The URL specified routes to this help page.
+                    &lt;/p>
+                      For more information about Selenium &lt;span class="se-type">&lt;/span> please see the
+                      &lt;a class="se-docs">docs&lt;/a> and/or visit the &lt;a class="se-wiki">wiki&lt;/a>.
+                      &lt;span id="console-item">
+                        Or perhaps you are looking for the Selenium &lt;span class="se-type">&lt;/span> &lt;a class="se-console">console&lt;/a>.
+                      &lt;/span>
+                      Happy Testing!
+                  &lt;div>
+                    &lt;footer id="help-footer">
+                      Selenium is made possible through the efforts of our open source community, contributions from
+                      these &lt;a href="https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS">people&lt;/a>, and our
+                      &lt;a href="http://www.seleniumhq.org/sponsors/">sponsors&lt;/a>.
+                   &lt;/footer>
+                &lt;/body>
+                &lt;/html>
+                    at getErrorFromResponseBody (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/utils.js:208:12)
+                    at Request._callback (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/request.js:103:64)
+                    at Request.self.callback (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:185:22)
+                    at Request.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1083:12)
+                    at Context.before (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:14:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

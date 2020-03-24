@@ -1,0 +1,67 @@
+{
+  "uid" : "fc8f803c527a174c",
+  "name" : "C147 - Verify First Name field with more than 100 chars validation",
+  "fullName" : "My Account Module.C147 - Verify First Name field with more than 100 chars validation",
+  "historyId" : "a3caf37c018804783d6a35a9a4485a4d",
+  "time" : {
+    "start" : 1577428505190,
+    "stop" : 1577428511898,
+    "duration" : 6708
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C147 - Verify First Name field with more than 100 chars validation"
+  }, {
+    "name" : "package",
+    "value" : "My Account Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dfb980b261cd3c0a",
+      "status" : "broken",
+      "statusDetails" : "invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.88)",
+      "time" : {
+        "start" : 1577427807710,
+        "stop" : 1577427809159,
+        "duration" : 1449
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc8f803c527a174c.json",
+  "parameterValues" : [ "chrome" ]
+}

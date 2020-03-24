@@ -1,0 +1,82 @@
+{
+  "uid" : "3109588f1190f9dc",
+  "name" : "C160 - Verify Nick Name field with more than 100 chars validation",
+  "fullName" : "My Account Module.C160 - Verify Nick Name field with more than 100 chars validation",
+  "historyId" : "46b457103f9fd0fa988bbac9b708af90",
+  "time" : {
+    "start" : 1583750069609,
+    "stop" : 1583750079485,
+    "duration" : 9876
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C160 - Verify Nick Name field with more than 100 chars validation"
+  }, {
+    "name" : "package",
+    "value" : "My Account Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9c45d31481e3cbdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748401301,
+        "stop" : 1583748411569,
+        "duration" : 10268
+      }
+    }, {
+      "uid" : "54bca0daa64d86dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428520958,
+        "stop" : 1577428531586,
+        "duration" : 10628
+      }
+    }, {
+      "uid" : "16ed955e0fc80312",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427817351,
+        "stop" : 1577427828353,
+        "duration" : 11002
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3109588f1190f9dc.json",
+  "parameterValues" : [ "chrome" ]
+}

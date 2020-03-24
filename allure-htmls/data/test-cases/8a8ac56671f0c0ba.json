@@ -1,0 +1,58 @@
+{
+  "uid" : "8a8ac56671f0c0ba",
+  "name" : "should not allow to login with invalid credentials",
+  "fullName" : "Login Module.should not allow to login with invalid credentials",
+  "historyId" : "5038e42471ac5e5ba81bba7ccaa28902",
+  "time" : {
+    "start" : 1575878576921,
+    "stop" : 1575878576924,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "allureReporter is not defined",
+  "statusTrace" : "ReferenceError: allureReporter is not defined\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:36:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow to login with invalid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a8ac56671f0c0ba.json",
+  "parameterValues" : [ "chrome" ]
+}

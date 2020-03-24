@@ -1,0 +1,299 @@
+{
+  "uid" : "793eaed736262525",
+  "name" : "should not allow me to login with blank input",
+  "fullName" : "Login Module.should not allow me to login with blank input",
+  "historyId" : "78e8c026476a585047bd910e8d1068dd",
+  "time" : {
+    "start" : 1583753663765,
+    "stop" : 1583753673785,
+    "duration" : 10020
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call addValue on element with selector \"#email\" because element wasn't found",
+  "statusTrace" : "Error: Can't call addValue on element with selector \"#email\" because element wasn't found\n                    at Function.Login (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/basic.js:19:14)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/login/login.js:43:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow me to login with blank input"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "81f4bc4a6aaa1d86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583753509347,
+        "stop" : 1583753511657,
+        "duration" : 2310
+      }
+    }, {
+      "uid" : "4628a9f1141a8240",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583752741220,
+        "stop" : 1583752744509,
+        "duration" : 3289
+      }
+    }, {
+      "uid" : "f572b92829c77c94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583752277692,
+        "stop" : 1583752279999,
+        "duration" : 2307
+      }
+    }, {
+      "uid" : "9490b17ea7b0c3ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751640699,
+        "stop" : 1583751643964,
+        "duration" : 3265
+      }
+    }, {
+      "uid" : "6b269c74909765d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751132571,
+        "stop" : 1583751135836,
+        "duration" : 3265
+      }
+    }, {
+      "uid" : "560fbafd4b5d8795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583751054534,
+        "stop" : 1583751057789,
+        "duration" : 3255
+      }
+    }, {
+      "uid" : "e3f3f84d8f39d31e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583750919034,
+        "stop" : 1583750922303,
+        "duration" : 3269
+      }
+    }, {
+      "uid" : "bbdb9744fd639f5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583749996963,
+        "stop" : 1583750000224,
+        "duration" : 3261
+      }
+    }, {
+      "uid" : "dfb1ccc38777ea6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748325915,
+        "stop" : 1583748329170,
+        "duration" : 3255
+      }
+    }, {
+      "uid" : "8208c175a99664b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428438779,
+        "stop" : 1577428442344,
+        "duration" : 3565
+      }
+    }, {
+      "uid" : "3fd02488512e5f88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577427746779,
+        "stop" : 1577427757859,
+        "duration" : 11080
+      }
+    }, {
+      "uid" : "753020bd7406fadd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576512886845,
+        "stop" : 1576512901603,
+        "duration" : 14758
+      }
+    }, {
+      "uid" : "58033ded63b96bad",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1576512772101,
+        "stop" : 1576512772118,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "d996f7e5ef8eb563",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576511288965,
+        "stop" : 1576511299094,
+        "duration" : 10129
+      }
+    }, {
+      "uid" : "be13d4423031dcec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501447699,
+        "stop" : 1576501456424,
+        "duration" : 8725
+      }
+    }, {
+      "uid" : "6189cc89efb495f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501361284,
+        "stop" : 1576501375384,
+        "duration" : 14100
+      }
+    }, {
+      "uid" : "498c74cdc4e31bb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501201993,
+        "stop" : 1576501210993,
+        "duration" : 9000
+      }
+    }, {
+      "uid" : "f1365ffe2ba74770",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576501151837,
+        "stop" : 1576501162200,
+        "duration" : 10363
+      }
+    }, {
+      "uid" : "7972bdd8fb6fe8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576397794598,
+        "stop" : 1576397823871,
+        "duration" : 29273
+      }
+    }, {
+      "uid" : "7300075655018ee1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575893117989,
+        "stop" : 1575893130498,
+        "duration" : 12509
+      }
+    }, {
+      "uid" : "9bfec9a265f4f10b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575892501439,
+        "stop" : 1575892512161,
+        "duration" : 10722
+      }
+    }, {
+      "uid" : "d5c9699ae1c7ce4d",
+      "status" : "broken",
+      "statusDetails" : "no such window: window was already closed\n                  (Session info: chrome=78.0.3904.108)",
+      "time" : {
+        "start" : 1575890851577,
+        "stop" : 1575890862742,
+        "duration" : 11165
+      }
+    }, {
+      "uid" : "8714619507956e39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879797414,
+        "stop" : 1575879805964,
+        "duration" : 8550
+      }
+    }, {
+      "uid" : "346d942ae6bbdec4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575879718936,
+        "stop" : 1575879727370,
+        "duration" : 8434
+      }
+    }, {
+      "uid" : "360e2681fe8c82cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878688579,
+        "stop" : 1575878709252,
+        "duration" : 20673
+      }
+    }, {
+      "uid" : "2b348c680b613140",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878545704,
+        "stop" : 1575878573366,
+        "duration" : 27662
+      }
+    }, {
+      "uid" : "d12a2a9499f26b26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575878382691,
+        "stop" : 1575878437738,
+        "duration" : 55047
+      }
+    }, {
+      "uid" : "afae5fbaab4dfbd8",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1574487606124,
+        "stop" : 1574487606144,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "b6938904608c0d79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574486972220,
+        "stop" : 1574486993938,
+        "duration" : 21718
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "793eaed736262525.json",
+  "parameterValues" : [ "chrome" ]
+}

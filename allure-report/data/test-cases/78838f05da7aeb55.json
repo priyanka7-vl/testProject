@@ -1,0 +1,82 @@
+{
+  "uid" : "78838f05da7aeb55",
+  "name" : "C4874-Verify Change Password page is available under My Account",
+  "fullName" : "Change Password Module.C4874-Verify Change Password page is available under My Account",
+  "historyId" : "e047ae1b7e23e5e352b41b6106a3eb49",
+  "time" : {
+    "start" : 1583750100325,
+    "stop" : 1583750112389,
+    "duration" : 12064
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"[class=\"sub-title pull-left\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"[class=\"sub-title pull-left\"]\" because element wasn't found\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:20:66)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C4874-Verify Change Password page is available under My Account"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "77c0c583916bb47b",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"[class=\"sub-title pull-left\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1583748432365,
+        "stop" : 1583748444426,
+        "duration" : 12061
+      }
+    }, {
+      "uid" : "3bde4e0ecf8aaae0",
+      "status" : "failed",
+      "statusDetails" : "'General Settings' == 'Change Password'",
+      "time" : {
+        "start" : 1577428552249,
+        "stop" : 1577428557685,
+        "duration" : 5436
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "78838f05da7aeb55.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Login Module",
+    "children" : [ {
+      "name" : "should not allow me to login with blank input",
+      "uid" : "965fe731b98fcf94",
+      "parentUid" : "f0a151c45df3b5f246a722805b861523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576511288965,
+        "stop" : 1576511299094,
+        "duration" : 10129
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with only email address",
+      "uid" : "2b1864ddaa39cc8c",
+      "parentUid" : "f0a151c45df3b5f246a722805b861523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576511299095,
+        "stop" : 1576511302378,
+        "duration" : 3283
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid email address",
+      "uid" : "a84cba2689d9cdab",
+      "parentUid" : "f0a151c45df3b5f246a722805b861523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576511302379,
+        "stop" : 1576511305654,
+        "duration" : 3275
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should not allow to login with invalid credentials",
+      "uid" : "8918d9ca650d0764",
+      "parentUid" : "f0a151c45df3b5f246a722805b861523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576511305655,
+        "stop" : 1576511310982,
+        "duration" : 5327
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should  allow to login with valid input and verify home screen banner",
+      "uid" : "e247db1932a5cf45",
+      "parentUid" : "f0a151c45df3b5f246a722805b861523",
+      "status" : "failed",
+      "time" : {
+        "start" : 1576511310982,
+        "stop" : 1576511332556,
+        "duration" : 21574
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "f0a151c45df3b5f246a722805b861523"
+  } ]
+}

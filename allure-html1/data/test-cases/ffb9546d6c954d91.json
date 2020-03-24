@@ -1,0 +1,64 @@
+{
+  "uid" : "ffb9546d6c954d91",
+  "name" : "C156(C)-user wants to change password again",
+  "fullName" : "Change Password Module.C156(C)-user wants to change password again",
+  "historyId" : "f926e2e55e2558d97bf6404593f57c4a",
+  "time" : {
+    "start" : 1577428665367,
+    "stop" : 1577428675409,
+    "duration" : 10042
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"[class=\"thumb-sm avatar avatar-8\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"[class=\"thumb-sm avatar avatar-8\"]\" because element wasn't found\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/changepassword.js:166:45)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C156(C)-user wants to change password again"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ffb9546d6c954d91.json",
+  "parameterValues" : [ "chrome" ]
+}

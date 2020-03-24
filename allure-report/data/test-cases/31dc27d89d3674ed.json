@@ -1,0 +1,90 @@
+{
+  "uid" : "31dc27d89d3674ed",
+  "name" : "C150 - Verify Email validation",
+  "fullName" : "My Account Module.C150 - Verify Email validation",
+  "historyId" : "466d1ede860d54bdc7f2739da51d775",
+  "time" : {
+    "start" : 1583750069040,
+    "stop" : 1583750069609,
+    "duration" : 569
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.130)",
+  "statusTrace" : "invalid argument: invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.130)\n                    at getErrorFromResponseBody (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/utils.js:124:10)\n                    at Request._callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/request.js:111:64)\n                    at Request.self.callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:185:22)\n                    at Request.<anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1161:10)\n                    at IncomingMessage.<anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1083:12)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/general.js:77:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C150 - Verify Email validation"
+  }, {
+    "name" : "package",
+    "value" : "My Account Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4e6a82907b43f97f",
+      "status" : "broken",
+      "statusDetails" : "invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.130)",
+      "time" : {
+        "start" : 1583748399529,
+        "stop" : 1583748401300,
+        "duration" : 1771
+      }
+    }, {
+      "uid" : "6513798d80b4cfb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577428512953,
+        "stop" : 1577428520958,
+        "duration" : 8005
+      }
+    }, {
+      "uid" : "6393562862e53ad4",
+      "status" : "broken",
+      "statusDetails" : "invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.88)",
+      "time" : {
+        "start" : 1577427816391,
+        "stop" : 1577427817350,
+        "duration" : 959
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "31dc27d89d3674ed.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "f5c2c18f1429c58d",
+  "name" : "should not allow to login with only email address",
+  "fullName" : "Login Module.should not allow to login with only email address",
+  "historyId" : "fdba2761f5ee9cf45a47e9ea44e252d7",
+  "time" : {
+    "start" : 1575892512161,
+    "stop" : 1575892515463,
+    "duration" : 3302
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow to login with only email address"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5c2c18f1429c58d.json",
+  "parameterValues" : [ "chrome" ]
+}

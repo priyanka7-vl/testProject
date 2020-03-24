@@ -1,0 +1,56 @@
+{
+  "uid" : "81ae0b7d83d229db",
+  "name" : "User want to scroll down and up the page",
+  "fullName" : "Notification Preference Module.User want to scroll down and up the page",
+  "historyId" : "a6907e610d67205133f6c23fc8c45379",
+  "time" : {
+    "start" : 1583748607058,
+    "stop" : 1583748617185,
+    "duration" : 10127
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "User want to scroll down and up the page"
+  }, {
+    "name" : "package",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81ae0b7d83d229db.json",
+  "parameterValues" : [ "chrome" ]
+}

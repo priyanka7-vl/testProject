@@ -1,0 +1,56 @@
+{
+  "uid" : "c3cf9158670ad0d1",
+  "name" : "User wants to reach notification Preference Page",
+  "fullName" : "Notification Preference Module.User wants to reach notification Preference Page",
+  "historyId" : "2521b11e5fd589d502ff54a5c7da43b1",
+  "time" : {
+    "start" : 1583748540065,
+    "stop" : 1583748544516,
+    "duration" : 4451
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "User wants to reach notification Preference Page"
+  }, {
+    "name" : "package",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3cf9158670ad0d1.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,75 @@
+{
+  "uid" : "41e2ca0baa3e973d",
+  "name" : "User wants to reach notification Preference Page",
+  "fullName" : "Notification Preference Module.User wants to reach notification Preference Page",
+  "historyId" : "2521b11e5fd589d502ff54a5c7da43b1",
+  "time" : {
+    "start" : 1583750212817,
+    "stop" : 1583750217259,
+    "duration" : 4442
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "User wants to reach notification Preference Page"
+  }, {
+    "name" : "package",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c3cf9158670ad0d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583748540065,
+        "stop" : 1583748544516,
+        "duration" : 4451
+      }
+    }, {
+      "uid" : "88c0040ebd08421e",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"[class=\"thumb-sm avatar avatar-8\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1577428687294,
+        "stop" : 1577428699334,
+        "duration" : 12040
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41e2ca0baa3e973d.json",
+  "parameterValues" : [ "chrome" ]
+}

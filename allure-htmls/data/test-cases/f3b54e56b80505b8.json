@@ -1,0 +1,58 @@
+{
+  "uid" : "f3b54e56b80505b8",
+  "name" : "should not allow to login with only email address",
+  "fullName" : "Login Module.should not allow to login with only email address",
+  "historyId" : "fdba2761f5ee9cf45a47e9ea44e252d7",
+  "time" : {
+    "start" : 1575890862744,
+    "stop" : 1575890863792,
+    "duration" : 1048
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: window was already closed\n                  (Session info: chrome=78.0.3904.108)",
+  "statusTrace" : "no such window: no such window: window was already closed\n                  (Session info: chrome=78.0.3904.108)\n                    at getErrorFromResponseBody (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/utils.js:215:10)\n                    at Request._callback (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/request.js:103:64)\n                    at Request.self.callback (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:185:22)\n                    at Request.<anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1161:10)\n                    at IncomingMessage.<anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1083:12)\n                    at global.$.selector (/Volumes/DATA/TestMyProject/testSM/node_modules/@wdio/runner/build/index.js:159:36)\n                    at Function.Login (/Volumes/DATA/TestMyProject/testSM/test/specs/basic.js:17:21)\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:25:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow to login with only email address"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3b54e56b80505b8.json",
+  "parameterValues" : [ "chrome" ]
+}

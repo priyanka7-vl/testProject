@@ -1,0 +1,58 @@
+{
+  "uid" : "8374679f93bc6271",
+  "name" : "should not allow to login with invalid email address",
+  "fullName" : "Login Module.should not allow to login with invalid email address",
+  "historyId" : "46996dc90a7a77e97c92b8ad9881d7c7",
+  "time" : {
+    "start" : 1575878442636,
+    "stop" : 1575878442661,
+    "duration" : 25
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "allureReporter is not defined",
+  "statusTrace" : "ReferenceError: allureReporter is not defined\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:30:5)\n                    at Promise (/Volumes/DATA/TestMyProject/testSM/node_modules/@wdio/sync/build/index.js:65:22)\n                    at new Promise (<anonymous>)\n                    at Context.executeSync (/Volumes/DATA/TestMyProject/testSM/node_modules/@wdio/sync/build/index.js:63:10)\n                    at /Volumes/DATA/TestMyProject/testSM/node_modules/@wdio/sync/build/index.js:209:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow to login with invalid email address"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8374679f93bc6271.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "9c45d31481e3cbdf",
+  "name" : "C160 - Verify Nick Name field with more than 100 chars validation",
+  "fullName" : "My Account Module.C160 - Verify Nick Name field with more than 100 chars validation",
+  "historyId" : "46b457103f9fd0fa988bbac9b708af90",
+  "time" : {
+    "start" : 1583748401301,
+    "stop" : 1583748411569,
+    "duration" : 10268
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C160 - Verify Nick Name field with more than 100 chars validation"
+  }, {
+    "name" : "package",
+    "value" : "My Account Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9c45d31481e3cbdf.json",
+  "parameterValues" : [ "chrome" ]
+}

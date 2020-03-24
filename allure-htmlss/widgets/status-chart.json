@@ -1,0 +1,51 @@
+[ {
+  "uid" : "f544e318dc83a712",
+  "name" : "should not allow to login with only email address",
+  "time" : {
+    "start" : 1576512901604,
+    "stop" : 1576512904885,
+    "duration" : 3281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a685baf0947d14f",
+  "name" : "should not allow to login with invalid email address",
+  "time" : {
+    "start" : 1576512904886,
+    "stop" : 1576512908195,
+    "duration" : 3309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be5f572ae683537e",
+  "name" : "should not allow to login with invalid credentials",
+  "time" : {
+    "start" : 1576512908196,
+    "stop" : 1576512913565,
+    "duration" : 5369
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc513ca091cad1ca",
+  "name" : "should  allow to login with valid input and verify home screen banner",
+  "time" : {
+    "start" : 1576512913566,
+    "stop" : 1576512931059,
+    "duration" : 17493
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "191f3ced9f10306d",
+  "name" : "should not allow me to login with blank input",
+  "time" : {
+    "start" : 1576512886845,
+    "stop" : 1576512901603,
+    "duration" : 14758
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

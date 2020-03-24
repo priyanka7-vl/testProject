@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583752719851' stop='1583752755165'>
+    <name>Login Module</name>
+    <title>Login Module</title>
+    <test-cases>
+        <test-case start='1583752739943' status='broken' stop='1583752741219'>
+            <name>should open with google sign-in</name>
+            <title>should open with google sign-in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Unsupported parameter for switchWindow, required is "string" or an RegExp</message>
+                <stack-trace>Error: Unsupported parameter for switchWindow, required is "string" or an RegExp
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/login/login.js:31:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583752741220' status='passed' stop='1583752744509'>
+            <name>should not allow me to login with blank input</name>
+            <title>should not allow me to login with blank input</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583752744509' status='passed' stop='1583752747772'>
+            <name>should not allow to login with only email address</name>
+            <title>should not allow to login with only email address</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583752747772' status='passed' stop='1583752751000'>
+            <name>should not allow to login with invalid email address</name>
+            <title>should not allow to login with invalid email address</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583752751000' status='broken' stop='1583752754144'>
+            <name>should not allow to login with invalid credentials</name>
+            <title>should not allow to login with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable
+                  (Session info: chrome=79.0.3945.130)</message>
+                <stack-trace>chrome not reachable: chrome not reachable
+                  (Session info: chrome=79.0.3945.130)
+                    at getErrorFromResponseBody (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/utils.js:124:10)
+                    at Request._callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/request.js:111:64)
+                    at Request.self.callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:185:22)
+                    at Request.&lt;anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1083:12)
+                    at global.$.selector (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/@wdio/runner/build/index.js:159:36)
+                    at Function.Login (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/basic.js:25:17)
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/login/login.js:58:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583752754145' status='broken' stop='1583752755164'>
+            <name>should  allow to login with valid input and verify home screen banner</name>
+            <title>should  allow to login with valid input and verify home screen banner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable
+                  (Session info: chrome=79.0.3945.130)</message>
+                <stack-trace>chrome not reachable: chrome not reachable
+                  (Session info: chrome=79.0.3945.130)
+                    at getErrorFromResponseBody (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/utils.js:124:10)
+                    at Request._callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/request.js:111:64)
+                    at Request.self.callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:185:22)
+                    at Request.&lt;anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1083:12)
+                    at global.$.selector (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/@wdio/runner/build/index.js:159:36)
+                    at Function.Login (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/basic.js:17:21)
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/login/login.js:65:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

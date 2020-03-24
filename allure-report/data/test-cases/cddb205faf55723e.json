@@ -1,0 +1,58 @@
+{
+  "uid" : "cddb205faf55723e",
+  "name" : "should not allow to login with invalid credentials",
+  "fullName" : "Login Module.should not allow to login with invalid credentials",
+  "historyId" : "5038e42471ac5e5ba81bba7ccaa28902",
+  "time" : {
+    "start" : 1583752751000,
+    "stop" : 1583752754144,
+    "duration" : 3144
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "chrome not reachable\n                  (Session info: chrome=79.0.3945.130)",
+  "statusTrace" : "chrome not reachable: chrome not reachable\n                  (Session info: chrome=79.0.3945.130)\n                    at getErrorFromResponseBody (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/utils.js:124:10)\n                    at Request._callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/request.js:111:64)\n                    at Request.self.callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:185:22)\n                    at Request.<anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1161:10)\n                    at IncomingMessage.<anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1083:12)\n                    at global.$.selector (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/@wdio/runner/build/index.js:159:36)\n                    at Function.Login (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/basic.js:25:17)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/login/login.js:58:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow to login with invalid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cddb205faf55723e.json",
+  "parameterValues" : [ "chrome" ]
+}

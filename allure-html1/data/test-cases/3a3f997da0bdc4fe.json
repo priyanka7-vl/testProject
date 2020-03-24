@@ -1,0 +1,58 @@
+{
+  "uid" : "3a3f997da0bdc4fe",
+  "name" : "C156(B)-user wants to logout after change password",
+  "fullName" : "Change Password Module.C156(B)-user wants to logout after change password",
+  "historyId" : "9e811e6ece5d4f8a8a534958ee36eeca",
+  "time" : {
+    "start" : 1577428602570,
+    "stop" : 1577428609002,
+    "duration" : 6432
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C156(B)-user wants to logout after change password"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a3f997da0bdc4fe.json",
+  "parameterValues" : [ "chrome" ]
+}

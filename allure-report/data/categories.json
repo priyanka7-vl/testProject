@@ -1,0 +1,321 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "<!DOCTYPE html>\n                <html lang=\"en\">\n                <head>\n                  <meta charset=\"UTF-8\">\n                  <link rel=\"stylesheet\" type=\"text/css\" href=\"/assets/displayhelpservlet.css\" media=\"all\"/>\n                  <link href=\"/assets/favicon.ico\" rel=\"icon\" type=\"image/x-icon\" />\n                  <script src=\"/assets/jquery-3.1.1.min.js\" type=\"text/javascript\"></script>\n                  <script src=\"/assets/displayhelpservlet.js\" type=\"text/javascript\"></script>\n                  <script type=\"text/javascript\">\n                    var json = Object.freeze('{\"consoleLink\": \"\\u002fwd\\u002fhub\",\"type\": \"Standalone\",\"class\": \"org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig\",\"version\": \"3.141.5\"}');\n                  </script>\n                </head>\n                <body>\n                \n                <div id=\"content\">\n                  <div id=\"help-heading\">\n                    <h1><span id=\"logo\"></span></h1>\n                    <h2>Selenium <span class=\"se-type\"></span>&nbsp;v.<span class=\"se-version\"></span></h2>\n                  </div>\n                \n                  <div id=\"content-body\">\n                    <p>\n                      Whoops! The URL specified routes to this help page.\n                    </p>\n                    <p>\n                      For more information about Selenium <span class=\"se-type\"></span> please see the\n                      <a class=\"se-docs\">docs</a> and/or visit the <a class=\"se-wiki\">wiki</a>.\n                      <span id=\"console-item\">\n                        Or perhaps you are looking for the Selenium <span class=\"se-type\"></span> <a class=\"se-console\">console</a>.\n                      </span>\n                    </p>\n                    <p>\n                      Happy Testing!\n                    </p>\n                  </div>\n                \n                  <div>\n                    <footer id=\"help-footer\">\n                      Selenium is made possible through the efforts of our open source community, contributions from\n                      these <a href=\"https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS\">people</a>, and our\n                      <a href=\"http://www.seleniumhq.org/sponsors/\">sponsors</a>.\n                   </footer>\n                  </div>\n                 </div>\n                \n                </body>\n                </html>",
+      "children" : [ {
+        "name" : "\"before all\" hook",
+        "uid" : "99615b25d4dd4fe7",
+        "parentUid" : "75b4334513a7f075e99a8056e8259f6f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577428363990,
+          "stop" : 1577428363992,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "75b4334513a7f075e99a8056e8259f6f"
+    }, {
+      "name" : "invalid argument\n                from invalid argument: 'element' is missing\n                  (Session info: chrome=79.0.3945.130)",
+      "children" : [ {
+        "name" : "C150 - Verify Email validation",
+        "uid" : "31dc27d89d3674ed",
+        "parentUid" : "46af0cf6a5ae819c329970b6b432540a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583750069040,
+          "stop" : 1583750069609,
+          "duration" : 569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "46af0cf6a5ae819c329970b6b432540a"
+    }, {
+      "name" : "Can't call getText on element with selector \"/html[1]/body[1]/div[1]/app[1]/div[1]/div[1]/div[1]/div[2]/div[1]/my-account[1]/div[1]/div[2]/sm-general-settings[1]/section[1]/div[1]/div[1]/div[1]/form[1]/div[1]/sm-select-box[1]/sm-element[1]/div[1]/span[1]/span[1]/span[1]/span[1]\" because element wasn't found",
+      "children" : [ {
+        "name" : "User wants to change time format and verify it",
+        "uid" : "60fe24a08fc950b7",
+        "parentUid" : "7e7d2ac9ec73263e8eeeeaf68a1ae8eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583750079486,
+          "stop" : 1583750089586,
+          "duration" : 10100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "7e7d2ac9ec73263e8eeeeaf68a1ae8eb"
+    }, {
+      "name" : "Can't call getText on element with selector \"[class=\"sub-title pull-left\"]\" because element wasn't found",
+      "children" : [ {
+        "name" : "C4874-Verify Change Password page is available under My Account",
+        "uid" : "78838f05da7aeb55",
+        "parentUid" : "619adddb95facbaa6ba5ac3ebe99abc2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583750100325,
+          "stop" : 1583750112389,
+          "duration" : 12064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "619adddb95facbaa6ba5ac3ebe99abc2"
+    }, {
+      "name" : "Can't call doubleClick on element with selector \"#oldPassword\" because element wasn't found",
+      "children" : [ {
+        "name" : "C153-Verify mandatoy fields on Change Password tab",
+        "uid" : "a302217b6b74f53d",
+        "parentUid" : "4a8a5348961e0fb324678e472c970197",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583750112389,
+          "stop" : 1583750122412,
+          "duration" : 10023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "4a8a5348961e0fb324678e472c970197"
+    }, {
+      "name" : "Can't call addValue on element with selector \"#oldPassword\" because element wasn't found",
+      "children" : [ {
+        "name" : "C154-Verify wrong Old Password validation",
+        "uid" : "e35d979601854c7d",
+        "parentUid" : "47e90bb903e8407b238c34fc9ddf3266",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583750122413,
+          "stop" : 1583750132432,
+          "duration" : 10019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "C155-Verify wrong Re-type Password validation",
+        "uid" : "aebecb7dd0ca3d18",
+        "parentUid" : "47e90bb903e8407b238c34fc9ddf3266",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583750132433,
+          "stop" : 1583750142452,
+          "duration" : 10019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "C156(A)-user wants to change password",
+        "uid" : "2f4573525c806d55",
+        "parentUid" : "47e90bb903e8407b238c34fc9ddf3266",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583750142453,
+          "stop" : 1583750154475,
+          "duration" : 12022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "47e90bb903e8407b238c34fc9ddf3266"
+    }, {
+      "name" : "Can't call click on element with selector \"[class=\"glabel\"]\" because element wasn't found",
+      "children" : [ {
+        "name" : "User wants to redirect to Google Sign In page",
+        "uid" : "d3310d82134429e1",
+        "parentUid" : "9a057abcf97a4d0a032cea56fb9567b9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583750158665,
+          "stop" : 1583750170691,
+          "duration" : 12026
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "9a057abcf97a4d0a032cea56fb9567b9"
+    }, {
+      "name" : "Can't call click on element with selector \"[class=\"thumb-sm avatar avatar-4\"]\" because element wasn't found",
+      "children" : [ {
+        "name" : "User wants to logout after Google Sign In",
+        "uid" : "4a1b8fad9c8d50e8",
+        "parentUid" : "58a1ea4775d9bfa10cc5488ee37cc4f4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583750170692,
+          "stop" : 1583750185742,
+          "duration" : 15050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "58a1ea4775d9bfa10cc5488ee37cc4f4"
+    }, {
+      "name" : "Can't call addValue on element with selector \"#email\" because element wasn't found",
+      "children" : [ {
+        "name" : "C156(C)-user verify login after change password",
+        "uid" : "c65b499c0b7e6f7d",
+        "parentUid" : "db471814e1d860749174c37aa12767bd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583750185742,
+          "stop" : 1583750197766,
+          "duration" : 12024
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should not allow me to login with blank input",
+        "uid" : "793eaed736262525",
+        "parentUid" : "db471814e1d860749174c37aa12767bd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583753663765,
+          "stop" : 1583753673785,
+          "duration" : 10020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should not allow to login with only email address",
+        "uid" : "47002a3530bbcfe8",
+        "parentUid" : "db471814e1d860749174c37aa12767bd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583753673785,
+          "stop" : 1583753684808,
+          "duration" : 11023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should not allow to login with invalid email address",
+        "uid" : "638f875b4b3934c5",
+        "parentUid" : "db471814e1d860749174c37aa12767bd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583753684809,
+          "stop" : 1583753695827,
+          "duration" : 11018
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should not allow to login with invalid credentials",
+        "uid" : "fdd65c2d3a122eb0",
+        "parentUid" : "db471814e1d860749174c37aa12767bd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583753695828,
+          "stop" : 1583753706849,
+          "duration" : 11021
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "should  allow to login with valid input and verify home screen banner",
+        "uid" : "7fe2199ee916be9c",
+        "parentUid" : "db471814e1d860749174c37aa12767bd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583753706849,
+          "stop" : 1583753717872,
+          "duration" : 11023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "db471814e1d860749174c37aa12767bd"
+    }, {
+      "name" : "element click intercepted: Element <span class=\"thumb-sm avatar avatar-8\" title=\"kalp shah\">...</span> is not clickable at point (1821, 24). Other element would receive the click: <ngb-modal-window role=\"dialog\" tabindex=\"-1\" class=\"modal fade show d-block modal-theme-default no-padding fullScreenPopup try_other_plan\" aria-modal=\"true\">...</ngb-modal-window>\n                  (Session info: chrome=79.0.3945.130)",
+      "children" : [ {
+        "name" : "C156(C)-user wants to change password again",
+        "uid" : "976c74d5cbf5a90f",
+        "parentUid" : "d8c43d23cfe3f193a679179046ff6042",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583750197767,
+          "stop" : 1583750202078,
+          "duration" : 4311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "d8c43d23cfe3f193a679179046ff6042"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "'false' == 'true'",
+      "children" : [ {
+        "name" : "C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time",
+        "uid" : "b96f3f9df93f31f5",
+        "parentUid" : "a7b13cfaaa0e0f25774524ad4d23158c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1583750262426,
+          "stop" : 1583750273609,
+          "duration" : 11183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "a7b13cfaaa0e0f25774524ad4d23158c"
+    }, {
+      "name" : "'#17274d' == '#324061'",
+      "children" : [ {
+        "name" : "As a User I want to change Theme option to Light color",
+        "uid" : "f212091c85605401",
+        "parentUid" : "2249068192c9e9915f1671d253b4ae49",
+        "status" : "failed",
+        "time" : {
+          "start" : 1583750324310,
+          "stop" : 1583750335280,
+          "duration" : 10970
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "As a User I want to change Theme option to Dark color",
+        "uid" : "ba8a7262ec9d176d",
+        "parentUid" : "2249068192c9e9915f1671d253b4ae49",
+        "status" : "failed",
+        "time" : {
+          "start" : 1583750335280,
+          "stop" : 1583750345587,
+          "duration" : 10307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "2249068192c9e9915f1671d253b4ae49"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

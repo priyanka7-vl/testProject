@@ -1,0 +1,64 @@
+{
+  "uid" : "4b15ff03a3dacc32",
+  "name" : "\"before all\" hook",
+  "fullName" : "Login Module.\"before all\" hook",
+  "historyId" : "56155fe1180ebfe821aaea5919b87c07",
+  "time" : {
+    "start" : 1577428363990,
+    "stop" : 1577428363992,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "<!DOCTYPE html>\n                <html lang=\"en\">\n                <head>\n                  <meta charset=\"UTF-8\">\n                  <link rel=\"stylesheet\" type=\"text/css\" href=\"/assets/displayhelpservlet.css\" media=\"all\"/>\n                  <link href=\"/assets/favicon.ico\" rel=\"icon\" type=\"image/x-icon\" />\n                  <script src=\"/assets/jquery-3.1.1.min.js\" type=\"text/javascript\"></script>\n                  <script src=\"/assets/displayhelpservlet.js\" type=\"text/javascript\"></script>\n                  <script type=\"text/javascript\">\n                    var json = Object.freeze('{\"consoleLink\": \"\\u002fwd\\u002fhub\",\"type\": \"Standalone\",\"class\": \"org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig\",\"version\": \"3.141.5\"}');\n                  </script>\n                </head>\n                <body>\n                \n                <div id=\"content\">\n                  <div id=\"help-heading\">\n                    <h1><span id=\"logo\"></span></h1>\n                    <h2>Selenium <span class=\"se-type\"></span>&nbsp;v.<span class=\"se-version\"></span></h2>\n                  </div>\n                \n                  <div id=\"content-body\">\n                    <p>\n                      Whoops! The URL specified routes to this help page.\n                    </p>\n                    <p>\n                      For more information about Selenium <span class=\"se-type\"></span> please see the\n                      <a class=\"se-docs\">docs</a> and/or visit the <a class=\"se-wiki\">wiki</a>.\n                      <span id=\"console-item\">\n                        Or perhaps you are looking for the Selenium <span class=\"se-type\"></span> <a class=\"se-console\">console</a>.\n                      </span>\n                    </p>\n                    <p>\n                      Happy Testing!\n                    </p>\n                  </div>\n                \n                  <div>\n                    <footer id=\"help-footer\">\n                      Selenium is made possible through the efforts of our open source community, contributions from\n                      these <a href=\"https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS\">people</a>, and our\n                      <a href=\"http://www.seleniumhq.org/sponsors/\">sponsors</a>.\n                   </footer>\n                  </div>\n                 </div>\n                \n                </body>\n                </html>",
+  "statusTrace" : "Error: <!DOCTYPE html>\n                <html lang=\"en\">\n                <head>\n                  <meta charset=\"UTF-8\">\n                  <link rel=\"stylesheet\" type=\"text/css\" href=\"/assets/displayhelpservlet.css\" media=\"all\"/>\n                  <link href=\"/assets/favicon.ico\" rel=\"icon\" type=\"image/x-icon\" />\n                  <script src=\"/assets/jquery-3.1.1.min.js\" type=\"text/javascript\"></script>\n                  <script src=\"/assets/displayhelpservlet.js\" type=\"text/javascript\"></script>\n                  <script type=\"text/javascript\">\n                    var json = Object.freeze('{\"consoleLink\": \"\\u002fwd\\u002fhub\",\"type\": \"Standalone\",\"class\": \"org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig\",\"version\": \"3.141.5\"}');\n                  </script>\n                </head>\n                <body>\n                <div id=\"content\">\n                  <div id=\"help-heading\">\n                    <h1><span id=\"logo\"></span></h1>\n                    <h2>Selenium <span class=\"se-type\"></span>&nbsp;v.<span class=\"se-version\"></span></h2>\n                  </div>\n                  <div id=\"content-body\">\n                    <p>\n                      Whoops! The URL specified routes to this help page.\n                    </p>\n                      For more information about Selenium <span class=\"se-type\"></span> please see the\n                      <a class=\"se-docs\">docs</a> and/or visit the <a class=\"se-wiki\">wiki</a>.\n                      <span id=\"console-item\">\n                        Or perhaps you are looking for the Selenium <span class=\"se-type\"></span> <a class=\"se-console\">console</a>.\n                      </span>\n                      Happy Testing!\n                  <div>\n                    <footer id=\"help-footer\">\n                      Selenium is made possible through the efforts of our open source community, contributions from\n                      these <a href=\"https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS\">people</a>, and our\n                      <a href=\"http://www.seleniumhq.org/sponsors/\">sponsors</a>.\n                   </footer>\n                </body>\n                </html>\n                    at getErrorFromResponseBody (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/utils.js:208:12)\n                    at Request._callback (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/request.js:103:64)\n                    at Request.self.callback (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:185:22)\n                    at Request.<anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1161:10)\n                    at IncomingMessage.<anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1083:12)\n                    at Context.before (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:14:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Login Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4b15ff03a3dacc32.json",
+  "parameterValues" : [ "chrome" ]
+}

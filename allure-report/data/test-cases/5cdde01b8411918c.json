@@ -1,0 +1,56 @@
+{
+  "uid" : "5cdde01b8411918c",
+  "name" : "C3573 - Verify User is able to enable all/some channels of 'Contact Assigned' notification at a time",
+  "fullName" : "Notification Preference Module.C3573 - Verify User is able to enable all/some channels of 'Contact Assigned' notification at a time",
+  "historyId" : "2d87aa028220f5db3badec09b8f8a7e4",
+  "time" : {
+    "start" : 1583748572166,
+    "stop" : 1583748589683,
+    "duration" : 17517
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C3573 - Verify User is able to enable all/some channels of 'Contact Assigned' notification at a time"
+  }, {
+    "name" : "package",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5cdde01b8411918c.json",
+  "parameterValues" : [ "chrome" ]
+}

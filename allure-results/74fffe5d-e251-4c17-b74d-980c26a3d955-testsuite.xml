@@ -1,0 +1,199 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583750089594' stop='1583750202079'>
+    <name>Change Password Module</name>
+    <title>Change Password Module</title>
+    <test-cases>
+        <test-case start='1583750100325' status='broken' stop='1583750112389'>
+            <name>C4874-Verify Change Password page is available under My Account</name>
+            <title>C4874-Verify Change Password page is available under My Account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "[class="sub-title pull-left"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "[class="sub-title pull-left"]" because element wasn't found
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:20:66)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583750112389' status='broken' stop='1583750122412'>
+            <name>C153-Verify mandatoy fields on Change Password tab</name>
+            <title>C153-Verify mandatoy fields on Change Password tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call doubleClick on element with selector "#oldPassword" because element wasn't found</message>
+                <stack-trace>Error: Can't call doubleClick on element with selector "#oldPassword" because element wasn't found
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:26:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583750122413' status='broken' stop='1583750132432'>
+            <name>C154-Verify wrong Old Password validation</name>
+            <title>C154-Verify wrong Old Password validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call addValue on element with selector "#oldPassword" because element wasn't found</message>
+                <stack-trace>Error: Can't call addValue on element with selector "#oldPassword" because element wasn't found
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:50:15)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583750132433' status='broken' stop='1583750142452'>
+            <name>C155-Verify wrong Re-type Password validation</name>
+            <title>C155-Verify wrong Re-type Password validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call addValue on element with selector "#oldPassword" because element wasn't found</message>
+                <stack-trace>Error: Can't call addValue on element with selector "#oldPassword" because element wasn't found
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:66:15)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583750142453' status='broken' stop='1583750154475'>
+            <name>C156(A)-user wants to change password</name>
+            <title>C156(A)-user wants to change password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call addValue on element with selector "#oldPassword" because element wasn't found</message>
+                <stack-trace>Error: Can't call addValue on element with selector "#oldPassword" because element wasn't found
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:88:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583750154476' status='passed' stop='1583750158665'>
+            <name>C156(B)-user wants to logout after change password</name>
+            <title>C156(B)-user wants to logout after change password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583750158665' status='broken' stop='1583750170691'>
+            <name>User wants to redirect to Google Sign In page</name>
+            <title>User wants to redirect to Google Sign In page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "[class="glabel"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "[class="glabel"]" because element wasn't found
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:109:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583750170692' status='broken' stop='1583750185742'>
+            <name>User wants to logout after Google Sign In</name>
+            <title>User wants to logout after Google Sign In</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "[class="thumb-sm avatar avatar-4"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "[class="thumb-sm avatar avatar-4"]" because element wasn't found
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:149:47)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583750185742' status='broken' stop='1583750197766'>
+            <name>C156(C)-user verify login after change password</name>
+            <title>C156(C)-user verify login after change password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call addValue on element with selector "#email" because element wasn't found</message>
+                <stack-trace>Error: Can't call addValue on element with selector "#email" because element wasn't found
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:158:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583750197767' status='broken' stop='1583750202078'>
+            <name>C156(C)-user wants to change password again</name>
+            <title>C156(C)-user wants to change password again</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;span class="thumb-sm avatar avatar-8" title="kalp shah">...&lt;/span> is not clickable at point (1821, 24). Other element would receive the click: &lt;ngb-modal-window role="dialog" tabindex="-1" class="modal fade show d-block modal-theme-default no-padding fullScreenPopup try_other_plan" aria-modal="true">...&lt;/ngb-modal-window>
+                  (Session info: chrome=79.0.3945.130)</message>
+                <stack-trace>element click intercepted: element click intercepted: Element &lt;span class="thumb-sm avatar avatar-8" title="kalp shah">...&lt;/span> is not clickable at point (1821, 24). Other element would receive the click: &lt;ngb-modal-window role="dialog" tabindex="-1" class="modal fade show d-block modal-theme-default no-padding fullScreenPopup try_other_plan" aria-modal="true">...&lt;/ngb-modal-window>
+                  (Session info: chrome=79.0.3945.130)
+                    at getErrorFromResponseBody (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/utils.js:124:10)
+                    at Request._callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/webdriver/build/request.js:111:64)
+                    at Request.self.callback (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:185:22)
+                    at Request.&lt;anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/node_modules/request/request.js:1083:12)
+                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/changepassword.js:166:45)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

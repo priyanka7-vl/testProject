@@ -1,0 +1,64 @@
+{
+  "uid" : "13c68c88b8a81b9c",
+  "name" : "C154-Verify wrong Old Password validation",
+  "fullName" : "Change Password Module.C154-Verify wrong Old Password validation",
+  "historyId" : "bbc8431d1bff7a991b615453ab6fafec",
+  "time" : {
+    "start" : 1577428565802,
+    "stop" : 1577428579552,
+    "duration" : 13750
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"[class=\"noty_text\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"[class=\"noty_text\"]\" because element wasn't found\n                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/changepassword.js:59:46)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C154-Verify wrong Old Password validation"
+  }, {
+    "name" : "package",
+    "value" : "Change Password Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "13c68c88b8a81b9c.json",
+  "parameterValues" : [ "chrome" ]
+}

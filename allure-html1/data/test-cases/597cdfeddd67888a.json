@@ -1,0 +1,56 @@
+{
+  "uid" : "597cdfeddd67888a",
+  "name" : "C145 - Verify mandatory fields on General Settings page",
+  "fullName" : "My Account Module.C145 - Verify mandatory fields on General Settings page",
+  "historyId" : "16a295ac69938080b8a128fe00de5e73",
+  "time" : {
+    "start" : 1577427795056,
+    "stop" : 1577427807709,
+    "duration" : 12653
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testClass",
+    "value" : "My Account Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C145 - Verify mandatory fields on General Settings page"
+  }, {
+    "name" : "package",
+    "value" : "My Account Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "597cdfeddd67888a.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,119 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1576397794596' stop='1576397832514'>
+    <name>Login Module</name>
+    <title>Login Module</title>
+    <test-cases>
+        <test-case start='1576397794598' status='passed' stop='1576397823871'>
+            <name>should not allow me to login with blank input</name>
+            <title>should not allow me to login with blank input</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1576397823872' status='passed' stop='1576397827182'>
+            <name>should not allow to login with only email address</name>
+            <title>should not allow to login with only email address</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1576397827183' status='broken' stop='1576397830434'>
+            <name>should not allow to login with invalid email address</name>
+            <title>should not allow to login with invalid email address</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=78.0.3904.108)</message>
+                <stack-trace>no such window: no such window: window was already closed
+                  (Session info: chrome=78.0.3904.108)
+                    at getErrorFromResponseBody (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/utils.js:215:10)
+                    at Request._callback (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/request.js:103:64)
+                    at Request.self.callback (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:185:22)
+                    at Request.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1083:12)
+                    at global.$.selector (/Volumes/DATA/TestMyProject/testSM/node_modules/@wdio/runner/build/index.js:159:36)
+                    at Function.Login (/Volumes/DATA/TestMyProject/testSM/test/specs/basic.js:25:17)
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:30:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1576397830436' status='broken' stop='1576397831475'>
+            <name>should not allow to login with invalid credentials</name>
+            <title>should not allow to login with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=78.0.3904.108)</message>
+                <stack-trace>no such window: no such window: window was already closed
+                  (Session info: chrome=78.0.3904.108)
+                    at getErrorFromResponseBody (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/utils.js:215:10)
+                    at Request._callback (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/request.js:103:64)
+                    at Request.self.callback (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:185:22)
+                    at Request.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1083:12)
+                    at global.$.selector (/Volumes/DATA/TestMyProject/testSM/node_modules/@wdio/runner/build/index.js:159:36)
+                    at Function.Login (/Volumes/DATA/TestMyProject/testSM/test/specs/basic.js:17:21)
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:36:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1576397831475' status='broken' stop='1576397832513'>
+            <name>should  allow to login with valid input and verify home screen banner</name>
+            <title>should  allow to login with valid input and verify home screen banner</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=78.0.3904.108)</message>
+                <stack-trace>no such window: no such window: window was already closed
+                  (Session info: chrome=78.0.3904.108)
+                    at getErrorFromResponseBody (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/utils.js:215:10)
+                    at Request._callback (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/request.js:103:64)
+                    at Request.self.callback (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:185:22)
+                    at Request.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1083:12)
+                    at global.$.selector (/Volumes/DATA/TestMyProject/testSM/node_modules/@wdio/runner/build/index.js:159:36)
+                    at Function.Login (/Volumes/DATA/TestMyProject/testSM/test/specs/basic.js:17:21)
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/login/login.js:43:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

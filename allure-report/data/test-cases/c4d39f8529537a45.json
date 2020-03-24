@@ -1,0 +1,56 @@
+{
+  "uid" : "c4d39f8529537a45",
+  "name" : "C3572 - Verify User is able to disable all/some channels of 'Contact Assigned' notification at a time",
+  "fullName" : "Notification Preference Module.C3572 - Verify User is able to disable all/some channels of 'Contact Assigned' notification at a time",
+  "historyId" : "94ea9dbbd5ae7fdb50e2e1a111be7b72",
+  "time" : {
+    "start" : 1583748548576,
+    "stop" : 1583748572165,
+    "duration" : 23589
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C3572 - Verify User is able to disable all/some channels of 'Contact Assigned' notification at a time"
+  }, {
+    "name" : "package",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4d39f8529537a45.json",
+  "parameterValues" : [ "chrome" ]
+}

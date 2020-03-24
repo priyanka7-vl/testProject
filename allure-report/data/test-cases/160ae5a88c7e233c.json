@@ -1,0 +1,58 @@
+{
+  "uid" : "160ae5a88c7e233c",
+  "name" : "C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time",
+  "fullName" : "Notification Preference Module.C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time",
+  "historyId" : "31cfc25a23d2edbb661a18e941f03e1d",
+  "time" : {
+    "start" : 1583748589684,
+    "stop" : 1583748607057,
+    "duration" : 17373
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "'false' == 'true'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: 'false' == 'true'\n                    at Function.toggleOFF (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/basic.js:38:15)\n                    at Context.it (/home/ad.rapidops.com/priyanka.vlr/Downloads/TestProject-master/test/specs/myAccount/notificationPref.js:95:15)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C3574 - Verify User is able to disable all/some channels of 'Company Assigned' notification at a time"
+  }, {
+    "name" : "package",
+    "value" : "Notification Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "160ae5a88c7e233c.json",
+  "parameterValues" : [ "chrome" ]
+}

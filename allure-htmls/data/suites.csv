@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Dec 16 21:18:22 IST 2019","Mon Dec 16 21:18:25 IST 2019","3275","","Login Module","","Login Module","should not allow to login with invalid email address","should not allow to login with invalid email address",""
+"failed","Mon Dec 16 21:18:30 IST 2019","Mon Dec 16 21:18:52 IST 2019","21574","","Login Module","","Login Module","should  allow to login with valid input and verify home screen banner","should  allow to login with valid input and verify home screen banner",""
+"passed","Mon Dec 16 21:18:19 IST 2019","Mon Dec 16 21:18:22 IST 2019","3283","","Login Module","","Login Module","should not allow to login with only email address","should not allow to login with only email address",""
+"passed","Mon Dec 16 21:18:25 IST 2019","Mon Dec 16 21:18:30 IST 2019","5327","","Login Module","","Login Module","should not allow to login with invalid credentials","should not allow to login with invalid credentials",""
+"passed","Mon Dec 16 21:18:08 IST 2019","Mon Dec 16 21:18:19 IST 2019","10129","","Login Module","","Login Module","should not allow me to login with blank input","should not allow me to login with blank input",""

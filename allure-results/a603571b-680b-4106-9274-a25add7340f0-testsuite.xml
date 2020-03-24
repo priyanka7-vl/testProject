@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577428472983' stop='1577428541725'>
+    <name>My Account Module</name>
+    <title>My Account Module</title>
+    <test-cases>
+        <test-case start='1577428484353' status='passed' stop='1577428492543'>
+            <name>C144 - Verify General Settings page is available under My Account</name>
+            <title>C144 - Verify General Settings page is available under My Account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577428492544' status='passed' stop='1577428505189'>
+            <name>C145 - Verify mandatory fields on General Settings page</name>
+            <title>C145 - Verify mandatory fields on General Settings page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577428505190' status='passed' stop='1577428511898'>
+            <name>C147 - Verify First Name field with more than 100 chars validation</name>
+            <title>C147 - Verify First Name field with more than 100 chars validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577428511899' status='broken' stop='1577428512952'>
+            <name>C149 - Verify Last Name field with more than 100 chars validation</name>
+            <title>C149 - Verify Last Name field with more than 100 chars validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid argument
+                from invalid argument: 'element' is missing
+                  (Session info: chrome=79.0.3945.88)</message>
+                <stack-trace>invalid argument: invalid argument
+                from invalid argument: 'element' is missing
+                  (Session info: chrome=79.0.3945.88)
+                    at getErrorFromResponseBody (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/utils.js:215:10)
+                    at Request._callback (/Volumes/DATA/TestMyProject/testSM/node_modules/webdriver/build/request.js:103:64)
+                    at Request.self.callback (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:185:22)
+                    at Request.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1161:10)
+                    at IncomingMessage.&lt;anonymous> (/Volumes/DATA/TestMyProject/testSM/node_modules/request/request.js:1083:12)
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/general.js:63:20)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577428512953' status='passed' stop='1577428520958'>
+            <name>C150 - Verify Email validation</name>
+            <title>C150 - Verify Email validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577428520958' status='passed' stop='1577428531586'>
+            <name>C160 - Verify Nick Name field with more than 100 chars validation</name>
+            <title>C160 - Verify Nick Name field with more than 100 chars validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577428531586' status='broken' stop='1577428541724'>
+            <name>User wants to change time format and verify it</name>
+            <title>User wants to change time format and verify it</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "/html[1]/body[1]/div[1]/app[1]/div[1]/div[1]/div[1]/div[2]/div[1]/my-account[1]/div[1]/div[2]/sm-general-settings[1]/section[1]/div[1]/div[1]/div[1]/form[1]/div[1]/sm-select-box[1]/sm-element[1]/div[1]/span[1]/span[1]/span[1]/span[1]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "/html[1]/body[1]/div[1]/app[1]/div[1]/div[1]/div[1]/div[2]/div[1]/my-account[1]/div[1]/div[2]/sm-general-settings[1]/section[1]/div[1]/div[1]/div[1]/form[1]/div[1]/sm-select-box[1]/sm-element[1]/div[1]/span[1]/span[1]/span[1]/span[1]" because element wasn't found
+                    at Context.it (/Volumes/DATA/TestMyProject/testSM/test/specs/myAccount/general.js:162:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

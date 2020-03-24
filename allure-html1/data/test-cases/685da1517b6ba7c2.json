@@ -1,0 +1,58 @@
+{
+  "uid" : "685da1517b6ba7c2",
+  "name" : "C4941-Verify by default all options of Interface Preferences are disabled",
+  "fullName" : "Interface Preference Module.C4941-Verify by default all options of Interface Preferences are disabled",
+  "historyId" : "7c23b2369e516ab15b838a3e8f2db50d",
+  "time" : {
+    "start" : 1577428799223,
+    "stop" : 1577428805321,
+    "duration" : 6098
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testClass",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "testMethod",
+    "value" : "C4941-Verify by default all options of Interface Preferences are disabled"
+  }, {
+    "name" : "package",
+    "value" : "Interface Preference Module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "685da1517b6ba7c2.json",
+  "parameterValues" : [ "chrome" ]
+}
